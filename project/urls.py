@@ -6,7 +6,8 @@ from django.conf import settings
 from django.conf.urls import include
 from django.contrib import admin
 
-from welcome.views import index, health
+from welcome.views import health
+from welcome.views import index as index_1
 
 from ts_scl_db.views import index,select_protein,detail_3,show_pmid_list,show_pub_tags,about,contact, download
 # app_name = 'ts_scl_db'
@@ -14,7 +15,7 @@ favicon_view = RedirectView.as_view(url='/static/images/favicon.ico', permanent=
 
 urlpatterns = [
 
-    url(r'^$', index),
+    url(r'^$', index_1),
     url(r'^health$', health),
     # url(r'^admin/', include(admin.site.urls)),
     
