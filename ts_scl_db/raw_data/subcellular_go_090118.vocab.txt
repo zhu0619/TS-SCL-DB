@@ -1,0 +1,4129 @@
+SL-9919	intravirionic side
+SL-9919	Intravirionic side
+SL-9919	intravirionic sides
+SL-9919	Intravirionic sides
+SL-9918	extravirionic side
+SL-9918	Extravirionic side
+SL-9918	extravirionic sides
+SL-9918	Extravirionic sides
+SL-9917	stromal side
+SL-9917	Stromal side
+SL-9917	stromal sides
+SL-9917	Stromal sides
+SL-9916	Periplasmic side
+SL-9916	periplasmic side
+SL-9916	periplasmic sides
+SL-9916	Periplasmic sides
+SL-9915	Nucleoplasmic side
+SL-9915	nucleoplasmic side
+SL-9915	Nucleoplasmic sides
+SL-9915	nucleoplasmic sides
+SL-9914	lumenal side
+SL-9914	Lumenal side
+SL-9914	Lumenal sides
+SL-9914	lumenal sides
+SL-9913	Matrix side
+SL-9913	matrix side
+SL-9913	matrix sides
+SL-9913	Matrix sides
+SL-9912	Intermembrane side
+SL-9912	intermembrane side
+SL-9912	Intermembrane sides
+SL-9912	intermembrane sides
+SL-9911	extracellular side
+SL-9911	Extracellular side
+SL-9911	Extracellular sides
+SL-9911	extracellular sides
+SL-9910	cytoplasmic side
+SL-9910	Cytoplasmic side
+SL-9910	Cytoplasmic sides
+SL-9910	cytoplasmic sides
+SL-9901	glycosylphosphatidylinositol anchor
+SL-9901	Glycosylphosphatidylinositol anchor
+SL-9901	glycosylphosphatidylinositol anchors
+SL-9901	Glycosylphosphatidylinositol anchors
+SL-9901	Glycosylphospholipidinositol anchor
+SL-9901	glycosylphospholipidinositol anchor
+SL-9901	glycosylphospholipidinositol anchors
+SL-9901	Glycosylphospholipidinositol anchors
+SL-9901	Lipid-anchor
+SL-9901	Lipid-anchors
+SL-9900	Peptidoglycan-anchor
+SL-9900	Peptidoglycan-anchors
+SL-0483	Host chloroplast envelope
+SL-0483	host chloroplast envelope
+SL-0483	host chloroplast envelopes
+SL-0483	Host chloroplast envelopes
+SL-0483	Host chloroplastic envelope
+SL-0483	host chloroplastic envelope
+SL-0483	host chloroplastic envelopes
+SL-0483	Host chloroplastic envelopes
+SL-0475	host peroxisome
+SL-0475	Host peroxisome
+SL-0475	host peroxisomes
+SL-0475	Host peroxisomes
+SL-0281	Cytoplasmic granule lumen
+SL-0281	cytoplasmic granule lumen
+SL-0281	Cytoplasmic granule lumens
+SL-0281	cytoplasmic granule lumens
+SL-0263	tegument
+SL-0263	Tegument
+SL-0263	teguments
+SL-0263	Teguments
+Host trans-Golgi network membrane	host Golgi trans-face membrane
+Host trans-Golgi network membrane	Host Golgi trans-face membrane
+Host trans-Golgi network membrane	Host Golgi trans-face membranes
+Host trans-Golgi network membrane	host Golgi trans-face membranes
+Host trans-Golgi network membrane	host TGN membrane
+Host trans-Golgi network membrane	Host TGN membrane
+Host trans-Golgi network membrane	host TGN membranes
+Host trans-Golgi network membrane	Host TGN membranes
+Host trans-Golgi network membrane	host trans-Golgi complex membrane
+Host trans-Golgi network membrane	Host trans-Golgi complex membrane
+Host trans-Golgi network membrane	host trans-Golgi complex membranes
+Host trans-Golgi network membrane	Host trans-Golgi complex membranes
+Host trans-Golgi network membrane	Host trans-Golgi membrane
+Host trans-Golgi network membrane	host trans-Golgi membrane
+Host trans-Golgi network membrane	host trans-Golgi membranes
+Host trans-Golgi network membrane	Host trans-Golgi membranes
+Host trans-Golgi network membrane	Host trans-Golgi network membrane
+Host trans-Golgi network membrane	host trans-Golgi network membrane
+Host trans-Golgi network membrane	host trans-Golgi network membranes
+Host trans-Golgi network membrane	Host trans-Golgi network membranes
+GO:0097691	Bacterial extracellular
+GO:0097691	bacterial extracellular
+GO:0097691	Bacterial extracellular vesicle
+GO:0097691	bacterial extracellular vesicle
+GO:0097691	bacterial extracellular vesicles
+GO:0097691	Bacterial extracellular vesicles
+GO:0097691	bacterial extracellulars
+GO:0097691	Bacterial extracellulars
+GO:0097691	Bacterial membrane vesicle
+GO:0097691	bacterial membrane vesicle
+GO:0097691	bacterial membrane vesicles
+GO:0097691	Bacterial membrane vesicles
+GO:0097691	Extracellular vesicle
+GO:0097691	extracellular vesicle
+GO:0097691	Extracellular vesicles
+GO:0097691	extracellular vesicles
+GO:0097691	membrane vesicle
+GO:0097691	Membrane vesicle
+GO:0097691	Membrane vesicles
+GO:0097691	membrane vesicles
+GO:0097691	microvesicle
+GO:0097691	Microvesicle
+GO:0097691	Microvesicles
+GO:0097691	microvesicles
+GO:0097679	cell cytoplasm
+GO:0097679	Cell cytoplasm
+GO:0097679	Cell cytoplasms
+GO:0097679	cell cytoplasms
+GO:0097679	target cell cytoplasm
+GO:0097679	Target cell cytoplasm
+GO:0097679	Target cell cytoplasms
+GO:0097679	target cell cytoplasms
+GO:0097679	Target cytoplasm
+GO:0097679	target cytoplasm
+GO:0097679	target cytoplasms
+GO:0097679	Target cytoplasms
+GO:0097575	lateral cell cortex
+GO:0097575	Lateral cell cortex
+GO:0097575	lateral cell cortexs
+GO:0097575	Lateral cell cortexs
+GO:0097504	gems
+GO:0097504	Gems
+GO:0072494	host corpuscula multivesicularis
+GO:0072494	Host corpuscula multivesicularis
+GO:0072494	host corpuscula multivesicularises
+GO:0072494	Host corpuscula multivesicularises
+GO:0072494	Host ECV
+GO:0072494	host ECV
+GO:0072494	host ECVs
+GO:0072494	Host ECVs
+GO:0072494	host endosomal carrier vesicle
+GO:0072494	Host endosomal carrier vesicle
+GO:0072494	host endosomal carrier vesicles
+GO:0072494	Host endosomal carrier vesicles
+GO:0072494	host multivesicular bodies
+GO:0072494	Host multivesicular bodies
+GO:0072494	host multivesicular bodieses
+GO:0072494	Host multivesicular bodieses
+GO:0072494	Host multivesicular body
+GO:0072494	host multivesicular body
+GO:0072494	host MVB
+GO:0072494	Host MVB
+GO:0072494	Host MVBs
+GO:0072494	host MVBs
+GO:0071438	invadopodium membrane
+GO:0071438	Invadopodium membrane
+GO:0071438	Invadopodium membranes
+GO:0071438	invadopodium membranes
+GO:0071437	Invadopodia
+GO:0071437	invadopodia
+GO:0071437	Invadopodias
+GO:0071437	invadopodias
+GO:0071437	invadopodium
+GO:0071437	Invadopodium
+GO:0071437	Invadopodiums
+GO:0071437	invadopodiums
+GO:0070505	pollen coat
+GO:0070505	Pollen coat
+GO:0070505	Pollen coats
+GO:0070505	pollen coats
+GO:0070505	Pollenkitt
+GO:0070505	pollenkitt
+GO:0070505	Pollenkitts
+GO:0070505	pollenkitts
+GO:0070258	IMC
+GO:0070258	IMCs
+GO:0070258	Inner membrane complex
+GO:0070258	Inner membrane complexs
+GO:0070258	Membrane complex
+GO:0070258	membrane complex
+GO:0070258	Membrane complexs
+GO:0070258	membrane complexs
+GO:0070118	Chromatophore thylakoid membrane
+GO:0070118	chromatophore thylakoid membrane
+GO:0070118	chromatophore thylakoid membranes
+GO:0070118	Chromatophore thylakoid membranes
+GO:0070118	organellar chromatophore thylakoid membrane
+GO:0070118	Organellar chromatophore thylakoid membrane
+GO:0070118	Organellar chromatophore thylakoid membranes
+GO:0070118	organellar chromatophore thylakoid membranes
+GO:0070117	chromatophore thylakoid lumen
+GO:0070117	Chromatophore thylakoid lumen
+GO:0070117	Chromatophore thylakoid lumens
+GO:0070117	chromatophore thylakoid lumens
+GO:0070117	organellar chromatophore thylakoid lumen
+GO:0070117	Organellar chromatophore thylakoid lumen
+GO:0070117	Organellar chromatophore thylakoid lumens
+GO:0070117	organellar chromatophore thylakoid lumens
+GO:0070116	Chromatophore thylakoid
+GO:0070116	chromatophore thylakoid
+GO:0070116	Chromatophore thylakoids
+GO:0070116	chromatophore thylakoids
+GO:0070116	organellar chromatophore thylakoid
+GO:0070116	Organellar chromatophore thylakoid
+GO:0070116	organellar chromatophore thylakoids
+GO:0070116	Organellar chromatophore thylakoids
+GO:0070115	chromatophore intermembrane space
+GO:0070115	Chromatophore intermembrane space
+GO:0070115	Chromatophore intermembrane spaces
+GO:0070115	chromatophore intermembrane spaces
+GO:0070115	organellar chromatophore intermembrane space
+GO:0070115	Organellar chromatophore intermembrane space
+GO:0070115	Organellar chromatophore intermembrane spaces
+GO:0070115	organellar chromatophore intermembrane spaces
+GO:0070114	Chromatophore outer
+GO:0070114	chromatophore outer
+GO:0070114	chromatophore outer membrane
+GO:0070114	Chromatophore outer membrane
+GO:0070114	Chromatophore outer membranes
+GO:0070114	chromatophore outer membranes
+GO:0070114	chromatophore outers
+GO:0070114	Chromatophore outers
+GO:0070114	organellar chromatophore outer
+GO:0070114	Organellar chromatophore outer
+GO:0070114	organellar chromatophore outer membrane
+GO:0070114	Organellar chromatophore outer membrane
+GO:0070114	Organellar chromatophore outer membranes
+GO:0070114	organellar chromatophore outer membranes
+GO:0070114	Organellar chromatophore outers
+GO:0070114	organellar chromatophore outers
+GO:0070113	chromatophore inner
+GO:0070113	Chromatophore inner
+GO:0070113	chromatophore inner membrane
+GO:0070113	Chromatophore inner membrane
+GO:0070113	Chromatophore inner membranes
+GO:0070113	chromatophore inner membranes
+GO:0070113	chromatophore inners
+GO:0070113	Chromatophore inners
+GO:0070113	Organellar chromatophore inner
+GO:0070113	organellar chromatophore inner
+GO:0070113	organellar chromatophore inner membrane
+GO:0070113	Organellar chromatophore inner membrane
+GO:0070113	organellar chromatophore inner membranes
+GO:0070113	Organellar chromatophore inner membranes
+GO:0070113	organellar chromatophore inners
+GO:0070113	Organellar chromatophore inners
+GO:0070112	Organellar chromatophore membrane
+GO:0070112	organellar chromatophore membrane
+GO:0070112	organellar chromatophore membranes
+GO:0070112	Organellar chromatophore membranes
+GO:0070111	chromatophore
+GO:0070111	Chromatophore
+GO:0070111	Chromatophores
+GO:0070111	chromatophores
+GO:0070111	Organellar chromatophore
+GO:0070111	organellar chromatophore
+GO:0070111	organellar chromatophore plasma
+GO:0070111	Organellar chromatophore plasma
+GO:0070111	Organellar chromatophore plasmas
+GO:0070111	organellar chromatophore plasmas
+GO:0070111	organellar chromatophore stroma
+GO:0070111	Organellar chromatophore stroma
+GO:0070111	organellar chromatophore stromas
+GO:0070111	Organellar chromatophore stromas
+GO:0070111	organellar chromatophores
+GO:0070111	Organellar chromatophores
+GO:0070062	exosome
+GO:0070062	Exosome
+GO:0070062	Exosomes
+GO:0070062	exosomes
+GO:0070062	Extracellular vesicular exosome
+GO:0070062	extracellular vesicular exosome
+GO:0070062	Extracellular vesicular exosomes
+GO:0070062	extracellular vesicular exosomes
+GO:0061702	ASC focus
+GO:0061702	ASC focuses
+GO:0061702	ASC speck
+GO:0061702	ASC specks
+GO:0061702	inflammasome
+GO:0061702	Inflammasome
+GO:0061702	inflammasomes
+GO:0061702	Inflammasomes
+GO:0060205	Cytoplasmic vesicle lumen
+GO:0060205	cytoplasmic vesicle lumen
+GO:0060205	Cytoplasmic vesicle lumens
+GO:0060205	cytoplasmic vesicle lumens
+GO:0060171	stereocilia membrane
+GO:0060171	Stereocilia membrane
+GO:0060171	Stereocilia membranes
+GO:0060171	stereocilia membranes
+GO:0060171	stereocilium membrane
+GO:0060171	Stereocilium membrane
+GO:0060171	stereocilium membranes
+GO:0060171	Stereocilium membranes
+GO:0060170	Ciliary membrane
+GO:0060170	ciliary membrane
+GO:0060170	Ciliary membranes
+GO:0060170	ciliary membranes
+GO:0060170	cilium membrane
+GO:0060170	Cilium membrane
+GO:0060170	cilium membranes
+GO:0060170	Cilium membranes
+GO:0060091	kinocilia
+GO:0060091	Kinocilia
+GO:0060091	Kinocilias
+GO:0060091	kinocilias
+GO:0060091	Kinocilium
+GO:0060091	kinocilium
+GO:0060091	Kinociliums
+GO:0060091	kinociliums
+GO:0055044	symplast
+GO:0055044	Symplast
+GO:0055044	Symplasts
+GO:0055044	symplasts
+GO:0055040	endoflagellum
+GO:0055040	Endoflagellum
+GO:0055040	Endoflagellums
+GO:0055040	endoflagellums
+GO:0055040	periplasmic fibril
+GO:0055040	Periplasmic fibril
+GO:0055040	Periplasmic fibrils
+GO:0055040	periplasmic fibrils
+GO:0055040	Periplasmic flagellum
+GO:0055040	periplasmic flagellum
+GO:0055040	periplasmic flagellums
+GO:0055040	Periplasmic flagellums
+GO:0055039	trichocyst
+GO:0055039	Trichocyst
+GO:0055039	trichocysts
+GO:0055039	Trichocysts
+GO:0055038	Recycling endosomal membrane
+GO:0055038	recycling endosomal membrane
+GO:0055038	Recycling endosomal membranes
+GO:0055038	recycling endosomal membranes
+GO:0055038	Recycling endosome membrane
+GO:0055038	recycling endosome membrane
+GO:0055038	recycling endosome membranes
+GO:0055038	Recycling endosome membranes
+GO:0055037	Endosomal recycling compartment
+GO:0055037	Endosomal recycling compartments
+GO:0055037	ERC
+GO:0055037	ERCs
+GO:0055037	recycling endosome
+GO:0055037	Recycling endosome
+GO:0055037	recycling endosomes
+GO:0055037	Recycling endosomes
+GO:0055036	Virion membrane
+GO:0055036	virion membrane
+GO:0055036	virion membranes
+GO:0055036	Virion membranes
+GO:0055035	plastid thylakoid membrane
+GO:0055035	Plastid thylakoid membrane
+GO:0055035	Plastid thylakoid membranes
+GO:0055035	plastid thylakoid membranes
+GO:0055035	plastid thylakoidal membrane
+GO:0055035	Plastid thylakoidal membrane
+GO:0055035	Plastid thylakoidal membranes
+GO:0055035	plastid thylakoidal membranes
+GO:0051286	cell tip
+GO:0051286	Cell tip
+GO:0051286	cell tips
+GO:0051286	Cell tips
+GO:0048471	nuclear peripheries
+GO:0048471	Nuclear peripheries
+GO:0048471	nuclear periphery
+GO:0048471	Nuclear periphery
+GO:0048471	Perinuclear region
+GO:0048471	perinuclear region
+GO:0048471	perinuclear region of cytoplasm
+GO:0048471	Perinuclear region of cytoplasm
+GO:0048471	perinuclear region of cytoplasms
+GO:0048471	Perinuclear region of cytoplasms
+GO:0048471	Perinuclear regions
+GO:0048471	perinuclear regions
+GO:0048238	smooth endoplasmic reticulum lumen
+GO:0048238	Smooth endoplasmic reticulum lumen
+GO:0048238	smooth endoplasmic reticulum lumens
+GO:0048238	Smooth endoplasmic reticulum lumens
+GO:0048237	Rough endoplasmic reticulum lumen
+GO:0048237	rough endoplasmic reticulum lumen
+GO:0048237	rough endoplasmic reticulum lumens
+GO:0048237	Rough endoplasmic reticulum lumens
+GO:0048046	apoplast
+GO:0048046	Apoplast
+GO:0048046	Apoplasts
+GO:0048046	apoplasts
+GO:0046862	Chromoplast membrane
+GO:0046862	chromoplast membrane
+GO:0046862	chromoplast membranes
+GO:0046862	Chromoplast membranes
+GO:0046862	Chromoplastic membrane
+GO:0046862	chromoplastic membrane
+GO:0046862	Chromoplastic membranes
+GO:0046862	chromoplastic membranes
+GO:0046861	glyoxysomal membrane
+GO:0046861	Glyoxysomal membrane
+GO:0046861	Glyoxysomal membranes
+GO:0046861	glyoxysomal membranes
+GO:0046861	glyoxysome membrane
+GO:0046861	Glyoxysome membrane
+GO:0046861	Glyoxysome membranes
+GO:0046861	glyoxysome membranes
+GO:0046860	Glycosomal membrane
+GO:0046860	glycosomal membrane
+GO:0046860	glycosomal membranes
+GO:0046860	Glycosomal membranes
+GO:0046860	glycosome membrane
+GO:0046860	Glycosome membrane
+GO:0046860	Glycosome membranes
+GO:0046860	glycosome membranes
+GO:0046859	hydrogenosomal membrane
+GO:0046859	Hydrogenosomal membrane
+GO:0046859	hydrogenosomal membranes
+GO:0046859	Hydrogenosomal membranes
+GO:0046859	hydrogenosome membrane
+GO:0046859	Hydrogenosome membrane
+GO:0046859	Hydrogenosome membranes
+GO:0046859	hydrogenosome membranes
+GO:0046858	Chlorosome
+GO:0046858	chlorosome
+GO:0046858	chlorosomes
+GO:0046858	Chlorosomes
+GO:0045335	Phagocytic vesicle
+GO:0045335	phagocytic vesicle
+GO:0045335	phagocytic vesicle lumen
+GO:0045335	Phagocytic vesicle lumen
+GO:0045335	phagocytic vesicle lumens
+GO:0045335	Phagocytic vesicle lumens
+GO:0045335	Phagocytic vesicles
+GO:0045335	phagocytic vesicles
+GO:0045335	Phagosomal lumen
+GO:0045335	phagosomal lumen
+GO:0045335	Phagosomal lumens
+GO:0045335	phagosomal lumens
+GO:0045335	phagosome
+GO:0045335	Phagosome
+GO:0045335	phagosome lumen
+GO:0045335	Phagosome lumen
+GO:0045335	Phagosome lumens
+GO:0045335	phagosome lumens
+GO:0045335	phagosomes
+GO:0045335	Phagosomes
+GO:0045211	postsynaptic
+GO:0045211	Postsynaptic
+GO:0045211	postsynaptic cell
+GO:0045211	Postsynaptic cell
+GO:0045211	Postsynaptic cell membrane
+GO:0045211	postsynaptic cell membrane
+GO:0045211	Postsynaptic cell membranes
+GO:0045211	postsynaptic cell membranes
+GO:0045211	Postsynaptic cells
+GO:0045211	postsynaptic cells
+GO:0045211	postsynaptic membrane
+GO:0045211	Postsynaptic membrane
+GO:0045211	Postsynaptic membranes
+GO:0045211	postsynaptic membranes
+GO:0045211	postsynaptics
+GO:0045211	Postsynaptics
+GO:0045202	synapse
+GO:0045202	Synapse
+GO:0045202	Synapses
+GO:0045202	synapses
+GO:0045202	Synaptic
+GO:0045202	synaptic
+GO:0045202	Synaptics
+GO:0045202	synaptics
+GO:0045121	lipid microdomain
+GO:0045121	Lipid microdomain
+GO:0045121	lipid microdomains
+GO:0045121	Lipid microdomains
+GO:0045121	Lipid raft
+GO:0045121	lipid raft
+GO:0045121	lipid rafts
+GO:0045121	Lipid rafts
+GO:0045121	Membrane raft
+GO:0045121	membrane raft
+GO:0045121	membrane rafts
+GO:0045121	Membrane rafts
+GO:0044444	Cytoplasmic
+GO:0044444	cytoplasmic
+GO:0044444	cytoplasmics
+GO:0044444	Cytoplasmics
+GO:0044432	GPI-anchor
+GO:0044432	GPI-anchors
+GO:0044432	GPI-like-anchor
+GO:0044432	GPI-like-anchors
+GO:0044279	target membrane
+GO:0044279	Target membrane
+GO:0044279	target membranes
+GO:0044279	Target membranes
+GO:0044279	Tegument membrane
+GO:0044279	tegument membrane
+GO:0044279	Tegument membranes
+GO:0044279	tegument membranes
+GO:0044279	tegumental membrane
+GO:0044279	Tegumental membrane
+GO:0044279	Tegumental membranes
+GO:0044279	tegumental membranes
+GO:0044231	Host presynaptic
+GO:0044231	host presynaptic
+GO:0044231	Host presynaptic cell
+GO:0044231	host presynaptic cell
+GO:0044231	host presynaptic cell membrane
+GO:0044231	Host presynaptic cell membrane
+GO:0044231	host presynaptic cell membranes
+GO:0044231	Host presynaptic cell membranes
+GO:0044231	Host presynaptic cells
+GO:0044231	host presynaptic cells
+GO:0044231	Host presynaptic membrane
+GO:0044231	host presynaptic membrane
+GO:0044231	host presynaptic membranes
+GO:0044231	Host presynaptic membranes
+GO:0044231	host presynaptics
+GO:0044231	Host presynaptics
+GO:0044230	Host cell envelope
+GO:0044230	host cell envelope
+GO:0044230	host cell envelopes
+GO:0044230	Host cell envelopes
+GO:0044230	Host envelope
+GO:0044230	host envelope
+GO:0044230	host envelopes
+GO:0044230	Host envelopes
+GO:0044229	host periplasm
+GO:0044229	Host periplasm
+GO:0044229	host periplasmic space
+GO:0044229	Host periplasmic space
+GO:0044229	host periplasmic spaces
+GO:0044229	Host periplasmic spaces
+GO:0044229	host periplasms
+GO:0044229	Host periplasms
+GO:0044228	host cell surface
+GO:0044228	Host cell surface
+GO:0044228	Host cell surfaces
+GO:0044228	host cell surfaces
+GO:0044221	Host synapse
+GO:0044221	host synapse
+GO:0044221	Host synapses
+GO:0044221	host synapses
+GO:0044220	Host nuclear peripheries
+GO:0044220	host nuclear peripheries
+GO:0044220	host nuclear periphery
+GO:0044220	Host nuclear periphery
+GO:0044220	host perinuclear region
+GO:0044220	Host perinuclear region
+GO:0044220	Host perinuclear region of cytoplasm
+GO:0044220	host perinuclear region of cytoplasm
+GO:0044220	Host perinuclear region of cytoplasms
+GO:0044220	host perinuclear region of cytoplasms
+GO:0044220	Host perinuclear regions
+GO:0044220	host perinuclear regions
+GO:0044219	host PD
+GO:0044219	Host PD
+GO:0044219	host PDs
+GO:0044219	Host PDs
+GO:0044219	Host plasmodesma
+GO:0044219	host plasmodesma
+GO:0044219	Host plasmodesmas
+GO:0044219	host plasmodesmas
+GO:0044219	Host plasmodesmata
+GO:0044219	host plasmodesmata
+GO:0044219	host plasmodesmatas
+GO:0044219	Host plasmodesmatas
+GO:0044218	target cell membrane
+GO:0044218	Target cell membrane
+GO:0044218	Target cell membranes
+GO:0044218	target cell membranes
+GO:0044218	target cytoplasmic membrane
+GO:0044218	Target cytoplasmic membrane
+GO:0044218	target cytoplasmic membranes
+GO:0044218	Target cytoplasmic membranes
+GO:0044218	Target plasma membrane
+GO:0044218	target plasma membrane
+GO:0044218	target plasma membranes
+GO:0044218	Target plasma membranes
+GO:0044218	Target plasmalemma
+GO:0044218	target plasmalemma
+GO:0044218	target plasmalemmas
+GO:0044218	Target plasmalemmas
+GO:0044216	target cell
+GO:0044216	Target cell
+GO:0044216	target cells
+GO:0044216	Target cells
+GO:0044204	Host nuclear matrix
+GO:0044204	host nuclear matrix
+GO:0044204	host nuclear matrixs
+GO:0044204	Host nuclear matrixs
+GO:0044204	Host nuclear scaffold
+GO:0044204	host nuclear scaffold
+GO:0044204	host nuclear scaffolds
+GO:0044204	Host nuclear scaffolds
+GO:0044204	Host nuclear skeleton
+GO:0044204	host nuclear skeleton
+GO:0044204	Host nuclear skeletons
+GO:0044204	host nuclear skeletons
+GO:0044204	Host nucleus matrix
+GO:0044204	host nucleus matrix
+GO:0044204	host nucleus matrixs
+GO:0044204	Host nucleus matrixs
+GO:0044203	Host nuclear lamina
+GO:0044203	host nuclear lamina
+GO:0044203	Host nuclear laminas
+GO:0044203	host nuclear laminas
+GO:0044203	host nucleus lamina
+GO:0044203	Host nucleus lamina
+GO:0044203	Host nucleus laminas
+GO:0044203	host nucleus laminas
+GO:0044202	Host nuclear outer membrane
+GO:0044202	host nuclear outer membrane
+GO:0044202	host nuclear outer membranes
+GO:0044202	Host nuclear outer membranes
+GO:0044202	host nucleus outer
+GO:0044202	Host nucleus outer
+GO:0044202	host nucleus outer membrane
+GO:0044202	Host nucleus outer membrane
+GO:0044202	host nucleus outer membranes
+GO:0044202	Host nucleus outer membranes
+GO:0044202	host nucleus outers
+GO:0044202	Host nucleus outers
+GO:0044202	Host outer nuclear membrane
+GO:0044202	host outer nuclear membrane
+GO:0044202	Host outer nuclear membranes
+GO:0044202	host outer nuclear membranes
+GO:0044201	host inner nuclear membrane
+GO:0044201	Host inner nuclear membrane
+GO:0044201	host inner nuclear membranes
+GO:0044201	Host inner nuclear membranes
+GO:0044201	host nuclear inner membrane
+GO:0044201	Host nuclear inner membrane
+GO:0044201	Host nuclear inner membranes
+GO:0044201	host nuclear inner membranes
+GO:0044201	Host nucleus inner
+GO:0044201	host nucleus inner
+GO:0044201	host nucleus inner membrane
+GO:0044201	Host nucleus inner membrane
+GO:0044201	host nucleus inner membranes
+GO:0044201	Host nucleus inner membranes
+GO:0044201	Host nucleus inners
+GO:0044201	host nucleus inners
+GO:0044200	host nuclear membrane
+GO:0044200	Host nuclear membrane
+GO:0044200	host nuclear membranes
+GO:0044200	Host nuclear membranes
+GO:0044200	Host nucleus membrane
+GO:0044200	host nucleus membrane
+GO:0044200	host nucleus membranes
+GO:0044200	Host nucleus membranes
+GO:0044199	host karyotheca
+GO:0044199	Host karyotheca
+GO:0044199	host karyothecas
+GO:0044199	Host karyothecas
+GO:0044199	host nuclear envelope
+GO:0044199	Host nuclear envelope
+GO:0044199	host nuclear envelopes
+GO:0044199	Host nuclear envelopes
+GO:0044199	Host nucleolemma
+GO:0044199	host nucleolemma
+GO:0044199	host nucleolemmas
+GO:0044199	Host nucleolemmas
+GO:0044199	host nucleus envelope
+GO:0044199	Host nucleus envelope
+GO:0044199	Host nucleus envelopes
+GO:0044199	host nucleus envelopes
+GO:0044199	Host perinuclear envelope
+GO:0044199	host perinuclear envelope
+GO:0044199	host perinuclear envelopes
+GO:0044199	Host perinuclear envelopes
+GO:0044196	host nucleoli
+GO:0044196	Host nucleoli
+GO:0044196	Host nucleolis
+GO:0044196	host nucleolis
+GO:0044196	host nucleolus
+GO:0044196	Host nucleolus
+GO:0044196	host nucleoluses
+GO:0044196	Host nucleoluses
+GO:0044193	Host mitochondrial outer membrane
+GO:0044193	host mitochondrial outer membrane
+GO:0044193	Host mitochondrial outer membranes
+GO:0044193	host mitochondrial outer membranes
+GO:0044193	Host mitochondrion outer
+GO:0044193	host mitochondrion outer
+GO:0044193	Host mitochondrion outer membrane
+GO:0044193	host mitochondrion outer membrane
+GO:0044193	Host mitochondrion outer membranes
+GO:0044193	host mitochondrion outer membranes
+GO:0044193	host mitochondrion outers
+GO:0044193	Host mitochondrion outers
+GO:0044193	Host outer mitochondrial membrane
+GO:0044193	host outer mitochondrial membrane
+GO:0044193	Host outer mitochondrial membranes
+GO:0044193	host outer mitochondrial membranes
+GO:0044192	Host inner mitochondrial membrane
+GO:0044192	host inner mitochondrial membrane
+GO:0044192	Host inner mitochondrial membranes
+GO:0044192	host inner mitochondrial membranes
+GO:0044192	host mitochondrial inner membrane
+GO:0044192	Host mitochondrial inner membrane
+GO:0044192	Host mitochondrial inner membranes
+GO:0044192	host mitochondrial inner membranes
+GO:0044192	host mitochondrion inner
+GO:0044192	Host mitochondrion inner
+GO:0044192	host mitochondrion inner membrane
+GO:0044192	Host mitochondrion inner membrane
+GO:0044192	Host mitochondrion inner membranes
+GO:0044192	host mitochondrion inner membranes
+GO:0044192	host mitochondrion inners
+GO:0044192	Host mitochondrion inners
+GO:0044191	host mitochondrial membrane
+GO:0044191	Host mitochondrial membrane
+GO:0044191	host mitochondrial membranes
+GO:0044191	Host mitochondrial membranes
+GO:0044191	Host mitochondrion membrane
+GO:0044191	host mitochondrion membrane
+GO:0044191	host mitochondrion membranes
+GO:0044191	Host mitochondrion membranes
+GO:0044190	host mitochondrial envelope
+GO:0044190	Host mitochondrial envelope
+GO:0044190	host mitochondrial envelopes
+GO:0044190	Host mitochondrial envelopes
+GO:0044190	Host mitochondrion envelope
+GO:0044190	host mitochondrion envelope
+GO:0044190	Host mitochondrion envelopes
+GO:0044190	host mitochondrion envelopes
+GO:0044188	host lysosomal membrane
+GO:0044188	Host lysosomal membrane
+GO:0044188	Host lysosomal membranes
+GO:0044188	host lysosomal membranes
+GO:0044188	Host lysosome membrane
+GO:0044188	host lysosome membrane
+GO:0044188	host lysosome membranes
+GO:0044188	Host lysosome membranes
+GO:0044187	host lysosome
+GO:0044187	Host lysosome
+GO:0044187	Host lysosomes
+GO:0044187	host lysosomes
+GO:0044186	Host adiposome
+GO:0044186	host adiposome
+GO:0044186	Host adiposomes
+GO:0044186	host adiposomes
+GO:0044186	host lipid bodies
+GO:0044186	Host lipid bodies
+GO:0044186	Host lipid bodieses
+GO:0044186	host lipid bodieses
+GO:0044186	host lipid body
+GO:0044186	Host lipid body
+GO:0044186	host lipid droplet
+GO:0044186	Host lipid droplet
+GO:0044186	Host lipid droplets
+GO:0044186	host lipid droplets
+GO:0044186	host lipid particle
+GO:0044186	Host lipid particle
+GO:0044186	host lipid particles
+GO:0044186	Host lipid particles
+GO:0044186	Host monolayer-surrounded lipid storage bodies
+GO:0044186	host monolayer-surrounded lipid storage bodies
+GO:0044186	Host monolayer-surrounded lipid storage body
+GO:0044186	host monolayer-surrounded lipid storage body
+GO:0044186	host oil bodies
+GO:0044186	Host oil bodies
+GO:0044186	Host oil bodieses
+GO:0044186	host oil bodieses
+GO:0044186	host oil body
+GO:0044186	Host oil body
+GO:0044186	Host oleosome
+GO:0044186	host oleosome
+GO:0044186	Host oleosomes
+GO:0044186	host oleosomes
+GO:0044186	host spherosome
+GO:0044186	Host spherosome
+GO:0044186	Host spherosomes
+GO:0044186	host spherosomes
+GO:0044185	host late endosomal membrane
+GO:0044185	Host late endosomal membrane
+GO:0044185	host late endosomal membranes
+GO:0044185	Host late endosomal membranes
+GO:0044185	Host late endosome membrane
+GO:0044185	host late endosome membrane
+GO:0044185	Host late endosome membranes
+GO:0044185	host late endosome membranes
+GO:0044184	host late endosome
+GO:0044184	Host late endosome
+GO:0044184	Host late endosomes
+GO:0044184	host late endosomes
+GO:0044178	Host apparatus golgiensis membrane
+GO:0044178	host apparatus golgiensis membrane
+GO:0044178	host apparatus golgiensis membranes
+GO:0044178	Host apparatus golgiensis membranes
+GO:0044178	host complexus golgiensis membrane
+GO:0044178	Host complexus golgiensis membrane
+GO:0044178	host complexus golgiensis membranes
+GO:0044178	Host complexus golgiensis membranes
+GO:0044178	host golgi apparatus membrane
+GO:0044178	Host Golgi apparatus membrane
+GO:0044178	Host golgi apparatus membrane
+GO:0044178	host Golgi apparatus membrane
+GO:0044178	host Golgi apparatus membranes
+GO:0044178	Host golgi apparatus membranes
+GO:0044178	host golgi apparatus membranes
+GO:0044178	Host Golgi apparatus membranes
+GO:0044178	Host Golgi complex membrane
+GO:0044178	host Golgi complex membrane
+GO:0044178	host Golgi complex membranes
+GO:0044178	Host Golgi complex membranes
+GO:0044178	Host Golgi membrane
+GO:0044178	host Golgi membrane
+GO:0044178	host Golgi membranes
+GO:0044178	Host Golgi membranes
+GO:0044177	Host apparatus golgiensis
+GO:0044177	host apparatus golgiensis
+GO:0044177	host apparatus golgiensises
+GO:0044177	Host apparatus golgiensises
+GO:0044177	host CGN
+GO:0044177	Host CGN
+GO:0044177	Host CGN membrane
+GO:0044177	host CGN membrane
+GO:0044177	Host CGN membranes
+GO:0044177	host CGN membranes
+GO:0044177	Host CGNs
+GO:0044177	host CGNs
+GO:0044177	host cis-Golgi
+GO:0044177	Host cis-Golgi
+GO:0044177	host cis-Golgi complex
+GO:0044177	Host cis-Golgi complex
+GO:0044177	Host cis-Golgi complex membrane
+GO:0044177	host cis-Golgi complex membrane
+GO:0044177	host cis-Golgi complex membranes
+GO:0044177	Host cis-Golgi complex membranes
+GO:0044177	host cis-Golgi complexs
+GO:0044177	Host cis-Golgi complexs
+GO:0044177	host cis-Golgi membrane
+GO:0044177	Host cis-Golgi membrane
+GO:0044177	Host cis-Golgi membranes
+GO:0044177	host cis-Golgi membranes
+GO:0044177	Host cis-Golgi network
+GO:0044177	host cis-Golgi network
+GO:0044177	host cis-Golgi network membrane
+GO:0044177	Host cis-Golgi network membrane
+GO:0044177	Host cis-Golgi network membranes
+GO:0044177	host cis-Golgi network membranes
+GO:0044177	host cis-Golgi networks
+GO:0044177	Host cis-Golgi networks
+GO:0044177	host cis-Golgis
+GO:0044177	Host cis-Golgis
+GO:0044177	host complexus golgiensis
+GO:0044177	Host complexus golgiensis
+GO:0044177	host complexus golgiensises
+GO:0044177	Host complexus golgiensises
+GO:0044177	host Golgi
+GO:0044177	Host Golgi
+GO:0044177	Host golgi apparatus
+GO:0044177	host golgi apparatus
+GO:0044177	host Golgi apparatus
+GO:0044177	Host Golgi apparatus
+GO:0044177	host Golgi apparatuses
+GO:0044177	Host Golgi apparatuses
+GO:0044177	Host golgi apparatuses
+GO:0044177	host golgi apparatuses
+GO:0044177	host Golgi cis-face
+GO:0044177	Host Golgi cis-face
+GO:0044177	Host Golgi cis-face membrane
+GO:0044177	host Golgi cis-face membrane
+GO:0044177	Host Golgi cis-face membranes
+GO:0044177	host Golgi cis-face membranes
+GO:0044177	Host Golgi cis-faces
+GO:0044177	host Golgi cis-faces
+GO:0044177	host Golgi complex
+GO:0044177	Host Golgi complex
+GO:0044177	host Golgi complexs
+GO:0044177	Host Golgi complexs
+GO:0044177	Host Golgi trans-face
+GO:0044177	host Golgi trans-face
+GO:0044177	host Golgi trans-faces
+GO:0044177	Host Golgi trans-faces
+GO:0044177	host Golgis
+GO:0044177	Host Golgis
+GO:0044177	host TGN
+GO:0044177	Host TGN
+GO:0044177	host TGNs
+GO:0044177	Host TGNs
+GO:0044177	Host trans-Golgi
+GO:0044177	host trans-Golgi
+GO:0044177	host trans-Golgi complex
+GO:0044177	Host trans-Golgi complex
+GO:0044177	Host trans-Golgi complexs
+GO:0044177	host trans-Golgi complexs
+GO:0044177	Host trans-Golgi network
+GO:0044177	host trans-Golgi network
+GO:0044177	Host trans-Golgi networks
+GO:0044177	host trans-Golgi networks
+GO:0044177	Host trans-Golgis
+GO:0044177	host trans-Golgis
+GO:0044176	Host filopodia
+GO:0044176	host filopodia
+GO:0044176	Host filopodias
+GO:0044176	host filopodias
+GO:0044176	host filopodium
+GO:0044176	Host filopodium
+GO:0044176	host filopodiums
+GO:0044176	Host filopodiums
+GO:0044176	host microspike
+GO:0044176	Host microspike
+GO:0044176	host microspikes
+GO:0044176	Host microspikes
+GO:0044175	Host endosomal membrane
+GO:0044175	host endosomal membrane
+GO:0044175	host endosomal membranes
+GO:0044175	Host endosomal membranes
+GO:0044175	host endosome membrane
+GO:0044175	Host endosome membrane
+GO:0044175	host endosome membranes
+GO:0044175	Host endosome membranes
+GO:0044174	Host early endosomal membrane
+GO:0044174	host early endosomal membrane
+GO:0044174	host early endosomal membranes
+GO:0044174	Host early endosomal membranes
+GO:0044174	Host early endosome
+GO:0044174	host early endosome
+GO:0044174	Host early endosome membrane
+GO:0044174	host early endosome membrane
+GO:0044174	Host early endosome membranes
+GO:0044174	host early endosome membranes
+GO:0044174	Host early endosomes
+GO:0044174	host early endosomes
+GO:0044174	host endosome
+GO:0044174	Host endosome
+GO:0044174	Host endosomes
+GO:0044174	host endosomes
+GO:0044173	host endoplasmic reticulum-Golgi intermediate compartment membrane
+GO:0044173	Host endoplasmic reticulum-golgi intermediate compartment membrane
+GO:0044173	host endoplasmic reticulum-golgi intermediate compartment membrane
+GO:0044173	Host endoplasmic reticulum-Golgi intermediate compartment membrane
+GO:0044173	Host endoplasmic reticulum-golgi intermediate compartment membranes
+GO:0044173	host endoplasmic reticulum-golgi intermediate compartment membranes
+GO:0044173	host endoplasmic reticulum-Golgi intermediate compartment membranes
+GO:0044173	Host endoplasmic reticulum-Golgi intermediate compartment membranes
+GO:0044173	host ER-Golgi intermediate compartment membrane
+GO:0044173	Host ER-Golgi intermediate compartment membrane
+GO:0044173	host ER-Golgi intermediate compartment membranes
+GO:0044173	Host ER-Golgi intermediate compartment membranes
+GO:0044173	host ERGIC membrane
+GO:0044173	Host ERGIC membrane
+GO:0044173	host ERGIC membranes
+GO:0044173	Host ERGIC membranes
+GO:0044173	host IC membrane
+GO:0044173	Host IC membrane
+GO:0044173	host IC membranes
+GO:0044173	Host IC membranes
+GO:0044173	host intermediate compartment membrane
+GO:0044173	Host intermediate compartment membrane
+GO:0044173	Host intermediate compartment membranes
+GO:0044173	host intermediate compartment membranes
+GO:0044173	Host vesiculo-tubular cluster membrane
+GO:0044173	host vesiculo-tubular cluster membrane
+GO:0044173	host vesiculo-tubular cluster membranes
+GO:0044173	Host vesiculo-tubular cluster membranes
+GO:0044173	Host VTC membrane
+GO:0044173	host VTC membrane
+GO:0044173	Host VTC membranes
+GO:0044173	host VTC membranes
+GO:0044172	host endoplasmic reticulum-Golgi intermediate compartment
+GO:0044172	Host endoplasmic reticulum-Golgi intermediate compartment
+GO:0044172	host endoplasmic reticulum-golgi intermediate compartment
+GO:0044172	Host endoplasmic reticulum-golgi intermediate compartment
+GO:0044172	Host endoplasmic reticulum-Golgi intermediate compartments
+GO:0044172	Host endoplasmic reticulum-golgi intermediate compartments
+GO:0044172	host endoplasmic reticulum-Golgi intermediate compartments
+GO:0044172	host endoplasmic reticulum-golgi intermediate compartments
+GO:0044172	Host ER-Golgi intermediate compartment
+GO:0044172	host ER-Golgi intermediate compartment
+GO:0044172	Host ER-Golgi intermediate compartments
+GO:0044172	host ER-Golgi intermediate compartments
+GO:0044172	host ERGIC
+GO:0044172	Host ERGIC
+GO:0044172	Host ERGICs
+GO:0044172	host ERGICs
+GO:0044172	Host IC
+GO:0044172	host IC
+GO:0044172	host ICs
+GO:0044172	Host ICs
+GO:0044172	host intermediate compartment
+GO:0044172	Host intermediate compartment
+GO:0044172	Host intermediate compartments
+GO:0044172	host intermediate compartments
+GO:0044172	host vesiculo-tubular cluster
+GO:0044172	Host vesiculo-tubular cluster
+GO:0044172	host vesiculo-tubular clusters
+GO:0044172	Host vesiculo-tubular clusters
+GO:0044172	host VTC
+GO:0044172	Host VTC
+GO:0044172	host VTCs
+GO:0044172	Host VTCs
+GO:0044171	host smooth endoplasmic reticulum membrane
+GO:0044171	Host smooth endoplasmic reticulum membrane
+GO:0044171	host smooth endoplasmic reticulum membranes
+GO:0044171	Host smooth endoplasmic reticulum membranes
+GO:0044170	Host SER
+GO:0044170	host SER
+GO:0044170	host SERs
+GO:0044170	Host SERs
+GO:0044170	host smooth endoplasmic
+GO:0044170	Host smooth endoplasmic
+GO:0044170	Host smooth endoplasmic reticulum
+GO:0044170	host smooth endoplasmic reticulum
+GO:0044170	Host smooth endoplasmic reticulums
+GO:0044170	host smooth endoplasmic reticulums
+GO:0044170	host smooth endoplasmics
+GO:0044170	Host smooth endoplasmics
+GO:0044170	host smooth ER
+GO:0044170	Host smooth ER
+GO:0044170	host smooth ERs
+GO:0044170	Host smooth ERs
+GO:0044169	Host rough endoplasmic reticulum membrane
+GO:0044169	host rough endoplasmic reticulum membrane
+GO:0044169	host rough endoplasmic reticulum membranes
+GO:0044169	Host rough endoplasmic reticulum membranes
+GO:0044168	Host RER
+GO:0044168	host RER
+GO:0044168	host RERs
+GO:0044168	Host RERs
+GO:0044168	host rough endoplasmic
+GO:0044168	Host rough endoplasmic
+GO:0044168	host rough endoplasmic reticulum
+GO:0044168	Host rough endoplasmic reticulum
+GO:0044168	host rough endoplasmic reticulums
+GO:0044168	Host rough endoplasmic reticulums
+GO:0044168	Host rough endoplasmics
+GO:0044168	host rough endoplasmics
+GO:0044168	host rough ER
+GO:0044168	Host rough ER
+GO:0044168	Host rough ERs
+GO:0044168	host rough ERs
+GO:0044167	host endoplasmic reticulum membrane
+GO:0044167	Host endoplasmic reticulum membrane
+GO:0044167	host endoplasmic reticulum membranes
+GO:0044167	Host endoplasmic reticulum membranes
+GO:0044166	host endoplasmic reticulum lumen
+GO:0044166	Host endoplasmic reticulum lumen
+GO:0044166	Host endoplasmic reticulum lumens
+GO:0044166	host endoplasmic reticulum lumens
+GO:0044165	host endoplasmic
+GO:0044165	Host endoplasmic
+GO:0044165	Host endoplasmic reticulum
+GO:0044165	host endoplasmic reticulum
+GO:0044165	host endoplasmic reticulums
+GO:0044165	Host endoplasmic reticulums
+GO:0044165	host endoplasmics
+GO:0044165	Host endoplasmics
+GO:0044164	host cytosol
+GO:0044164	Host cytosol
+GO:0044164	Host cytosols
+GO:0044164	host cytosols
+GO:0044163	Host cytoskeleton
+GO:0044163	host cytoskeleton
+GO:0044163	host cytoskeletons
+GO:0044163	Host cytoskeletons
+GO:0044162	Host cytoplasmic vesicle membrane
+GO:0044162	host cytoplasmic vesicle membrane
+GO:0044162	Host cytoplasmic vesicle membranes
+GO:0044162	host cytoplasmic vesicle membranes
+GO:0044161	host cytoplasmic vesicle
+GO:0044161	Host cytoplasmic vesicle
+GO:0044161	Host cytoplasmic vesicles
+GO:0044161	host cytoplasmic vesicles
+GO:0044161	host phagocytic vesicle
+GO:0044161	Host phagocytic vesicle
+GO:0044161	host phagocytic vesicle membrane
+GO:0044161	Host phagocytic vesicle membrane
+GO:0044161	host phagocytic vesicle membranes
+GO:0044161	Host phagocytic vesicle membranes
+GO:0044161	host phagocytic vesicles
+GO:0044161	Host phagocytic vesicles
+GO:0044161	host phagosomal membrane
+GO:0044161	Host phagosomal membrane
+GO:0044161	Host phagosomal membranes
+GO:0044161	host phagosomal membranes
+GO:0044161	host phagosome
+GO:0044161	Host phagosome
+GO:0044161	Host phagosome membrane
+GO:0044161	host phagosome membrane
+GO:0044161	Host phagosome membranes
+GO:0044161	host phagosome membranes
+GO:0044161	Host phagosomes
+GO:0044161	host phagosomes
+GO:0044160	host cellular thylakoid membrane
+GO:0044160	Host cellular thylakoid membrane
+GO:0044160	host cellular thylakoid membranes
+GO:0044160	Host cellular thylakoid membranes
+GO:0044159	Host cellular thylakoid
+GO:0044159	host cellular thylakoid
+GO:0044159	host cellular thylakoids
+GO:0044159	Host cellular thylakoids
+GO:0044159	Host thylakoid
+GO:0044159	host thylakoid
+GO:0044159	host thylakoids
+GO:0044159	Host thylakoids
+GO:0044158	Host cell wall
+GO:0044158	host cell wall
+GO:0044158	host cell walls
+GO:0044158	Host cell walls
+GO:0044157	host cell projection
+GO:0044157	Host cell projection
+GO:0044157	host cell projections
+GO:0044157	Host cell projections
+GO:0044157	host cell protrusion
+GO:0044157	Host cell protrusion
+GO:0044157	Host cell protrusions
+GO:0044157	host cell protrusions
+GO:0044156	host cell junction
+GO:0044156	Host cell junction
+GO:0044156	Host cell junctions
+GO:0044156	host cell junctions
+GO:0044155	Host caveola
+GO:0044155	host caveola
+GO:0044155	Host caveolae
+GO:0044155	host caveolae
+GO:0044155	Host caveolaes
+GO:0044155	host caveolaes
+GO:0044155	Host caveolas
+GO:0044155	host caveolas
+GO:0044155	host membrane microdomain
+GO:0044155	Host membrane microdomain
+GO:0044155	host membrane microdomains
+GO:0044155	Host membrane microdomains
+GO:0044155	host plasmalemmal vesicle
+GO:0044155	Host plasmalemmal vesicle
+GO:0044155	Host plasmalemmal vesicles
+GO:0044155	host plasmalemmal vesicles
+GO:0044099	Polar tube
+GO:0044099	polar tube
+GO:0044099	Polar tubes
+GO:0044099	polar tubes
+GO:0044099	Spore polar tube
+GO:0044099	spore polar tube
+GO:0044099	Spore polar tubes
+GO:0044099	spore polar tubes
+GO:0044095	Host karyolymph
+GO:0044095	host karyolymph
+GO:0044095	host karyolymphs
+GO:0044095	Host karyolymphs
+GO:0044095	host karyoplasm
+GO:0044095	Host karyoplasm
+GO:0044095	host karyoplasms
+GO:0044095	Host karyoplasms
+GO:0044095	host nucleoplasm
+GO:0044095	Host nucleoplasm
+GO:0044095	Host nucleoplasms
+GO:0044095	host nucleoplasms
+GO:0043662	Peribacteroid space
+GO:0043662	peribacteroid space
+GO:0043662	Peribacteroid spaces
+GO:0043662	peribacteroid spaces
+GO:0043661	peribacteroid
+GO:0043661	Peribacteroid
+GO:0043661	Peribacteroid membrane
+GO:0043661	peribacteroid membrane
+GO:0043661	peribacteroid membranes
+GO:0043661	Peribacteroid membranes
+GO:0043661	peribacteroids
+GO:0043661	Peribacteroids
+GO:0043659	Symbiosome
+GO:0043659	symbiosome
+GO:0043659	Symbiosomes
+GO:0043659	symbiosomes
+GO:0043657	Host cell
+GO:0043657	host cell
+GO:0043657	host cells
+GO:0043657	Host cells
+GO:0043657	host cellular
+GO:0043657	Host cellular
+GO:0043657	host cellulars
+GO:0043657	Host cellulars
+GO:0043655	host extracellular space
+GO:0043655	Host extracellular space
+GO:0043655	Host extracellular spaces
+GO:0043655	host extracellular spaces
+GO:0043655	host intercellular space
+GO:0043655	Host intercellular space
+GO:0043655	Host intercellular spaces
+GO:0043655	host intercellular spaces
+GO:0043595	spore cortex
+GO:0043595	Spore cortex
+GO:0043595	Spore cortexs
+GO:0043595	spore cortexs
+GO:0043594	spore outer
+GO:0043594	Spore outer
+GO:0043594	spore outer membrane
+GO:0043594	Spore outer membrane
+GO:0043594	spore outer membranes
+GO:0043594	Spore outer membranes
+GO:0043594	Spore outers
+GO:0043594	spore outers
+GO:0043231	Microsome
+GO:0043231	microsome
+GO:0043231	Microsomes
+GO:0043231	microsomes
+GO:0043209	myelin
+GO:0043209	Myelin
+GO:0043209	myelin membrane
+GO:0043209	Myelin membrane
+GO:0043209	Myelin membranes
+GO:0043209	myelin membranes
+GO:0043209	Myelin sheath
+GO:0043209	myelin sheath
+GO:0043209	Myelin sheaths
+GO:0043209	myelin sheaths
+GO:0043209	myelins
+GO:0043209	Myelins
+GO:0043204	Cell bodies
+GO:0043204	cell bodies
+GO:0043204	cell body
+GO:0043204	Cell body
+GO:0043204	perikarya
+GO:0043204	Perikarya
+GO:0043204	perikaryas
+GO:0043204	Perikaryas
+GO:0043204	Perikaryon
+GO:0043204	perikaryon
+GO:0043204	Perikaryons
+GO:0043204	perikaryons
+GO:0043202	Lysosomal lumen
+GO:0043202	lysosomal lumen
+GO:0043202	lysosomal lumens
+GO:0043202	Lysosomal lumens
+GO:0043202	lysosome lumen
+GO:0043202	Lysosome lumen
+GO:0043202	Lysosome lumens
+GO:0043202	lysosome lumens
+GO:0043197	dendritic spine
+GO:0043197	Dendritic spine
+GO:0043197	dendritic spines
+GO:0043197	Dendritic spines
+GO:0043197	spine
+GO:0043197	Spine
+GO:0043197	Spines
+GO:0043197	spines
+GO:0043160	Acrosomal lumen
+GO:0043160	acrosomal lumen
+GO:0043160	Acrosomal lumens
+GO:0043160	acrosomal lumens
+GO:0043160	Acrosome lumen
+GO:0043160	acrosome lumen
+GO:0043160	acrosome lumens
+GO:0043160	Acrosome lumens
+GO:0043005	synaptosome
+GO:0043005	Synaptosome
+GO:0043005	Synaptosomes
+GO:0043005	synaptosomes
+GO:0042995	cell projection
+GO:0042995	Cell projection
+GO:0042995	cell projections
+GO:0042995	Cell projections
+GO:0042995	Cell protrusion
+GO:0042995	cell protrusion
+GO:0042995	cell protrusions
+GO:0042995	Cell protrusions
+GO:0042995	projection
+GO:0042995	Projection
+GO:0042995	projections
+GO:0042995	Projections
+GO:0042763	forespore
+GO:0042763	Forespore
+GO:0042734	presynaptic
+GO:0042734	Presynaptic
+GO:0042734	Presynaptic cell
+GO:0042734	presynaptic cell
+GO:0042734	Presynaptic cell membrane
+GO:0042734	presynaptic cell membrane
+GO:0042734	presynaptic cell membranes
+GO:0042734	Presynaptic cell membranes
+GO:0042734	Presynaptic cells
+GO:0042734	presynaptic cells
+GO:0042734	Presynaptic membrane
+GO:0042734	presynaptic membrane
+GO:0042734	presynaptic membranes
+GO:0042734	Presynaptic membranes
+GO:0042734	presynaptics
+GO:0042734	Presynaptics
+GO:0042717	cellular chromatophore
+GO:0042717	Cellular chromatophore
+GO:0042717	Cellular chromatophore membrane
+GO:0042717	cellular chromatophore membrane
+GO:0042717	Cellular chromatophore membranes
+GO:0042717	cellular chromatophore membranes
+GO:0042717	cellular chromatophores
+GO:0042717	Cellular chromatophores
+GO:0042717	Chromatophore membrane
+GO:0042717	chromatophore membrane
+GO:0042717	chromatophore membranes
+GO:0042717	Chromatophore membranes
+GO:0042651	Cellular thylakoid membrane
+GO:0042651	cellular thylakoid membrane
+GO:0042651	Cellular thylakoid membranes
+GO:0042651	cellular thylakoid membranes
+GO:0042651	Thylakoid membrane
+GO:0042651	thylakoid membrane
+GO:0042651	Thylakoid membranes
+GO:0042651	thylakoid membranes
+GO:0042646	Plastid nucleoid
+GO:0042646	plastid nucleoid
+GO:0042646	Plastid nucleoids
+GO:0042646	plastid nucleoids
+GO:0042646	Plastidic nucleoid
+GO:0042646	plastidic nucleoid
+GO:0042646	plastidic nucleoids
+GO:0042646	Plastidic nucleoids
+GO:0042645	mitochondrial nucleoid
+GO:0042645	Mitochondrial nucleoid
+GO:0042645	Mitochondrial nucleoids
+GO:0042645	mitochondrial nucleoids
+GO:0042645	Mitochondrion nucleoid
+GO:0042645	mitochondrion nucleoid
+GO:0042645	Mitochondrion nucleoids
+GO:0042645	mitochondrion nucleoids
+GO:0042645	Mitochromosome
+GO:0042645	mitochromosome
+GO:0042645	mitochromosomes
+GO:0042645	Mitochromosomes
+GO:0042644	chloroplast nucleoid
+GO:0042644	Chloroplast nucleoid
+GO:0042644	Chloroplast nucleoids
+GO:0042644	chloroplast nucleoids
+GO:0042644	Chloroplastic nucleoid
+GO:0042644	chloroplastic nucleoid
+GO:0042644	chloroplastic nucleoids
+GO:0042644	Chloroplastic nucleoids
+GO:0042603	Capsule
+GO:0042603	capsule
+GO:0042603	capsules
+GO:0042603	Capsules
+GO:0042597	periplasm
+GO:0042597	Periplasm
+GO:0042597	Periplasmic space
+GO:0042597	periplasmic space
+GO:0042597	periplasmic spaces
+GO:0042597	Periplasmic spaces
+GO:0042597	periplasms
+GO:0042597	Periplasms
+GO:0042584	chromaffin granular membrane
+GO:0042584	Chromaffin granular membrane
+GO:0042584	Chromaffin granular membranes
+GO:0042584	chromaffin granular membranes
+GO:0042584	chromaffin granule membrane
+GO:0042584	Chromaffin granule membrane
+GO:0042584	chromaffin granule membranes
+GO:0042584	Chromaffin granule membranes
+GO:0042584	granule membrane
+GO:0042584	Granule membrane
+GO:0042584	Granule membranes
+GO:0042584	granule membranes
+GO:0042583	chromaffin granule
+GO:0042583	Chromaffin granule
+GO:0042583	chromaffin granules
+GO:0042583	Chromaffin granules
+GO:0042566	Hydrogenosome
+GO:0042566	hydrogenosome
+GO:0042566	Hydrogenosomes
+GO:0042566	hydrogenosomes
+GO:0042470	Melanosome
+GO:0042470	melanosome
+GO:0042470	Melanosomes
+GO:0042470	melanosomes
+GO:0042383	Sarcolemma
+GO:0042383	sarcolemma
+GO:0042383	sarcolemmas
+GO:0042383	Sarcolemmas
+GO:0042170	Plastid membrane
+GO:0042170	plastid membrane
+GO:0042170	plastid membranes
+GO:0042170	Plastid membranes
+GO:0042170	Plastidic membrane
+GO:0042170	plastidic membrane
+GO:0042170	Plastidic membranes
+GO:0042170	plastidic membranes
+GO:0042151	Cnidocyst
+GO:0042151	cnidocyst
+GO:0042151	cnidocysts
+GO:0042151	Cnidocysts
+GO:0042151	nematocyst
+GO:0042151	Nematocyst
+GO:0042151	nematocysts
+GO:0042151	Nematocysts
+GO:0042025	host nucleus
+GO:0042025	Host nucleus
+GO:0042025	host nucleuses
+GO:0042025	Host nucleuses
+GO:0036014	Cyanelle intermembrane space
+GO:0036014	cyanelle intermembrane space
+GO:0036014	Cyanelle intermembrane spaces
+GO:0036014	cyanelle intermembrane spaces
+GO:0036014	cyanelle periplasm
+GO:0036014	Cyanelle periplasm
+GO:0036014	cyanelle periplasms
+GO:0036014	Cyanelle periplasms
+GO:0036013	Cyanelle outer
+GO:0036013	cyanelle outer
+GO:0036013	cyanelle outer membrane
+GO:0036013	Cyanelle outer membrane
+GO:0036013	Cyanelle outer membranes
+GO:0036013	cyanelle outer membranes
+GO:0036013	cyanelle outers
+GO:0036013	Cyanelle outers
+GO:0036012	Cyanelle inner
+GO:0036012	cyanelle inner
+GO:0036012	Cyanelle inner membrane
+GO:0036012	cyanelle inner membrane
+GO:0036012	Cyanelle inner membranes
+GO:0036012	cyanelle inner membranes
+GO:0036012	Cyanelle inners
+GO:0036012	cyanelle inners
+GO:0034777	Recycling endosomal lumen
+GO:0034777	recycling endosomal lumen
+GO:0034777	Recycling endosomal lumens
+GO:0034777	recycling endosomal lumens
+GO:0034777	Recycling endosome lumen
+GO:0034777	recycling endosome lumen
+GO:0034777	recycling endosome lumens
+GO:0034777	Recycling endosome lumens
+GO:0034592	synaptic vesicle lumen
+GO:0034592	Synaptic vesicle lumen
+GO:0034592	synaptic vesicle lumens
+GO:0034592	Synaptic vesicle lumens
+GO:0034592	synaptic vesicular lumen
+GO:0034592	Synaptic vesicular lumen
+GO:0034592	synaptic vesicular lumens
+GO:0034592	Synaptic vesicular lumens
+GO:0034591	rhoptry lumen
+GO:0034591	Rhoptry lumen
+GO:0034591	rhoptry lumens
+GO:0034591	Rhoptry lumens
+GO:0034495	protein storage vacuolar lumen
+GO:0034495	Protein storage vacuolar lumen
+GO:0034495	Protein storage vacuolar lumens
+GO:0034495	protein storage vacuolar lumens
+GO:0034495	protein storage vacuole lumen
+GO:0034495	Protein storage vacuole lumen
+GO:0034495	protein storage vacuole lumens
+GO:0034495	Protein storage vacuole lumens
+GO:0034495	storage vacuole lumen
+GO:0034495	Storage vacuole lumen
+GO:0034495	Storage vacuole lumens
+GO:0034495	storage vacuole lumens
+GO:0034494	micronemal lumen
+GO:0034494	Micronemal lumen
+GO:0034494	micronemal lumens
+GO:0034494	Micronemal lumens
+GO:0034494	microneme lumen
+GO:0034494	Microneme lumen
+GO:0034494	Microneme lumens
+GO:0034494	microneme lumens
+GO:0034493	melanosomal lumen
+GO:0034493	Melanosomal lumen
+GO:0034493	melanosomal lumens
+GO:0034493	Melanosomal lumens
+GO:0034493	Melanosome lumen
+GO:0034493	melanosome lumen
+GO:0034493	Melanosome lumens
+GO:0034493	melanosome lumens
+GO:0034492	Hydrogenosomal lumen
+GO:0034492	hydrogenosomal lumen
+GO:0034492	hydrogenosomal lumens
+GO:0034492	Hydrogenosomal lumens
+GO:0034492	hydrogenosome lumen
+GO:0034492	Hydrogenosome lumen
+GO:0034492	hydrogenosome lumens
+GO:0034492	Hydrogenosome lumens
+GO:0034469	dictyosome lumen
+GO:0034469	Dictyosome lumen
+GO:0034469	dictyosome lumens
+GO:0034469	Dictyosome lumens
+GO:0034469	golgi bodies lumen
+GO:0034469	Golgi bodies lumen
+GO:0034469	golgi bodies lumens
+GO:0034469	Golgi bodies lumens
+GO:0034469	Golgi body lumen
+GO:0034469	golgi body lumen
+GO:0034469	Golgi body lumens
+GO:0034469	golgi body lumens
+GO:0034469	Golgi stack lumen
+GO:0034469	golgi stack lumen
+GO:0034469	Golgi stack lumens
+GO:0034469	golgi stack lumens
+GO:0034469	stack lumen
+GO:0034469	Stack lumen
+GO:0034469	Stack lumens
+GO:0034469	stack lumens
+GO:0034468	glycosomal lumen
+GO:0034468	Glycosomal lumen
+GO:0034468	glycosomal lumens
+GO:0034468	Glycosomal lumens
+GO:0034468	Glycosomal matrix
+GO:0034468	glycosomal matrix
+GO:0034468	glycosomal matrixs
+GO:0034468	Glycosomal matrixs
+GO:0034468	glycosome lumen
+GO:0034468	Glycosome lumen
+GO:0034468	glycosome lumens
+GO:0034468	Glycosome lumens
+GO:0034468	glycosome matrix
+GO:0034468	Glycosome matrix
+GO:0034468	Glycosome matrixs
+GO:0034468	glycosome matrixs
+GO:0034467	Esterosomal lumen
+GO:0034467	esterosomal lumen
+GO:0034467	Esterosomal lumens
+GO:0034467	esterosomal lumens
+GO:0034467	Esterosome lumen
+GO:0034467	esterosome lumen
+GO:0034467	esterosome lumens
+GO:0034467	Esterosome lumens
+GO:0034466	chromaffin granular lumen
+GO:0034466	Chromaffin granular lumen
+GO:0034466	Chromaffin granular lumens
+GO:0034466	chromaffin granular lumens
+GO:0034466	Chromaffin granule lumen
+GO:0034466	chromaffin granule lumen
+GO:0034466	chromaffin granule lumens
+GO:0034466	Chromaffin granule lumens
+GO:0034466	Granule lumen
+GO:0034466	granule lumen
+GO:0034466	granule lumens
+GO:0034466	Granule lumens
+GO:0034426	etioplast membrane
+GO:0034426	Etioplast membrane
+GO:0034426	Etioplast membranes
+GO:0034426	etioplast membranes
+GO:0034423	autophagic vacuolar lumen
+GO:0034423	Autophagic vacuolar lumen
+GO:0034423	autophagic vacuolar lumens
+GO:0034423	Autophagic vacuolar lumens
+GO:0034423	Autophagic vacuole lumen
+GO:0034423	autophagic vacuole lumen
+GO:0034423	autophagic vacuole lumens
+GO:0034423	Autophagic vacuole lumens
+GO:0034423	autophagosomal lumen
+GO:0034423	Autophagosomal lumen
+GO:0034423	autophagosomal lumens
+GO:0034423	Autophagosomal lumens
+GO:0034423	Autophagosome lumen
+GO:0034423	autophagosome lumen
+GO:0034423	autophagosome lumens
+GO:0034423	Autophagosome lumens
+GO:0034422	Aleurone grain lumen
+GO:0034422	aleurone grain lumen
+GO:0034422	aleurone grain lumens
+GO:0034422	Aleurone grain lumens
+GO:0034422	grain lumen
+GO:0034422	Grain lumen
+GO:0034422	grain lumens
+GO:0034422	Grain lumens
+GO:0034422	protein body lumen
+GO:0034422	Protein body lumen
+GO:0034422	Protein body lumens
+GO:0034422	protein body lumens
+GO:0034060	Cyanelle stroma
+GO:0034060	cyanelle stroma
+GO:0034060	cyanelle stromas
+GO:0034060	Cyanelle stromas
+GO:0034045	PAS membrane
+GO:0034045	PAS membranes
+GO:0034045	Pre-autophagosomal structure membrane
+GO:0034045	Pre-autophagosomal structure membranes
+GO:0034045	preautophagosomal structure membrane
+GO:0034045	Preautophagosomal structure membrane
+GO:0034045	Preautophagosomal structure membranes
+GO:0034045	preautophagosomal structure membranes
+GO:0034045	structure membrane
+GO:0034045	structure membranes
+GO:0033985	acidocalcisomal lumen
+GO:0033985	Acidocalcisomal lumen
+GO:0033985	acidocalcisomal lumens
+GO:0033985	Acidocalcisomal lumens
+GO:0033985	Acidocalcisome lumen
+GO:0033985	acidocalcisome lumen
+GO:0033985	acidocalcisome lumens
+GO:0033985	Acidocalcisome lumens
+GO:0033650	Host mitochondrion
+GO:0033650	host mitochondrion
+GO:0033650	host mitochondrions
+GO:0033650	Host mitochondrions
+GO:0033648	host microsomal membrane
+GO:0033648	Host microsomal membrane
+GO:0033648	Host microsomal membranes
+GO:0033648	host microsomal membranes
+GO:0033648	Host microsome
+GO:0033648	host microsome
+GO:0033648	host microsome membrane
+GO:0033648	Host microsome membrane
+GO:0033648	Host microsome membranes
+GO:0033648	host microsome membranes
+GO:0033648	Host microsomes
+GO:0033648	host microsomes
+GO:0033645	host endomembrane
+GO:0033645	Host endomembrane
+GO:0033645	host endomembrane system
+GO:0033645	Host endomembrane system
+GO:0033645	Host endomembrane systems
+GO:0033645	host endomembrane systems
+GO:0033645	host endomembranes
+GO:0033645	Host endomembranes
+GO:0033644	Host membrane
+GO:0033644	host membrane
+GO:0033644	host membranes
+GO:0033644	Host membranes
+GO:0033172	gas vesicle membrane
+GO:0033172	Gas vesicle membrane
+GO:0033172	gas vesicle membranes
+GO:0033172	Gas vesicle membranes
+GO:0033172	Gas vesicle shell
+GO:0033172	gas vesicle shell
+GO:0033172	gas vesicle shells
+GO:0033172	Gas vesicle shells
+GO:0033166	Hyaline layer
+GO:0033166	hyaline layer
+GO:0033166	hyaline layers
+GO:0033166	Hyaline layers
+GO:0033165	Interphotoreceptor matrix
+GO:0033165	Interphotoreceptor matrixs
+GO:0033163	Micronemal membrane
+GO:0033163	micronemal membrane
+GO:0033163	micronemal membranes
+GO:0033163	Micronemal membranes
+GO:0033163	microneme membrane
+GO:0033163	Microneme membrane
+GO:0033163	Microneme membranes
+GO:0033163	microneme membranes
+GO:0033162	Melanosomal membrane
+GO:0033162	melanosomal membrane
+GO:0033162	Melanosomal membranes
+GO:0033162	melanosomal membranes
+GO:0033162	melanosome membrane
+GO:0033162	Melanosome membrane
+GO:0033162	melanosome membranes
+GO:0033162	Melanosome membranes
+GO:0033150	Calyces
+GO:0033150	calyces
+GO:0033150	Calyceses
+GO:0033150	calyceses
+GO:0033150	Calyx
+GO:0033150	calyx
+GO:0033150	Calyxs
+GO:0033150	calyxs
+GO:0033150	Cytoskeletal calyx
+GO:0033150	cytoskeletal calyx
+GO:0033150	cytoskeletal calyxs
+GO:0033150	Cytoskeletal calyxs
+GO:0033118	Esterosomal membrane
+GO:0033118	esterosomal membrane
+GO:0033118	Esterosomal membranes
+GO:0033118	esterosomal membranes
+GO:0033118	Esterosome membrane
+GO:0033118	esterosome membrane
+GO:0033118	esterosome membranes
+GO:0033118	Esterosome membranes
+GO:0033117	Esterosome
+GO:0033117	esterosome
+GO:0033117	Esterosomes
+GO:0033117	esterosomes
+GO:0033116	endoplasmic reticulum-Golgi intermediate compartment membrane
+GO:0033116	Endoplasmic reticulum-Golgi intermediate compartment membrane
+GO:0033116	endoplasmic reticulum-Golgi intermediate compartment membranes
+GO:0033116	Endoplasmic reticulum-Golgi intermediate compartment membranes
+GO:0033116	ER-Golgi intermediate compartment membrane
+GO:0033116	ER-Golgi intermediate compartment membranes
+GO:0033116	ERGIC membrane
+GO:0033116	ERGIC membranes
+GO:0033116	IC membrane
+GO:0033116	IC membranes
+GO:0033116	intermediate compartment membrane
+GO:0033116	Intermediate compartment membrane
+GO:0033116	intermediate compartment membranes
+GO:0033116	Intermediate compartment membranes
+GO:0033116	Vesiculo-tubular cluster membrane
+GO:0033116	Vesiculo-tubular cluster membranes
+GO:0033116	VTC membrane
+GO:0033116	VTC membranes
+GO:0033115	cyanelle thylakoid membrane
+GO:0033115	Cyanelle thylakoid membrane
+GO:0033115	cyanelle thylakoid membranes
+GO:0033115	Cyanelle thylakoid membranes
+GO:0033114	cyanelle thylakoid lumen
+GO:0033114	Cyanelle thylakoid lumen
+GO:0033114	Cyanelle thylakoid lumens
+GO:0033114	cyanelle thylakoid lumens
+GO:0033113	cyanelle membrane
+GO:0033113	Cyanelle membrane
+GO:0033113	cyanelle membranes
+GO:0033113	Cyanelle membranes
+GO:0033112	Cyanelle envelope
+GO:0033112	cyanelle envelope
+GO:0033112	cyanelle envelopes
+GO:0033112	Cyanelle envelopes
+GO:0033111	attachment organelle membrane
+GO:0033111	Attachment organelle membrane
+GO:0033111	attachment organelle membranes
+GO:0033111	Attachment organelle membranes
+GO:0033111	organelle membrane
+GO:0033111	Organelle membrane
+GO:0033111	Organelle membranes
+GO:0033111	organelle membranes
+GO:0033111	Terminal organelle membrane
+GO:0033111	terminal organelle membrane
+GO:0033111	terminal organelle membranes
+GO:0033111	Terminal organelle membranes
+GO:0033110	Cvt vesicle membrane
+GO:0033110	cvt vesicle membrane
+GO:0033110	cvt vesicle membranes
+GO:0033110	Cvt vesicle membranes
+GO:0033107	cvt vesicle
+GO:0033107	Cvt vesicle
+GO:0033107	Cvt vesicle lumen
+GO:0033107	cvt vesicle lumen
+GO:0033107	cvt vesicle lumens
+GO:0033107	Cvt vesicle lumens
+GO:0033107	Cvt vesicles
+GO:0033107	cvt vesicles
+GO:0033106	CGN membrane
+GO:0033106	CGN membranes
+GO:0033106	Golgi cis-face membrane
+GO:0033106	golgi cis-face membrane
+GO:0033106	golgi cis-face membranes
+GO:0033106	Golgi cis-face membranes
+GO:0033105	Chlorosomal envelope
+GO:0033105	chlorosomal envelope
+GO:0033105	chlorosomal envelopes
+GO:0033105	Chlorosomal envelopes
+GO:0033105	Chlorosome envelope
+GO:0033105	chlorosome envelope
+GO:0033105	chlorosome envelopes
+GO:0033105	Chlorosome envelopes
+GO:0033102	acidocalcisomal membrane
+GO:0033102	Acidocalcisomal membrane
+GO:0033102	Acidocalcisomal membranes
+GO:0033102	acidocalcisomal membranes
+GO:0033102	Acidocalcisome membrane
+GO:0033102	acidocalcisome membrane
+GO:0033102	acidocalcisome membranes
+GO:0033102	Acidocalcisome membranes
+GO:0033101	bud membranes
+GO:0033101	Bud membranes
+GO:0033101	Cellular bud membrane
+GO:0033101	cellular bud membrane
+GO:0033101	cellular bud membranes
+GO:0033101	Cellular bud membranes
+GO:0033099	attachment organelle
+GO:0033099	Attachment organelle
+GO:0033099	Attachment organelles
+GO:0033099	attachment organelles
+GO:0033099	terminal organelle
+GO:0033099	Terminal organelle
+GO:0033099	Terminal organelles
+GO:0033099	terminal organelles
+GO:0033098	Amyloplast inner
+GO:0033098	amyloplast inner
+GO:0033098	Amyloplast inner membrane
+GO:0033098	amyloplast inner membrane
+GO:0033098	amyloplast inner membranes
+GO:0033098	Amyloplast inner membranes
+GO:0033098	amyloplast inners
+GO:0033098	Amyloplast inners
+GO:0033098	inner amyloplastic membrane
+GO:0033098	Inner amyloplastic membrane
+GO:0033098	inner amyloplastic membranes
+GO:0033098	Inner amyloplastic membranes
+GO:0033097	Amyloplast membrane
+GO:0033097	amyloplast membrane
+GO:0033097	amyloplast membranes
+GO:0033097	Amyloplast membranes
+GO:0033095	aleurone grain
+GO:0033095	Aleurone grain
+GO:0033095	aleurone grains
+GO:0033095	Aleurone grains
+GO:0033095	Protein bodies
+GO:0033095	protein bodies
+GO:0033095	protein body
+GO:0033095	Protein body
+GO:0033018	Sarcoplasmic reticulum lumen
+GO:0033018	sarcoplasmic reticulum lumen
+GO:0033018	sarcoplasmic reticulum lumens
+GO:0033018	Sarcoplasmic reticulum lumens
+GO:0033017	Sarcoplasmic reticulum membrane
+GO:0033017	sarcoplasmic reticulum membrane
+GO:0033017	Sarcoplasmic reticulum membranes
+GO:0033017	sarcoplasmic reticulum membranes
+GO:0033016	rhoptry membrane
+GO:0033016	Rhoptry membrane
+GO:0033016	Rhoptry membranes
+GO:0033016	rhoptry membranes
+GO:0033016	rough endoplasmic
+GO:0033016	Rough endoplasmic
+GO:0033016	Rough endoplasmics
+GO:0033016	rough endoplasmics
+GO:0033012	porosome
+GO:0033012	Porosome
+GO:0033012	Porosomes
+GO:0033012	porosomes
+GO:0033011	Perinuclear theca
+GO:0033011	perinuclear theca
+GO:0033011	perinuclear thecas
+GO:0033011	Perinuclear thecas
+GO:0033010	Paranodal junction
+GO:0033010	Paranodal junctions
+GO:0033010	Paranodal septate junction
+GO:0033010	Paranodal septate junctions
+GO:0033010	PSJ
+GO:0033010	PSJs
+GO:0033009	nucleomorph
+GO:0033009	Nucleomorph
+GO:0033009	Nucleomorphs
+GO:0033009	nucleomorphs
+GO:0032591	dendritic spine membrane
+GO:0032591	Dendritic spine membrane
+GO:0032591	Dendritic spine membranes
+GO:0032591	dendritic spine membranes
+GO:0032591	Spine membrane
+GO:0032591	spine membrane
+GO:0032591	spine membranes
+GO:0032591	Spine membranes
+GO:0032588	Golgi trans-face membrane
+GO:0032588	Golgi trans-face membranes
+GO:0032588	TGN membrane
+GO:0032588	TGN membranes
+GO:0032587	Ruffle membrane
+GO:0032587	ruffle membrane
+GO:0032587	ruffle membranes
+GO:0032587	Ruffle membranes
+GO:0032586	protein storage vacuolar membrane
+GO:0032586	Protein storage vacuolar membrane
+GO:0032586	Protein storage vacuolar membranes
+GO:0032586	protein storage vacuolar membranes
+GO:0032586	protein storage vacuole membrane
+GO:0032586	Protein storage vacuole membrane
+GO:0032586	protein storage vacuole membranes
+GO:0032586	Protein storage vacuole membranes
+GO:0032586	storage vacuole membrane
+GO:0032586	Storage vacuole membrane
+GO:0032586	Storage vacuole membranes
+GO:0032586	storage vacuole membranes
+GO:0032585	body membrane
+GO:0032585	Body membrane
+GO:0032585	Body membranes
+GO:0032585	body membranes
+GO:0032585	Corpuscula multivesicularis membrane
+GO:0032585	corpuscula multivesicularis membrane
+GO:0032585	corpuscula multivesicularis membranes
+GO:0032585	Corpuscula multivesicularis membranes
+GO:0032585	ECV membrane
+GO:0032585	ECV membranes
+GO:0032585	endosomal carrier vesicle membrane
+GO:0032585	Endosomal carrier vesicle membrane
+GO:0032585	endosomal carrier vesicle membranes
+GO:0032585	Endosomal carrier vesicle membranes
+GO:0032585	Multivesicular bodies membrane
+GO:0032585	Multivesicular bodies membranes
+GO:0032585	Multivesicular body membrane
+GO:0032585	Multivesicular body membranes
+GO:0032585	MVB membrane
+GO:0032585	MVB membranes
+GO:0032584	Cone membrane
+GO:0032584	cone membrane
+GO:0032584	cone membranes
+GO:0032584	Cone membranes
+GO:0032584	Growth cone membrane
+GO:0032584	growth cone membrane
+GO:0032584	Growth cone membranes
+GO:0032584	growth cone membranes
+GO:0032580	dictyosome membrane
+GO:0032580	Dictyosome membrane
+GO:0032580	Dictyosome membranes
+GO:0032580	dictyosome membranes
+GO:0032580	Golgi bodies membrane
+GO:0032580	golgi bodies membrane
+GO:0032580	golgi bodies membranes
+GO:0032580	Golgi bodies membranes
+GO:0032580	golgi body membrane
+GO:0032580	Golgi body membrane
+GO:0032580	golgi body membranes
+GO:0032580	Golgi body membranes
+GO:0032580	golgi cisterna membrane
+GO:0032580	Golgi cisterna membrane
+GO:0032580	golgi cisterna membranes
+GO:0032580	Golgi cisterna membranes
+GO:0032580	Golgi stack membrane
+GO:0032580	golgi stack membrane
+GO:0032580	golgi stack membranes
+GO:0032580	Golgi stack membranes
+GO:0032580	Stack membrane
+GO:0032580	stack membrane
+GO:0032580	Stack membranes
+GO:0032580	stack membranes
+GO:0032579	Apical lamina
+GO:0032579	apical lamina
+GO:0032579	apical laminas
+GO:0032579	Apical laminas
+GO:0032578	aleurone grain membrane
+GO:0032578	Aleurone grain membrane
+GO:0032578	Aleurone grain membranes
+GO:0032578	aleurone grain membranes
+GO:0032578	Grain membrane
+GO:0032578	grain membrane
+GO:0032578	Grain membranes
+GO:0032578	grain membranes
+GO:0032578	Protein body membrane
+GO:0032578	protein body membrane
+GO:0032578	Protein body membranes
+GO:0032578	protein body membranes
+GO:0032433	filopodia tip
+GO:0032433	Filopodia tip
+GO:0032433	filopodia tips
+GO:0032433	Filopodia tips
+GO:0032433	filopodium tip
+GO:0032433	Filopodium tip
+GO:0032433	filopodium tips
+GO:0032433	Filopodium tips
+GO:0032433	Microspike tip
+GO:0032433	microspike tip
+GO:0032433	Microspike tips
+GO:0032433	microspike tips
+GO:0032420	Stereocilia
+GO:0032420	stereocilia
+GO:0032420	Stereocilias
+GO:0032420	stereocilias
+GO:0032420	Stereocilium
+GO:0032420	stereocilium
+GO:0032420	stereociliums
+GO:0032420	Stereociliums
+GO:0032154	cleavage furrow
+GO:0032154	Cleavage furrow
+GO:0032154	cleavage furrows
+GO:0032154	Cleavage furrows
+GO:0032059	Bleb
+GO:0032059	bleb
+GO:0032059	Blebs
+GO:0032059	blebs
+GO:0032047	Inner mitosomal membrane
+GO:0032047	inner mitosomal membrane
+GO:0032047	inner mitosomal membranes
+GO:0032047	Inner mitosomal membranes
+GO:0032047	mitosomal envelope
+GO:0032047	Mitosomal envelope
+GO:0032047	mitosomal envelopes
+GO:0032047	Mitosomal envelopes
+GO:0032047	Mitosomal inner membrane
+GO:0032047	mitosomal inner membrane
+GO:0032047	mitosomal inner membranes
+GO:0032047	Mitosomal inner membranes
+GO:0032047	mitosomal intermembrane space
+GO:0032047	Mitosomal intermembrane space
+GO:0032047	Mitosomal intermembrane spaces
+GO:0032047	mitosomal intermembrane spaces
+GO:0032047	Mitosomal matrix
+GO:0032047	mitosomal matrix
+GO:0032047	Mitosomal matrixs
+GO:0032047	mitosomal matrixs
+GO:0032047	mitosomal membrane
+GO:0032047	Mitosomal membrane
+GO:0032047	Mitosomal membranes
+GO:0032047	mitosomal membranes
+GO:0032047	Mitosomal outer membrane
+GO:0032047	mitosomal outer membrane
+GO:0032047	Mitosomal outer membranes
+GO:0032047	mitosomal outer membranes
+GO:0032047	Mitosomal periplasm
+GO:0032047	mitosomal periplasm
+GO:0032047	mitosomal periplasmic space
+GO:0032047	Mitosomal periplasmic space
+GO:0032047	mitosomal periplasmic spaces
+GO:0032047	Mitosomal periplasmic spaces
+GO:0032047	Mitosomal periplasms
+GO:0032047	mitosomal periplasms
+GO:0032047	mitosome
+GO:0032047	Mitosome
+GO:0032047	Mitosome envelope
+GO:0032047	mitosome envelope
+GO:0032047	mitosome envelopes
+GO:0032047	Mitosome envelopes
+GO:0032047	Mitosome inner membrane
+GO:0032047	mitosome inner membrane
+GO:0032047	Mitosome inner membranes
+GO:0032047	mitosome inner membranes
+GO:0032047	Mitosome intermembrane space
+GO:0032047	mitosome intermembrane space
+GO:0032047	Mitosome intermembrane spaces
+GO:0032047	mitosome intermembrane spaces
+GO:0032047	mitosome matrix
+GO:0032047	Mitosome matrix
+GO:0032047	Mitosome matrixs
+GO:0032047	mitosome matrixs
+GO:0032047	Mitosome membrane
+GO:0032047	mitosome membrane
+GO:0032047	Mitosome membranes
+GO:0032047	mitosome membranes
+GO:0032047	Mitosome outer membrane
+GO:0032047	mitosome outer membrane
+GO:0032047	mitosome outer membranes
+GO:0032047	Mitosome outer membranes
+GO:0032047	Mitosomes
+GO:0032047	mitosomes
+GO:0032047	Outer mitosomal membrane
+GO:0032047	outer mitosomal membrane
+GO:0032047	outer mitosomal membranes
+GO:0032047	Outer mitosomal membranes
+GO:0031983	Vesicle lumen
+GO:0031983	vesicle lumen
+GO:0031983	vesicle lumens
+GO:0031983	Vesicle lumens
+GO:0031978	Plastid thylakoid lumen
+GO:0031978	plastid thylakoid lumen
+GO:0031978	plastid thylakoid lumens
+GO:0031978	Plastid thylakoid lumens
+GO:0031978	plastid thylakoidal lumen
+GO:0031978	Plastid thylakoidal lumen
+GO:0031978	plastid thylakoidal lumens
+GO:0031978	Plastid thylakoidal lumens
+GO:0031977	cellular thylakoid lumen
+GO:0031977	Cellular thylakoid lumen
+GO:0031977	Cellular thylakoid lumens
+GO:0031977	cellular thylakoid lumens
+GO:0031977	thylakoid lumen
+GO:0031977	Thylakoid lumen
+GO:0031977	thylakoid lumens
+GO:0031977	Thylakoid lumens
+GO:0031976	Plastid thylakoid
+GO:0031976	plastid thylakoid
+GO:0031976	Plastid thylakoids
+GO:0031976	plastid thylakoids
+GO:0031976	plastidic thylakoid
+GO:0031976	Plastidic thylakoid
+GO:0031976	Plastidic thylakoids
+GO:0031976	plastidic thylakoids
+GO:0031975	cell envelope
+GO:0031975	Cell envelope
+GO:0031975	Cell envelopes
+GO:0031975	cell envelopes
+GO:0031975	Envelope
+GO:0031975	envelope
+GO:0031975	envelopes
+GO:0031975	Envelopes
+GO:0031972	chloroplast intermembrane space
+GO:0031972	Chloroplast intermembrane space
+GO:0031972	chloroplast intermembrane spaces
+GO:0031972	Chloroplast intermembrane spaces
+GO:0031972	Chloroplastic intermembrane space
+GO:0031972	chloroplastic intermembrane space
+GO:0031972	Chloroplastic intermembrane spaces
+GO:0031972	chloroplastic intermembrane spaces
+GO:0031969	chloroplast membrane
+GO:0031969	Chloroplast membrane
+GO:0031969	Chloroplast membranes
+GO:0031969	chloroplast membranes
+GO:0031969	Chloroplastic membrane
+GO:0031969	chloroplastic membrane
+GO:0031969	Chloroplastic membranes
+GO:0031969	chloroplastic membranes
+GO:0031966	mitochondrial membrane
+GO:0031966	Mitochondrial membrane
+GO:0031966	Mitochondrial membranes
+GO:0031966	mitochondrial membranes
+GO:0031966	mitochondrion membrane
+GO:0031966	Mitochondrion membrane
+GO:0031966	Mitochondrion membranes
+GO:0031966	mitochondrion membranes
+GO:0031965	Nuclear membrane
+GO:0031965	nuclear membrane
+GO:0031965	nuclear membranes
+GO:0031965	Nuclear membranes
+GO:0031965	nucleus membrane
+GO:0031965	Nucleus membrane
+GO:0031965	nucleus membranes
+GO:0031965	Nucleus membranes
+GO:0031908	Glyoxysomal lumen
+GO:0031908	glyoxysomal lumen
+GO:0031908	Glyoxysomal lumens
+GO:0031908	glyoxysomal lumens
+GO:0031908	glyoxysomal matrix
+GO:0031908	Glyoxysomal matrix
+GO:0031908	glyoxysomal matrixs
+GO:0031908	Glyoxysomal matrixs
+GO:0031908	Glyoxysome lumen
+GO:0031908	glyoxysome lumen
+GO:0031908	glyoxysome lumens
+GO:0031908	Glyoxysome lumens
+GO:0031908	glyoxysome matrix
+GO:0031908	Glyoxysome matrix
+GO:0031908	glyoxysome matrixs
+GO:0031908	Glyoxysome matrixs
+GO:0031906	Compartment lumen
+GO:0031906	compartment lumen
+GO:0031906	compartment lumens
+GO:0031906	Compartment lumens
+GO:0031906	Late endosomal lumen
+GO:0031906	late endosomal lumen
+GO:0031906	late endosomal lumens
+GO:0031906	Late endosomal lumens
+GO:0031906	Late endosome lumen
+GO:0031906	late endosome lumen
+GO:0031906	late endosome lumens
+GO:0031906	Late endosome lumens
+GO:0031906	Prevacuolar compartment lumen
+GO:0031906	Prevacuolar compartment lumens
+GO:0031906	PVC lumen
+GO:0031906	PVC lumens
+GO:0031905	Early endosomal lumen
+GO:0031905	early endosomal lumen
+GO:0031905	early endosomal lumens
+GO:0031905	Early endosomal lumens
+GO:0031905	early endosome lumen
+GO:0031905	Early endosome lumen
+GO:0031905	early endosome lumens
+GO:0031905	Early endosome lumens
+GO:0031904	Endosomal lumen
+GO:0031904	endosomal lumen
+GO:0031904	Endosomal lumens
+GO:0031904	endosomal lumens
+GO:0031904	Endosome lumen
+GO:0031904	endosome lumen
+GO:0031904	endosome lumens
+GO:0031904	Endosome lumens
+GO:0031902	compartment membrane
+GO:0031902	Compartment membrane
+GO:0031902	compartment membranes
+GO:0031902	Compartment membranes
+GO:0031902	Late endosomal membrane
+GO:0031902	Late endosomal membranes
+GO:0031902	Late endosome membrane
+GO:0031902	late endosome membrane
+GO:0031902	late endosome membranes
+GO:0031902	Late endosome membranes
+GO:0031902	Prevacuolar compartment membrane
+GO:0031902	Prevacuolar compartment membranes
+GO:0031902	PVC membrane
+GO:0031902	PVC membranes
+GO:0031901	Early endosomal membrane
+GO:0031901	early endosomal membrane
+GO:0031901	early endosomal membranes
+GO:0031901	Early endosomal membranes
+GO:0031901	early endosome membrane
+GO:0031901	Early endosome membrane
+GO:0031901	Early endosome membranes
+GO:0031901	early endosome membranes
+GO:0031674	I band
+GO:0031674	I bands
+GO:0031674	I disc
+GO:0031674	I discs
+GO:0031674	I disk
+GO:0031674	I disks
+GO:0031674	I-band
+GO:0031674	I-bands
+GO:0031673	H band
+GO:0031673	H bands
+GO:0031673	H disc
+GO:0031673	H discs
+GO:0031673	H disk
+GO:0031673	H disks
+GO:0031673	H zone
+GO:0031673	H zones
+GO:0031673	H-band
+GO:0031673	H-bands
+GO:0031672	A band
+GO:0031672	A bands
+GO:0031672	A line
+GO:0031672	A lines
+GO:0031672	A-band
+GO:0031672	A-bands
+GO:0031528	Microvillar membrane
+GO:0031528	microvillar membrane
+GO:0031528	Microvillar membranes
+GO:0031528	microvillar membranes
+GO:0031528	microvillus membrane
+GO:0031528	Microvillus membrane
+GO:0031528	microvillus membranes
+GO:0031528	Microvillus membranes
+GO:0031527	filopodia membrane
+GO:0031527	Filopodia membrane
+GO:0031527	Filopodia membranes
+GO:0031527	filopodia membranes
+GO:0031527	Filopodium membrane
+GO:0031527	filopodium membrane
+GO:0031527	Filopodium membranes
+GO:0031527	filopodium membranes
+GO:0031527	Microspike membrane
+GO:0031527	microspike membrane
+GO:0031527	microspike membranes
+GO:0031527	Microspike membranes
+GO:0031470	carboxysome
+GO:0031470	Carboxysome
+GO:0031470	Carboxysomes
+GO:0031470	carboxysomes
+GO:0031430	M band
+GO:0031430	M bands
+GO:0031430	M line
+GO:0031430	M lines
+GO:0031430	M-band
+GO:0031430	M-bands
+GO:0031430	M-line
+GO:0031430	M-lines
+GO:0031411	gas vesicle
+GO:0031411	Gas vesicle
+GO:0031411	Gas vesicle lumen
+GO:0031411	gas vesicle lumen
+GO:0031411	Gas vesicle lumens
+GO:0031411	gas vesicle lumens
+GO:0031411	gas vesicles
+GO:0031411	Gas vesicles
+GO:0031410	Cytoplasmic vesicle
+GO:0031410	cytoplasmic vesicle
+GO:0031410	cytoplasmic vesicles
+GO:0031410	Cytoplasmic vesicles
+GO:0031260	Pseudopodium membrane
+GO:0031260	pseudopodium membrane
+GO:0031260	pseudopodium membranes
+GO:0031260	Pseudopodium membranes
+GO:0031258	Lamellipodium membrane
+GO:0031258	lamellipodium membrane
+GO:0031258	Lamellipodium membranes
+GO:0031258	lamellipodium membranes
+GO:0031164	Contractile vacuolar membrane
+GO:0031164	contractile vacuolar membrane
+GO:0031164	contractile vacuolar membranes
+GO:0031164	Contractile vacuolar membranes
+GO:0031164	Contractile vacuole membrane
+GO:0031164	contractile vacuole membrane
+GO:0031164	Contractile vacuole membranes
+GO:0031164	contractile vacuole membranes
+GO:0031160	exosporium
+GO:0031160	Exosporium
+GO:0031160	exosporiums
+GO:0031160	Exosporiums
+GO:0031160	Perine
+GO:0031160	perine
+GO:0031160	Perines
+GO:0031160	perines
+GO:0031160	Perispore
+GO:0031160	perispore
+GO:0031160	perispores
+GO:0031160	Perispores
+GO:0031160	Spore coat
+GO:0031160	spore coat
+GO:0031160	spore coats
+GO:0031160	Spore coats
+GO:0031160	Spore wall
+GO:0031160	spore wall
+GO:0031160	Spore walls
+GO:0031160	spore walls
+GO:0031143	pseudopod
+GO:0031143	Pseudopod
+GO:0031143	pseudopodia
+GO:0031143	Pseudopodia
+GO:0031143	pseudopodias
+GO:0031143	Pseudopodias
+GO:0031143	Pseudopodium
+GO:0031143	pseudopodium
+GO:0031143	Pseudopodium tip
+GO:0031143	pseudopodium tip
+GO:0031143	pseudopodium tips
+GO:0031143	Pseudopodium tips
+GO:0031143	pseudopodiums
+GO:0031143	Pseudopodiums
+GO:0031143	Pseudopods
+GO:0031143	pseudopods
+GO:0031090	Microsomal membrane
+GO:0031090	microsomal membrane
+GO:0031090	Microsomal membranes
+GO:0031090	microsomal membranes
+GO:0031090	microsome membrane
+GO:0031090	Microsome membrane
+GO:0031090	Microsome membranes
+GO:0031090	microsome membranes
+GO:0030868	smooth endoplasmic reticulum membrane
+GO:0030868	Smooth endoplasmic reticulum membrane
+GO:0030868	Smooth endoplasmic reticulum membranes
+GO:0030868	smooth endoplasmic reticulum membranes
+GO:0030867	rough endoplasmic reticulum membrane
+GO:0030867	Rough endoplasmic reticulum membrane
+GO:0030867	Rough endoplasmic reticulum membranes
+GO:0030867	rough endoplasmic reticulum membranes
+GO:0030672	Synaptic vesicle membrane
+GO:0030672	synaptic vesicle membrane
+GO:0030672	Synaptic vesicle membranes
+GO:0030672	synaptic vesicle membranes
+GO:0030672	synaptic vesicular membrane
+GO:0030672	Synaptic vesicular membrane
+GO:0030672	Synaptic vesicular membranes
+GO:0030672	synaptic vesicular membranes
+GO:0030670	Phagocytic vesicle membrane
+GO:0030670	phagocytic vesicle membrane
+GO:0030670	phagocytic vesicle membranes
+GO:0030670	Phagocytic vesicle membranes
+GO:0030670	phagosomal membrane
+GO:0030670	Phagosomal membrane
+GO:0030670	Phagosomal membranes
+GO:0030670	phagosomal membranes
+GO:0030670	phagosome membrane
+GO:0030670	Phagosome membrane
+GO:0030670	phagosome membranes
+GO:0030670	Phagosome membranes
+GO:0030665	Clathrin-coated vesicle membrane
+GO:0030665	Clathrin-coated vesicle membranes
+GO:0030665	Clathrin-coated vesicular membrane
+GO:0030665	Clathrin-coated vesicular membranes
+GO:0030663	COPI-coated vesicle membrane
+GO:0030663	COPI-coated vesicle membranes
+GO:0030659	Cytoplasmic vesicle membrane
+GO:0030659	cytoplasmic vesicle membrane
+GO:0030659	Cytoplasmic vesicle membranes
+GO:0030659	cytoplasmic vesicle membranes
+GO:0030658	secretory granule membrane
+GO:0030658	Secretory granule membrane
+GO:0030658	Secretory granule membranes
+GO:0030658	secretory granule membranes
+GO:0030658	Secretory vesicle membrane
+GO:0030658	secretory vesicle membrane
+GO:0030658	Secretory vesicle membranes
+GO:0030658	secretory vesicle membranes
+GO:0030496	Flemming bodies
+GO:0030496	flemming bodies
+GO:0030496	flemming body
+GO:0030496	Flemming body
+GO:0030496	Midbodies
+GO:0030496	midbodies
+GO:0030496	midbody
+GO:0030496	Midbody
+GO:0030496	midbody remnant
+GO:0030496	Midbody remnant
+GO:0030496	midbody remnants
+GO:0030496	Midbody remnants
+GO:0030496	stembodies
+GO:0030496	Stembodies
+GO:0030496	stembody
+GO:0030496	Stembody
+GO:0030479	actin cortical patch
+GO:0030479	Actin cortical patch
+GO:0030479	Actin cortical patches
+GO:0030479	actin cortical patches
+GO:0030479	Actin patch
+GO:0030479	actin patch
+GO:0030479	actin patches
+GO:0030479	Actin patches
+GO:0030430	host cytoplasm
+GO:0030430	Host cytoplasm
+GO:0030430	host cytoplasmic
+GO:0030430	Host cytoplasmic
+GO:0030430	Host cytoplasmics
+GO:0030430	host cytoplasmics
+GO:0030430	host cytoplasms
+GO:0030430	Host cytoplasms
+GO:0030428	Cell septum
+GO:0030428	cell septum
+GO:0030428	cell septums
+GO:0030428	Cell septums
+GO:0030426	Growth cone
+GO:0030426	growth cone
+GO:0030426	growth cones
+GO:0030426	Growth cones
+GO:0030425	Dendrite
+GO:0030425	dendrite
+GO:0030425	Dendrites
+GO:0030425	dendrites
+GO:0030424	axon
+GO:0030424	Axon
+GO:0030424	axons
+GO:0030424	Axons
+GO:0030175	filopodia
+GO:0030175	Filopodia
+GO:0030175	Filopodias
+GO:0030175	filopodias
+GO:0030175	filopodium
+GO:0030175	Filopodium
+GO:0030175	Filopodiums
+GO:0030175	filopodiums
+GO:0030175	microspike
+GO:0030175	Microspike
+GO:0030175	microspikes
+GO:0030175	Microspikes
+GO:0030137	coat protein complex I
+GO:0030137	Coat protein complex I
+GO:0030137	coat protein complex Is
+GO:0030137	Coat protein complex Is
+GO:0030137	COPI-coated
+GO:0030137	COPI-coated vesicle
+GO:0030137	COPI-coated vesicle lumen
+GO:0030137	COPI-coated vesicle lumens
+GO:0030137	COPI-coated vesicles
+GO:0030137	COPI-coateds
+GO:0030136	CCV
+GO:0030136	CCVs
+GO:0030136	Clathrin-coated
+GO:0030136	Clathrin-coated vesicle
+GO:0030136	Clathrin-coated vesicle lumen
+GO:0030136	Clathrin-coated vesicle lumens
+GO:0030136	Clathrin-coated vesicles
+GO:0030136	Clathrin-coated vesicular lumen
+GO:0030136	Clathrin-coated vesicular lumens
+GO:0030136	Clathrin-coateds
+GO:0030135	coated vesicle
+GO:0030135	Coated vesicle
+GO:0030135	coated vesicles
+GO:0030135	Coated vesicles
+GO:0030134	coat protein complexes II
+GO:0030134	Coat protein complexes II
+GO:0030134	coat protein complexes II lumen
+GO:0030134	Coat protein complexes II lumen
+GO:0030134	Coat protein complexes II lumens
+GO:0030134	coat protein complexes II lumens
+GO:0030134	Coat protein complexes IIs
+GO:0030134	coat protein complexes IIs
+GO:0030134	COPII-coated vesicle
+GO:0030134	COPII-coated vesicle lumen
+GO:0030134	COPII-coated vesicle lumens
+GO:0030134	COPII-coated vesicles
+GO:0030134	ER to Golgi transport vesicle
+GO:0030134	ER to Golgi transport vesicle lumen
+GO:0030134	ER to Golgi transport vesicle lumens
+GO:0030134	ER to Golgi transport vesicles
+GO:0030133	secretory granule
+GO:0030133	Secretory granule
+GO:0030133	secretory granule lumen
+GO:0030133	Secretory granule lumen
+GO:0030133	secretory granule lumens
+GO:0030133	Secretory granule lumens
+GO:0030133	secretory granules
+GO:0030133	Secretory granules
+GO:0030133	secretory vesicle
+GO:0030133	Secretory vesicle
+GO:0030133	secretory vesicle lumen
+GO:0030133	Secretory vesicle lumen
+GO:0030133	secretory vesicle lumens
+GO:0030133	Secretory vesicle lumens
+GO:0030133	Secretory vesicles
+GO:0030133	secretory vesicles
+GO:0030115	S-layer
+GO:0030115	S-layers
+GO:0030114	Slime layer
+GO:0030114	slime layer
+GO:0030114	slime layers
+GO:0030114	Slime layers
+GO:0030057	Desmosome
+GO:0030057	desmosome
+GO:0030057	desmosomes
+GO:0030057	Desmosomes
+GO:0030057	Macula adherens
+GO:0030057	macula adherens
+GO:0030057	macula adherenses
+GO:0030057	Macula adherenses
+GO:0030056	Hemidesmosome
+GO:0030056	hemidesmosome
+GO:0030056	hemidesmosomes
+GO:0030056	Hemidesmosomes
+GO:0030054	cell junction
+GO:0030054	Cell junction
+GO:0030054	Cell junctions
+GO:0030054	cell junctions
+GO:0030027	Lamellipodia
+GO:0030027	lamellipodia
+GO:0030027	Lamellipodias
+GO:0030027	lamellipodias
+GO:0030027	lamellipodium
+GO:0030027	Lamellipodium
+GO:0030027	Lamellipodiums
+GO:0030027	lamellipodiums
+GO:0030018	Z bodies
+GO:0030018	Z bodieses
+GO:0030018	Z body
+GO:0030018	Z disc
+GO:0030018	Z discs
+GO:0030018	Z disk
+GO:0030018	Z disks
+GO:0030018	Z line
+GO:0030018	Z lines
+GO:0030018	Z-band
+GO:0030018	Z-bands
+GO:0030018	Z-disc
+GO:0030018	Z-discs
+GO:0030018	Z-disk
+GO:0030018	Z-disks
+GO:0030018	Z-line
+GO:0030018	Z-lines
+GO:0030017	Sarcomere
+GO:0030017	sarcomere
+GO:0030017	Sarcomeres
+GO:0030017	sarcomeres
+GO:0030016	Myofibril
+GO:0030016	myofibril
+GO:0030016	myofibrils
+GO:0030016	Myofibrils
+GO:0020023	kinetoplast
+GO:0020023	Kinetoplast
+GO:0020023	Kinetoplasts
+GO:0020023	kinetoplasts
+GO:0020022	Acidocalcisome
+GO:0020022	acidocalcisome
+GO:0020022	Acidocalcisomes
+GO:0020022	acidocalcisomes
+GO:0020016	flagellar pocket
+GO:0020016	Flagellar pocket
+GO:0020016	flagellar pockets
+GO:0020016	Flagellar pockets
+GO:0020016	Pocket
+GO:0020016	pocket
+GO:0020016	Pockets
+GO:0020016	pockets
+GO:0020015	glycosome
+GO:0020015	Glycosome
+GO:0020015	Glycosomes
+GO:0020015	glycosomes
+GO:0020011	Apicoplast
+GO:0020011	apicoplast
+GO:0020011	Apicoplasts
+GO:0020011	apicoplasts
+GO:0020011	Golgi-adjunct organelle
+GO:0020011	Golgi-adjunct organelles
+GO:0020011	Thick-walled organelle
+GO:0020011	Thick-walled organelles
+GO:0020009	Microneme
+GO:0020009	microneme
+GO:0020009	Micronemes
+GO:0020009	micronemes
+GO:0020008	rhoptries
+GO:0020008	Rhoptries
+GO:0020008	rhoptrieses
+GO:0020008	Rhoptrieses
+GO:0020008	rhoptry
+GO:0020008	Rhoptry
+GO:0020005	parasitophorous vacuolar membrane
+GO:0020005	Parasitophorous vacuolar membrane
+GO:0020005	Parasitophorous vacuolar membranes
+GO:0020005	parasitophorous vacuolar membranes
+GO:0020005	Parasitophorous vacuole membrane
+GO:0020005	parasitophorous vacuole membrane
+GO:0020005	Parasitophorous vacuole membranes
+GO:0020005	parasitophorous vacuole membranes
+GO:0020003	Parasitophorous vacuolar lumen
+GO:0020003	parasitophorous vacuolar lumen
+GO:0020003	Parasitophorous vacuolar lumens
+GO:0020003	parasitophorous vacuolar lumens
+GO:0020003	Parasitophorous vacuole
+GO:0020003	parasitophorous vacuole
+GO:0020003	parasitophorous vacuole lumen
+GO:0020003	Parasitophorous vacuole lumen
+GO:0020003	Parasitophorous vacuole lumens
+GO:0020003	parasitophorous vacuole lumens
+GO:0020003	parasitophorous vacuoles
+GO:0020003	Parasitophorous vacuoles
+GO:0020002	host apical
+GO:0020002	Host apical
+GO:0020002	Host apical cell
+GO:0020002	host apical cell
+GO:0020002	host apical cell membrane
+GO:0020002	Host apical cell membrane
+GO:0020002	host apical cell membranes
+GO:0020002	Host apical cell membranes
+GO:0020002	host apical cells
+GO:0020002	Host apical cells
+GO:0020002	host apical plasma membrane
+GO:0020002	Host apical plasma membrane
+GO:0020002	host apical plasma membranes
+GO:0020002	Host apical plasma membranes
+GO:0020002	host apicals
+GO:0020002	Host apicals
+GO:0020002	host basolateral cell membrane
+GO:0020002	Host basolateral cell membrane
+GO:0020002	Host basolateral cell membranes
+GO:0020002	host basolateral cell membranes
+GO:0020002	host basolateral plasma membrane
+GO:0020002	Host basolateral plasma membrane
+GO:0020002	host basolateral plasma membranes
+GO:0020002	Host basolateral plasma membranes
+GO:0020002	Host cell inner
+GO:0020002	host cell inner
+GO:0020002	Host cell inner membrane
+GO:0020002	host cell inner membrane
+GO:0020002	Host cell inner membranes
+GO:0020002	host cell inner membranes
+GO:0020002	host cell inners
+GO:0020002	Host cell inners
+GO:0020002	host cell membrane
+GO:0020002	Host cell membrane
+GO:0020002	Host cell membranes
+GO:0020002	host cell membranes
+GO:0020002	host cell outer
+GO:0020002	Host cell outer
+GO:0020002	host cell outer membrane
+GO:0020002	Host cell outer membrane
+GO:0020002	host cell outer membranes
+GO:0020002	Host cell outer membranes
+GO:0020002	Host cell outers
+GO:0020002	host cell outers
+GO:0020002	Host cytoplasmic membrane
+GO:0020002	host cytoplasmic membrane
+GO:0020002	host cytoplasmic membranes
+GO:0020002	Host cytoplasmic membranes
+GO:0020002	host inner membrane
+GO:0020002	Host inner membrane
+GO:0020002	Host inner membranes
+GO:0020002	host inner membranes
+GO:0020002	host outer membrane
+GO:0020002	Host outer membrane
+GO:0020002	host outer membranes
+GO:0020002	Host outer membranes
+GO:0020002	Host plasma membrane
+GO:0020002	host plasma membrane
+GO:0020002	Host plasma membranes
+GO:0020002	host plasma membranes
+GO:0020002	host plasmalemma
+GO:0020002	Host plasmalemma
+GO:0020002	Host plasmalemmas
+GO:0020002	host plasmalemmas
+GO:0019033	viral tegument
+GO:0019033	Viral tegument
+GO:0019033	Viral teguments
+GO:0019033	viral teguments
+GO:0019033	Virion tegument
+GO:0019033	virion tegument
+GO:0019033	virion teguments
+GO:0019033	Virion teguments
+GO:0019012	virion
+GO:0019012	Virion
+GO:0019012	virions
+GO:0019012	Virions
+GO:0018995	host
+GO:0018995	Host
+GO:0018995	hosts
+GO:0018995	Hosts
+GO:0016607	B snurposome
+GO:0016607	B snurposomes
+GO:0016607	IGC
+GO:0016607	IGCs
+GO:0016607	Interchromatin granules clusters
+GO:0016607	interchromatin granules clusters
+GO:0016607	interchromatin granules clusterses
+GO:0016607	Interchromatin granules clusterses
+GO:0016607	nuclear speck
+GO:0016607	Nuclear speck
+GO:0016607	nuclear speckle
+GO:0016607	Nuclear speckle
+GO:0016607	nuclear speckles
+GO:0016607	Nuclear speckles
+GO:0016607	Nuclear specks
+GO:0016607	nuclear specks
+GO:0016607	nucleus speckle
+GO:0016607	Nucleus speckle
+GO:0016607	nucleus speckles
+GO:0016607	Nucleus speckles
+GO:0016607	SF compartments
+GO:0016607	SF compartmentses
+GO:0016607	Speckle
+GO:0016607	speckle
+GO:0016607	speckles
+GO:0016607	Speckles
+GO:0016607	Splicing Factor compartments
+GO:0016607	Splicing Factor compartmentses
+GO:0016607	Splicing speckle
+GO:0016607	Splicing speckles
+GO:0016605	kremer bodies
+GO:0016605	Kremer bodies
+GO:0016605	Kremer body
+GO:0016605	kremer body
+GO:0016605	ND10
+GO:0016605	ND10s
+GO:0016605	Nuclear domains-10
+GO:0016605	nuclear domains-10
+GO:0016605	Nuclear domains-10s
+GO:0016605	nuclear domains-10s
+GO:0016605	PML bodies
+GO:0016605	PML body
+GO:0016605	PML oncogenic domain
+GO:0016605	PML oncogenic domains
+GO:0016605	PML-NB
+GO:0016605	PML-NBs
+GO:0016605	PML-nuclear bodies
+GO:0016605	PML-nuclear body
+GO:0016605	Promyelocytic leukaemia nuclear bodies
+GO:0016605	promyelocytic leukaemia nuclear bodies
+GO:0016605	Promyelocytic leukaemia nuclear body
+GO:0016605	promyelocytic leukaemia nuclear body
+GO:0016605	Promyelocytic leukemia nuclear bodies
+GO:0016605	promyelocytic leukemia nuclear bodies
+GO:0016605	promyelocytic leukemia nuclear body
+GO:0016605	Promyelocytic leukemia nuclear body
+GO:0016529	sarcoplasmic reticulum
+GO:0016529	Sarcoplasmic reticulum
+GO:0016529	Sarcoplasmic reticulums
+GO:0016529	sarcoplasmic reticulums
+GO:0016528	sarcoplasm
+GO:0016528	Sarcoplasm
+GO:0016528	sarcoplasmic
+GO:0016528	Sarcoplasmic
+GO:0016528	sarcoplasmics
+GO:0016528	Sarcoplasmics
+GO:0016528	sarcoplasms
+GO:0016528	Sarcoplasms
+GO:0016363	nuclear matrix
+GO:0016363	Nuclear matrix
+GO:0016363	Nuclear matrixs
+GO:0016363	nuclear matrixs
+GO:0016363	nuclear scaffold
+GO:0016363	Nuclear scaffold
+GO:0016363	nuclear scaffolds
+GO:0016363	Nuclear scaffolds
+GO:0016363	nuclear skeleton
+GO:0016363	Nuclear skeleton
+GO:0016363	nuclear skeletons
+GO:0016363	Nuclear skeletons
+GO:0016363	Nucleus matrix
+GO:0016363	nucleus matrix
+GO:0016363	Nucleus matrixs
+GO:0016363	nucleus matrixs
+GO:0016328	Lateral cell membrane
+GO:0016328	lateral cell membrane
+GO:0016328	Lateral cell membranes
+GO:0016328	lateral cell membranes
+GO:0016328	Lateral plasma membrane
+GO:0016328	lateral plasma membrane
+GO:0016328	lateral plasma membranes
+GO:0016328	Lateral plasma membranes
+GO:0016327	Apicolateral
+GO:0016327	apicolateral
+GO:0016327	Apicolateral cell
+GO:0016327	apicolateral cell
+GO:0016327	apicolateral cell membrane
+GO:0016327	Apicolateral cell membrane
+GO:0016327	apicolateral cell membranes
+GO:0016327	Apicolateral cell membranes
+GO:0016327	apicolateral cells
+GO:0016327	Apicolateral cells
+GO:0016327	apicolateral plasma membrane
+GO:0016327	Apicolateral plasma membrane
+GO:0016327	apicolateral plasma membranes
+GO:0016327	Apicolateral plasma membranes
+GO:0016327	Apicolaterals
+GO:0016327	apicolaterals
+GO:0016324	apical cell membrane
+GO:0016324	Apical cell membrane
+GO:0016324	Apical cell membranes
+GO:0016324	apical cell membranes
+GO:0016324	apical membrane
+GO:0016324	Apical membrane
+GO:0016324	apical membranes
+GO:0016324	Apical membranes
+GO:0016324	Apical plasma membrane
+GO:0016324	apical plasma membrane
+GO:0016324	apical plasma membranes
+GO:0016324	Apical plasma membranes
+GO:0016323	basolateral
+GO:0016323	Basolateral
+GO:0016323	Basolateral cell
+GO:0016323	basolateral cell
+GO:0016323	basolateral cell membrane
+GO:0016323	Basolateral cell membrane
+GO:0016323	Basolateral cell membranes
+GO:0016323	basolateral cell membranes
+GO:0016323	Basolateral cells
+GO:0016323	basolateral cells
+GO:0016323	Basolateral plasma membrane
+GO:0016323	basolateral plasma membrane
+GO:0016323	basolateral plasma membranes
+GO:0016323	Basolateral plasma membranes
+GO:0016323	Basolaterals
+GO:0016323	basolaterals
+GO:0016020	Membrane
+GO:0016020	Membranes
+GO:0016020	Multi pass
+GO:0016020	Multi passes
+GO:0016020	Multi span
+GO:0016020	Multi spans
+GO:0016020	Multi-pass
+GO:0016020	Multi-pass membrane protein
+GO:0016020	Multi-pass membrane proteins
+GO:0016020	Multi-passes
+GO:0016020	Multipass
+GO:0016020	multipass
+GO:0016020	multipasses
+GO:0016020	Multipasses
+GO:0016020	multispan
+GO:0016020	Multispan
+GO:0016020	Multispans
+GO:0016020	multispans
+GO:0016020	Peripheral membrane protein
+GO:0016020	peripheral membrane protein
+GO:0016020	peripheral membrane proteins
+GO:0016020	Peripheral membrane proteins
+GO:0016020	polytopic membrane protein
+GO:0016020	Polytopic membrane protein
+GO:0016020	polytopic membrane proteins
+GO:0016020	Polytopic membrane proteins
+GO:0016020	Single pass
+GO:0016020	Single passes
+GO:0016020	Single span
+GO:0016020	Single spans
+GO:0016020	Single-pass
+GO:0016020	Single-pass membrane protein
+GO:0016020	Single-pass membrane proteins
+GO:0016020	Single-pass type I membrane protein
+GO:0016020	Single-pass type I membrane proteins
+GO:0016020	Single-pass type II membrane protein
+GO:0016020	Single-pass type II membrane proteins
+GO:0016020	Single-pass type III membrane protein
+GO:0016020	Single-pass type III membrane proteins
+GO:0016020	Single-pass type IV membrane protein
+GO:0016020	Single-pass type IV membrane proteins
+GO:0016020	Single-passes
+GO:0016020	Singlepass
+GO:0016020	Singlepasses
+GO:0016020	Singlespan
+GO:0016020	Singlespans
+GO:0015030	cajal bodies
+GO:0015030	Cajal bodies
+GO:0015030	Cajal body
+GO:0015030	cajal body
+GO:0015030	Coiled bodies
+GO:0015030	coiled bodies
+GO:0015030	coiled bodieses
+GO:0015030	Coiled bodieses
+GO:0015030	coiled body
+GO:0015030	Coiled body
+GO:0015030	endobodies
+GO:0015030	Endobodies
+GO:0015030	Endobodieses
+GO:0015030	endobodieses
+GO:0015030	nuclear foci
+GO:0015030	Nuclear foci
+GO:0015030	nuclear focis
+GO:0015030	Nuclear focis
+GO:0015030	Nucleolar accessory bodies
+GO:0015030	nucleolar accessory bodies
+GO:0015030	nucleolar accessory bodieses
+GO:0015030	Nucleolar accessory bodieses
+GO:0015030	Sphere organelles
+GO:0015030	sphere organelles
+GO:0015030	Sphere organelleses
+GO:0015030	sphere organelleses
+GO:0014069	densities
+GO:0014069	Densities
+GO:0014069	postsynaptic densities
+GO:0014069	Postsynaptic densities
+GO:0014069	postsynaptic density
+GO:0014069	Postsynaptic density
+GO:0012507	Coat protein complexes II membrane
+GO:0012507	Coat protein complexes II membranes
+GO:0012507	COPII-coated vesicle membrane
+GO:0012507	COPII-coated vesicle membranes
+GO:0012507	ER to Golgi transport vesicle membrane
+GO:0012507	ER to Golgi transport vesicle membranes
+GO:0012506	Vesicle membrane
+GO:0012506	vesicle membrane
+GO:0012506	vesicle membranes
+GO:0012506	Vesicle membranes
+GO:0012505	Cytoplasmic granule membrane
+GO:0012505	cytoplasmic granule membrane
+GO:0012505	cytoplasmic granule membranes
+GO:0012505	Cytoplasmic granule membranes
+GO:0012505	endomembrane
+GO:0012505	Endomembrane
+GO:0012505	Endomembrane system
+GO:0012505	endomembrane system
+GO:0012505	endomembrane systems
+GO:0012505	Endomembrane systems
+GO:0012505	endomembranes
+GO:0012505	Endomembranes
+GO:0010287	plastoglobule
+GO:0010287	Plastoglobule
+GO:0010287	plastoglobules
+GO:0010287	Plastoglobules
+GO:0010008	endosomal membrane
+GO:0010008	Endosomal membrane
+GO:0010008	Endosomal membranes
+GO:0010008	endosomal membranes
+GO:0010008	endosome membrane
+GO:0010008	Endosome membrane
+GO:0010008	Endosome membranes
+GO:0010008	endosome membranes
+GO:0009986	cell surface
+GO:0009986	Cell surface
+GO:0009986	cell surfaces
+GO:0009986	Cell surfaces
+GO:0009941	chloroplast envelope
+GO:0009941	Chloroplast envelope
+GO:0009941	Chloroplast envelopes
+GO:0009941	chloroplast envelopes
+GO:0009941	chloroplastic envelope
+GO:0009941	Chloroplastic envelope
+GO:0009941	chloroplastic envelopes
+GO:0009941	Chloroplastic envelopes
+GO:0009925	Basal cell membrane
+GO:0009925	basal cell membrane
+GO:0009925	Basal cell membranes
+GO:0009925	basal cell membranes
+GO:0009925	basal plasma membrane
+GO:0009925	Basal plasma membrane
+GO:0009925	Basal plasma membranes
+GO:0009925	basal plasma membranes
+GO:0009843	Cyanelle thylakoid
+GO:0009843	cyanelle thylakoid
+GO:0009843	Cyanelle thylakoids
+GO:0009843	cyanelle thylakoids
+GO:0009843	zonula occludens
+GO:0009843	Zonula occludens
+GO:0009843	zonula occludenses
+GO:0009843	Zonula occludenses
+GO:0009842	Cyanelle
+GO:0009842	cyanelle
+GO:0009842	Cyanelles
+GO:0009842	cyanelles
+GO:0009842	cyanoplast
+GO:0009842	Cyanoplast
+GO:0009842	Cyanoplasts
+GO:0009842	cyanoplasts
+GO:0009842	Muroplast
+GO:0009842	muroplast
+GO:0009842	muroplasts
+GO:0009842	Muroplasts
+GO:0009707	Chloroplast outer
+GO:0009707	chloroplast outer
+GO:0009707	Chloroplast outer membrane
+GO:0009707	chloroplast outer membrane
+GO:0009707	chloroplast outer membranes
+GO:0009707	Chloroplast outer membranes
+GO:0009707	chloroplast outers
+GO:0009707	Chloroplast outers
+GO:0009707	Chloroplastic outer membrane
+GO:0009707	chloroplastic outer membrane
+GO:0009707	Chloroplastic outer membranes
+GO:0009707	chloroplastic outer membranes
+GO:0009706	chloroplast inner
+GO:0009706	Chloroplast inner
+GO:0009706	chloroplast inner membrane
+GO:0009706	Chloroplast inner membrane
+GO:0009706	chloroplast inner membranes
+GO:0009706	Chloroplast inner membranes
+GO:0009706	chloroplast inners
+GO:0009706	Chloroplast inners
+GO:0009706	chloroplastic inner membrane
+GO:0009706	Chloroplastic inner membrane
+GO:0009706	chloroplastic inner membranes
+GO:0009706	Chloroplastic inner membranes
+GO:0009579	cellular thylakoid
+GO:0009579	Cellular thylakoid
+GO:0009579	cellular thylakoids
+GO:0009579	Cellular thylakoids
+GO:0009579	Thylakoid
+GO:0009579	thylakoid
+GO:0009579	thylakoids
+GO:0009579	Thylakoids
+GO:0009578	Etioplast stroma
+GO:0009578	etioplast stroma
+GO:0009578	etioplast stromas
+GO:0009578	Etioplast stromas
+GO:0009575	chromoplast stroma
+GO:0009575	Chromoplast stroma
+GO:0009575	Chromoplast stromas
+GO:0009575	chromoplast stromas
+GO:0009575	chromoplastic stroma
+GO:0009575	Chromoplastic stroma
+GO:0009575	chromoplastic stromas
+GO:0009575	Chromoplastic stromas
+GO:0009570	Chloroplast stroma
+GO:0009570	chloroplast stroma
+GO:0009570	chloroplast stromas
+GO:0009570	Chloroplast stromas
+GO:0009570	chloroplastic stroma
+GO:0009570	Chloroplastic stroma
+GO:0009570	chloroplastic stromas
+GO:0009570	Chloroplastic stromas
+GO:0009543	chloroplast thylakoid lumen
+GO:0009543	Chloroplast thylakoid lumen
+GO:0009543	Chloroplast thylakoid lumens
+GO:0009543	chloroplast thylakoid lumens
+GO:0009541	etioplast prolamellar bodies
+GO:0009541	Etioplast prolamellar bodies
+GO:0009541	etioplast prolamellar body
+GO:0009541	Etioplast prolamellar body
+GO:0009541	Prolamellar bodies
+GO:0009541	prolamellar bodies
+GO:0009541	prolamellar body
+GO:0009541	Prolamellar body
+GO:0009536	Plastid
+GO:0009536	plastid
+GO:0009536	Plastids
+GO:0009536	plastids
+GO:0009535	Chloroplast thylakoid membrane
+GO:0009535	chloroplast thylakoid membrane
+GO:0009535	chloroplast thylakoid membranes
+GO:0009535	Chloroplast thylakoid membranes
+GO:0009534	chloroplast thylakoid
+GO:0009534	Chloroplast thylakoid
+GO:0009534	Chloroplast thylakoids
+GO:0009534	chloroplast thylakoids
+GO:0009532	Plastid stroma
+GO:0009532	plastid stroma
+GO:0009532	Plastid stromas
+GO:0009532	plastid stromas
+GO:0009532	Plastidic stroma
+GO:0009532	plastidic stroma
+GO:0009532	plastidic stromas
+GO:0009532	Plastidic stromas
+GO:0009531	Secondary cell wall
+GO:0009531	secondary cell wall
+GO:0009531	Secondary cell walls
+GO:0009531	secondary cell walls
+GO:0009530	primary cell wall
+GO:0009530	Primary cell wall
+GO:0009530	Primary cell walls
+GO:0009530	primary cell walls
+GO:0009529	plastid intermembrane space
+GO:0009529	Plastid intermembrane space
+GO:0009529	plastid intermembrane spaces
+GO:0009529	Plastid intermembrane spaces
+GO:0009529	plastidic intermembrane space
+GO:0009529	Plastidic intermembrane space
+GO:0009529	Plastidic intermembrane spaces
+GO:0009529	plastidic intermembrane spaces
+GO:0009528	inner plastid membrane
+GO:0009528	Inner plastid membrane
+GO:0009528	Inner plastid membranes
+GO:0009528	inner plastid membranes
+GO:0009528	inner plastidic membrane
+GO:0009528	Inner plastidic membrane
+GO:0009528	Inner plastidic membranes
+GO:0009528	inner plastidic membranes
+GO:0009528	plastid inner
+GO:0009528	Plastid inner
+GO:0009528	Plastid inner membrane
+GO:0009528	plastid inner membrane
+GO:0009528	plastid inner membranes
+GO:0009528	Plastid inner membranes
+GO:0009528	plastid inners
+GO:0009528	Plastid inners
+GO:0009528	Plastidic inner membrane
+GO:0009528	plastidic inner membrane
+GO:0009528	Plastidic inner membranes
+GO:0009528	plastidic inner membranes
+GO:0009527	Outer plastid membrane
+GO:0009527	outer plastid membrane
+GO:0009527	Outer plastid membranes
+GO:0009527	outer plastid membranes
+GO:0009527	outer plastidic membrane
+GO:0009527	Outer plastidic membrane
+GO:0009527	outer plastidic membranes
+GO:0009527	Outer plastidic membranes
+GO:0009527	Plastid outer
+GO:0009527	plastid outer
+GO:0009527	plastid outer membrane
+GO:0009527	Plastid outer membrane
+GO:0009527	plastid outer membranes
+GO:0009527	Plastid outer membranes
+GO:0009527	plastid outers
+GO:0009527	Plastid outers
+GO:0009527	Plastidic outer membrane
+GO:0009527	plastidic outer membrane
+GO:0009527	plastidic outer membranes
+GO:0009527	Plastidic outer membranes
+GO:0009526	Plastid envelope
+GO:0009526	plastid envelope
+GO:0009526	plastid envelopes
+GO:0009526	Plastid envelopes
+GO:0009526	Plastidic envelope
+GO:0009526	plastidic envelope
+GO:0009526	plastidic envelopes
+GO:0009526	Plastidic envelopes
+GO:0009524	phragmoplast
+GO:0009524	Phragmoplast
+GO:0009524	Phragmoplasts
+GO:0009524	phragmoplasts
+GO:0009514	Glyoxysome
+GO:0009514	glyoxysome
+GO:0009514	glyoxysomes
+GO:0009514	Glyoxysomes
+GO:0009513	etioplast
+GO:0009513	Etioplast
+GO:0009513	etioplasts
+GO:0009513	Etioplasts
+GO:0009509	chromoplast
+GO:0009509	Chromoplast
+GO:0009509	chromoplasts
+GO:0009509	Chromoplasts
+GO:0009507	chloroplast
+GO:0009507	Chloroplast
+GO:0009507	Chloroplasts
+GO:0009507	chloroplasts
+GO:0009506	Plasmodesma
+GO:0009506	plasmodesma
+GO:0009506	Plasmodesmas
+GO:0009506	plasmodesmas
+GO:0009506	plasmodesmata
+GO:0009506	Plasmodesmata
+GO:0009506	plasmodesmatas
+GO:0009506	Plasmodesmatas
+GO:0009501	Amyloplast
+GO:0009501	amyloplast
+GO:0009501	amyloplasts
+GO:0009501	Amyloplasts
+GO:0009425	bacterial flagellar basal bodies
+GO:0009425	Bacterial flagellar basal bodies
+GO:0009425	Bacterial flagellar basal body
+GO:0009425	bacterial flagellar basal body
+GO:0009425	bacterial flagellar kinetosome
+GO:0009425	Bacterial flagellar kinetosome
+GO:0009425	bacterial flagellar kinetosomes
+GO:0009425	Bacterial flagellar kinetosomes
+GO:0009425	bacterial flagellar motor
+GO:0009425	Bacterial flagellar motor
+GO:0009425	bacterial flagellar motors
+GO:0009425	Bacterial flagellar motors
+GO:0009425	bacterial flagellum basal bodies
+GO:0009425	Bacterial flagellum basal bodies
+GO:0009425	bacterial flagellum basal body
+GO:0009425	Bacterial flagellum basal body
+GO:0009425	Flagellum basal bodies
+GO:0009425	flagellum basal bodies
+GO:0009425	flagellum basal body
+GO:0009425	Flagellum basal body
+GO:0009424	Bacterial flagella hook
+GO:0009424	bacterial flagella hook
+GO:0009424	Bacterial flagella hooks
+GO:0009424	bacterial flagella hooks
+GO:0009424	Bacterial flagellar hook
+GO:0009424	bacterial flagellar hook
+GO:0009424	Bacterial flagellar hooks
+GO:0009424	bacterial flagellar hooks
+GO:0009424	bacterial flagellum hook
+GO:0009424	Bacterial flagellum hook
+GO:0009424	bacterial flagellum hooks
+GO:0009424	Bacterial flagellum hooks
+GO:0009424	flagellum hook
+GO:0009424	Flagellum hook
+GO:0009424	flagellum hooks
+GO:0009424	Flagellum hooks
+GO:0009420	bacterial flagella filament
+GO:0009420	Bacterial flagella filament
+GO:0009420	bacterial flagella filaments
+GO:0009420	Bacterial flagella filaments
+GO:0009420	Bacterial flagellar filament
+GO:0009420	bacterial flagellar filament
+GO:0009420	bacterial flagellar filaments
+GO:0009420	Bacterial flagellar filaments
+GO:0009420	bacterial flagellum filament
+GO:0009420	Bacterial flagellum filament
+GO:0009420	bacterial flagellum filaments
+GO:0009420	Bacterial flagellum filaments
+GO:0009420	flagellum filament
+GO:0009420	Flagellum filament
+GO:0009420	Flagellum filaments
+GO:0009420	flagellum filaments
+GO:0009295	nucleoid
+GO:0009295	Nucleoid
+GO:0009295	Nucleoids
+GO:0009295	nucleoids
+GO:0009289	Fimbria
+GO:0009289	fimbria
+GO:0009289	fimbrias
+GO:0009289	Fimbrias
+GO:0009289	Fimbrium
+GO:0009289	fimbrium
+GO:0009289	fimbriums
+GO:0009289	Fimbriums
+GO:0009289	pili
+GO:0009289	Pili
+GO:0009289	Pilis
+GO:0009289	pilis
+GO:0009289	pilus
+GO:0009289	Pilus
+GO:0009289	piluses
+GO:0009289	Piluses
+GO:0009288	archaeal flagella
+GO:0009288	Archaeal flagella
+GO:0009288	Archaeal flagellar apparatus
+GO:0009288	archaeal flagellar apparatus
+GO:0009288	archaeal flagellar apparatuses
+GO:0009288	Archaeal flagellar apparatuses
+GO:0009288	Archaeal flagellas
+GO:0009288	archaeal flagellas
+GO:0009288	Archaeal flagellum
+GO:0009288	archaeal flagellum
+GO:0009288	Archaeal flagellums
+GO:0009288	archaeal flagellums
+GO:0009288	Bacterial flagella
+GO:0009288	bacterial flagella
+GO:0009288	Bacterial flagellar apparatus
+GO:0009288	bacterial flagellar apparatus
+GO:0009288	Bacterial flagellar apparatuses
+GO:0009288	bacterial flagellar apparatuses
+GO:0009288	bacterial flagellas
+GO:0009288	Bacterial flagellas
+GO:0009288	bacterial flagellum
+GO:0009288	Bacterial flagellum
+GO:0009288	Bacterial flagellums
+GO:0009288	bacterial flagellums
+GO:0009279	Cell outer membrane
+GO:0009279	cell outer membrane
+GO:0009279	cell outer membranes
+GO:0009279	Cell outer membranes
+GO:0009279	Outer membrane
+GO:0009279	outer membrane
+GO:0009279	outer membranes
+GO:0009279	Outer membranes
+GO:0008021	Synaptic vesicle
+GO:0008021	synaptic vesicle
+GO:0008021	synaptic vesicles
+GO:0008021	Synaptic vesicles
+GO:0005938	cell cortex
+GO:0005938	Cell cortex
+GO:0005938	Cell cortexs
+GO:0005938	cell cortexs
+GO:0005935	Bud neck
+GO:0005935	bud neck
+GO:0005935	Bud necks
+GO:0005935	bud necks
+GO:0005935	cellular bud neck
+GO:0005935	Cellular bud neck
+GO:0005935	Cellular bud necks
+GO:0005935	cellular bud necks
+GO:0005934	Bud tip
+GO:0005934	bud tip
+GO:0005934	bud tips
+GO:0005934	Bud tips
+GO:0005934	Cellular bud tip
+GO:0005934	cellular bud tip
+GO:0005934	cellular bud tips
+GO:0005934	Cellular bud tips
+GO:0005933	Growing bud
+GO:0005933	growing bud
+GO:0005933	Growing buds
+GO:0005933	growing buds
+GO:0005929	cilia
+GO:0005929	Cilia
+GO:0005929	ciliary axoneme
+GO:0005929	Ciliary axoneme
+GO:0005929	ciliary axonemes
+GO:0005929	Ciliary axonemes
+GO:0005929	Ciliary basal bodies
+GO:0005929	ciliary basal bodies
+GO:0005929	Ciliary basal body
+GO:0005929	ciliary basal body
+GO:0005929	Ciliary kinetosome
+GO:0005929	ciliary kinetosome
+GO:0005929	Ciliary kinetosomes
+GO:0005929	ciliary kinetosomes
+GO:0005929	Cilias
+GO:0005929	cilias
+GO:0005929	Cilium
+GO:0005929	cilium
+GO:0005929	Cilium axoneme
+GO:0005929	cilium axoneme
+GO:0005929	Cilium axonemes
+GO:0005929	cilium axonemes
+GO:0005929	Cilium basal bodies
+GO:0005929	cilium basal bodies
+GO:0005929	cilium basal body
+GO:0005929	Cilium basal body
+GO:0005929	Cilium kinetosome
+GO:0005929	cilium kinetosome
+GO:0005929	cilium kinetosomes
+GO:0005929	Cilium kinetosomes
+GO:0005929	Ciliums
+GO:0005929	ciliums
+GO:0005925	focal adhesion
+GO:0005925	Focal adhesion
+GO:0005925	focal adhesions
+GO:0005925	Focal adhesions
+GO:0005923	Tight junction
+GO:0005923	Tight junctions
+GO:0005923	TJ
+GO:0005923	TJs
+GO:0005921	connexons
+GO:0005921	Connexons
+GO:0005921	connexonses
+GO:0005921	Connexonses
+GO:0005921	Gap junction
+GO:0005921	gap junction
+GO:0005921	gap junctions
+GO:0005921	Gap junctions
+GO:0005918	paired septate junction
+GO:0005918	Paired septate junction
+GO:0005918	Paired septate junctions
+GO:0005918	paired septate junctions
+GO:0005918	Pleated septate junction
+GO:0005918	pleated septate junction
+GO:0005918	pleated septate junctions
+GO:0005918	Pleated septate junctions
+GO:0005918	Septate junction
+GO:0005918	Septate junctions
+GO:0005915	Zonula adherens
+GO:0005915	Zonula adherenses
+GO:0005912	Adherens junction
+GO:0005912	adherens junction
+GO:0005912	Adherens junctions
+GO:0005912	adherens junctions
+GO:0005905	Clathrin-coated pit
+GO:0005905	Clathrin-coated pits
+GO:0005905	Coated pit
+GO:0005905	Coated pits
+GO:0005902	Microvilli
+GO:0005902	microvilli
+GO:0005902	microvillis
+GO:0005902	Microvillis
+GO:0005902	microvillus
+GO:0005902	Microvillus
+GO:0005902	microvilluses
+GO:0005902	Microvilluses
+GO:0005901	caveola
+GO:0005901	Caveola
+GO:0005901	Caveolae
+GO:0005901	caveolae
+GO:0005901	Caveolaes
+GO:0005901	caveolaes
+GO:0005901	caveolas
+GO:0005901	Caveolas
+GO:0005901	membrane microdomain
+GO:0005901	Membrane microdomain
+GO:0005901	Membrane microdomains
+GO:0005901	membrane microdomains
+GO:0005901	Plasmalemmal vesicle
+GO:0005901	plasmalemmal vesicle
+GO:0005901	Plasmalemmal vesicles
+GO:0005901	plasmalemmal vesicles
+GO:0005886	cell inner membrane
+GO:0005886	Cell inner membrane
+GO:0005886	Cell inner membranes
+GO:0005886	cell inner membranes
+GO:0005886	Cell inners
+GO:0005886	cell inners
+GO:0005886	cell membrane
+GO:0005886	Cell membrane
+GO:0005886	cell membranes
+GO:0005886	Cell membranes
+GO:0005886	Core membrane
+GO:0005886	core membrane
+GO:0005886	Core membranes
+GO:0005886	core membranes
+GO:0005886	cytoplasmic membrane
+GO:0005886	Cytoplasmic membrane
+GO:0005886	cytoplasmic membranes
+GO:0005886	Cytoplasmic membranes
+GO:0005886	inner membrane
+GO:0005886	Inner membrane
+GO:0005886	Inner membranes
+GO:0005886	inner membranes
+GO:0005886	plasma membrane
+GO:0005886	Plasma membrane
+GO:0005886	Plasma membranes
+GO:0005886	plasma membranes
+GO:0005886	plasmalemma
+GO:0005886	Plasmalemma
+GO:0005886	Plasmalemmas
+GO:0005886	plasmalemmas
+GO:0005886	podosomal membrane
+GO:0005886	Podosomal membrane
+GO:0005886	podosomal membranes
+GO:0005886	Podosomal membranes
+GO:0005886	Podosome membrane
+GO:0005886	podosome membrane
+GO:0005886	Podosome membranes
+GO:0005886	podosome membranes
+GO:0005886	spore core
+GO:0005886	Spore core
+GO:0005886	Spore core membrane
+GO:0005886	spore core membrane
+GO:0005886	spore core membranes
+GO:0005886	Spore core membranes
+GO:0005886	Spore cores
+GO:0005886	spore cores
+GO:0005884	actin filament
+GO:0005884	Actin filament
+GO:0005884	Actin filaments
+GO:0005884	actin filaments
+GO:0005856	centriolar satellite
+GO:0005856	Centriolar satellite
+GO:0005856	Centriolar satellites
+GO:0005856	centriolar satellites
+GO:0005856	cytoskeleton
+GO:0005856	Cytoskeleton
+GO:0005856	Cytoskeletons
+GO:0005856	cytoskeletons
+GO:0005856	Massule
+GO:0005856	massule
+GO:0005856	massules
+GO:0005856	Massules
+GO:0005856	microtubule organizing center
+GO:0005856	Microtubule organizing center
+GO:0005856	Microtubule organizing centers
+GO:0005856	microtubule organizing centers
+GO:0005856	MTOC
+GO:0005856	MTOCs
+GO:0005856	satellites
+GO:0005856	Satellites
+GO:0005856	Satelliteses
+GO:0005856	satelliteses
+GO:0005829	Cytosol
+GO:0005829	cytosol
+GO:0005829	Cytosols
+GO:0005829	cytosols
+GO:0005819	meiotic spindle
+GO:0005819	Meiotic spindle
+GO:0005819	meiotic spindles
+GO:0005819	Meiotic spindles
+GO:0005819	mitotic apparatus
+GO:0005819	Mitotic apparatus
+GO:0005819	Mitotic apparatuses
+GO:0005819	mitotic apparatuses
+GO:0005819	mitotic spindle
+GO:0005819	Mitotic spindle
+GO:0005819	mitotic spindles
+GO:0005819	Mitotic spindles
+GO:0005819	spindle
+GO:0005819	Spindle
+GO:0005819	Spindles
+GO:0005819	spindles
+GO:0005816	pole bodies
+GO:0005816	Pole bodies
+GO:0005816	pole body
+GO:0005816	Pole body
+GO:0005816	SPB
+GO:0005816	SPBs
+GO:0005816	Spindle polar bodies
+GO:0005816	Spindle polar body
+GO:0005816	spindle pole bodies
+GO:0005816	Spindle pole bodies
+GO:0005816	Spindle pole body
+GO:0005816	spindle pole body
+GO:0005815	centrosome
+GO:0005815	Centrosome
+GO:0005815	Centrosomes
+GO:0005815	centrosomes
+GO:0005814	Centriole
+GO:0005814	centriole
+GO:0005814	centrioles
+GO:0005814	Centrioles
+GO:0005811	adiposome
+GO:0005811	Adiposome
+GO:0005811	adiposomes
+GO:0005811	Adiposomes
+GO:0005811	Lipid bodies
+GO:0005811	lipid bodies
+GO:0005811	Lipid bodieses
+GO:0005811	lipid bodieses
+GO:0005811	lipid body
+GO:0005811	Lipid body
+GO:0005811	lipid droplet
+GO:0005811	Lipid droplet
+GO:0005811	Lipid droplets
+GO:0005811	lipid droplets
+GO:0005811	Lipid particle
+GO:0005811	lipid particle
+GO:0005811	lipid particles
+GO:0005811	Lipid particles
+GO:0005811	Monolayer-surrounded lipid storage bodies
+GO:0005811	Monolayer-surrounded lipid storage body
+GO:0005811	oil bodies
+GO:0005811	Oil bodies
+GO:0005811	Oil bodieses
+GO:0005811	oil bodieses
+GO:0005811	oil body
+GO:0005811	Oil body
+GO:0005811	oleosome
+GO:0005811	Oleosome
+GO:0005811	Oleosomes
+GO:0005811	oleosomes
+GO:0005811	spherosome
+GO:0005811	Spherosome
+GO:0005811	spherosomes
+GO:0005811	Spherosomes
+GO:0005802	Golgi trans-face
+GO:0005802	Golgi trans-faces
+GO:0005802	TGN
+GO:0005802	TGNs
+GO:0005801	CGN
+GO:0005801	CGNs
+GO:0005801	Golgi cis-face
+GO:0005801	Golgi cis-faces
+GO:0005796	Apparatus golgiensis lumen
+GO:0005796	apparatus golgiensis lumen
+GO:0005796	apparatus golgiensis lumens
+GO:0005796	Apparatus golgiensis lumens
+GO:0005796	apparatus lumen
+GO:0005796	Apparatus lumen
+GO:0005796	Apparatus lumens
+GO:0005796	apparatus lumens
+GO:0005796	Complexus golgiensis lumen
+GO:0005796	complexus golgiensis lumen
+GO:0005796	Complexus golgiensis lumens
+GO:0005796	complexus golgiensis lumens
+GO:0005796	Golgi apparatus lumen
+GO:0005796	golgi apparatus lumen
+GO:0005796	Golgi apparatus lumens
+GO:0005796	golgi apparatus lumens
+GO:0005796	golgi complex lumen
+GO:0005796	Golgi complex lumen
+GO:0005796	Golgi complex lumens
+GO:0005796	golgi complex lumens
+GO:0005796	golgi lumen
+GO:0005796	Golgi lumen
+GO:0005796	golgi lumens
+GO:0005796	Golgi lumens
+GO:0005795	dictyosome
+GO:0005795	Dictyosome
+GO:0005795	Dictyosomes
+GO:0005795	dictyosomes
+GO:0005795	Golgi bodies
+GO:0005795	golgi bodies
+GO:0005795	Golgi bodieses
+GO:0005795	golgi bodieses
+GO:0005795	Golgi body
+GO:0005795	golgi body
+GO:0005795	golgi stack
+GO:0005795	Golgi stack
+GO:0005795	golgi stacks
+GO:0005795	Golgi stacks
+GO:0005794	Apparatus golgiensis
+GO:0005794	apparatus golgiensis
+GO:0005794	Apparatus golgiensises
+GO:0005794	apparatus golgiensises
+GO:0005794	complexus golgiensis
+GO:0005794	Complexus golgiensis
+GO:0005794	Complexus golgiensises
+GO:0005794	complexus golgiensises
+GO:0005794	golgi
+GO:0005794	Golgi
+GO:0005794	Golgi apparatus
+GO:0005794	golgi apparatus
+GO:0005794	Golgi apparatuses
+GO:0005794	golgi apparatuses
+GO:0005794	golgi complex
+GO:0005794	Golgi complex
+GO:0005794	Golgi complexs
+GO:0005794	golgi complexs
+GO:0005794	golgis
+GO:0005794	Golgis
+GO:0005793	Endoplasmic reticulum-Golgi intermediate compartment
+GO:0005793	endoplasmic reticulum-Golgi intermediate compartment
+GO:0005793	Endoplasmic reticulum-Golgi intermediate compartment lumen
+GO:0005793	Endoplasmic reticulum-Golgi intermediate compartment lumens
+GO:0005793	Endoplasmic reticulum-Golgi intermediate compartments
+GO:0005793	endoplasmic reticulum-Golgi intermediate compartments
+GO:0005793	ER-Golgi intermediate compartment
+GO:0005793	ER-Golgi intermediate compartment lumen
+GO:0005793	ER-Golgi intermediate compartment lumens
+GO:0005793	ER-Golgi intermediate compartments
+GO:0005793	ERGIC
+GO:0005793	ERGIC lumen
+GO:0005793	ERGIC lumens
+GO:0005793	ERGICs
+GO:0005793	IC lumen
+GO:0005793	IC lumens
+GO:0005793	intermediate compartment
+GO:0005793	Intermediate compartment
+GO:0005793	intermediate compartment lumen
+GO:0005793	Intermediate compartment lumen
+GO:0005793	intermediate compartment lumens
+GO:0005793	Intermediate compartment lumens
+GO:0005793	Intermediate compartments
+GO:0005793	intermediate compartments
+GO:0005793	Vesiculo-tubular cluster
+GO:0005793	Vesiculo-tubular cluster lumen
+GO:0005793	Vesiculo-tubular cluster lumens
+GO:0005793	Vesiculo-tubular clusters
+GO:0005793	VTC
+GO:0005793	VTC lumen
+GO:0005793	VTC lumens
+GO:0005793	VTCs
+GO:0005791	RER
+GO:0005791	RERs
+GO:0005791	Rough endoplasmic reticulum
+GO:0005791	rough endoplasmic reticulum
+GO:0005791	Rough endoplasmic reticulums
+GO:0005791	rough endoplasmic reticulums
+GO:0005791	Rough ER
+GO:0005791	rough ER
+GO:0005791	Rough ERs
+GO:0005791	rough ERs
+GO:0005790	SER
+GO:0005790	SERs
+GO:0005790	Smooth endoplasmic
+GO:0005790	Smooth endoplasmic reticulum
+GO:0005790	Smooth endoplasmic reticulums
+GO:0005790	Smooth endoplasmics
+GO:0005790	Smooth ER
+GO:0005790	Smooth ERs
+GO:0005789	endoplasmic reticulum membrane
+GO:0005789	Endoplasmic reticulum membrane
+GO:0005789	endoplasmic reticulum membranes
+GO:0005789	Endoplasmic reticulum membranes
+GO:0005788	Endoplasmic reticulum lumen
+GO:0005788	endoplasmic reticulum lumen
+GO:0005788	endoplasmic reticulum lumens
+GO:0005788	Endoplasmic reticulum lumens
+GO:0005783	endoplasmic
+GO:0005783	Endoplasmic
+GO:0005783	endoplasmic reticulum
+GO:0005783	Endoplasmic reticulum
+GO:0005783	endoplasmic reticulums
+GO:0005783	Endoplasmic reticulums
+GO:0005783	endoplasmics
+GO:0005783	Endoplasmics
+GO:0005782	Peroxisomal matrix
+GO:0005782	peroxisomal matrix
+GO:0005782	Peroxisomal matrixs
+GO:0005782	peroxisomal matrixs
+GO:0005782	peroxisome matrix
+GO:0005782	Peroxisome matrix
+GO:0005782	peroxisome matrixs
+GO:0005782	Peroxisome matrixs
+GO:0005778	Peroxisomal membrane
+GO:0005778	peroxisomal membrane
+GO:0005778	Peroxisomal membranes
+GO:0005778	peroxisomal membranes
+GO:0005778	Peroxisome membrane
+GO:0005778	peroxisome membrane
+GO:0005778	Peroxisome membranes
+GO:0005778	peroxisome membranes
+GO:0005777	Peroxisome
+GO:0005777	peroxisome
+GO:0005777	Peroxisomes
+GO:0005777	peroxisomes
+GO:0005776	Autophagic vacuole
+GO:0005776	autophagic vacuole
+GO:0005776	autophagic vacuoles
+GO:0005776	Autophagic vacuoles
+GO:0005776	Autophagosome
+GO:0005776	autophagosome
+GO:0005776	autophagosomes
+GO:0005776	Autophagosomes
+GO:0005775	vacuolar lumen
+GO:0005775	Vacuolar lumen
+GO:0005775	vacuolar lumens
+GO:0005775	Vacuolar lumens
+GO:0005775	vacuole lumen
+GO:0005775	Vacuole lumen
+GO:0005775	Vacuole lumens
+GO:0005775	vacuole lumens
+GO:0005774	Vacuolar membrane
+GO:0005774	vacuolar membrane
+GO:0005774	vacuolar membranes
+GO:0005774	Vacuolar membranes
+GO:0005774	Vacuole membrane
+GO:0005774	vacuole membrane
+GO:0005774	vacuole membranes
+GO:0005774	Vacuole membranes
+GO:0005773	Vacuolar
+GO:0005773	vacuolar
+GO:0005773	Vacuolars
+GO:0005773	vacuolars
+GO:0005773	vacuole
+GO:0005773	Vacuole
+GO:0005773	Vacuoles
+GO:0005773	vacuoles
+GO:0005771	Corpuscula multivesicularis
+GO:0005771	corpuscula multivesicularis
+GO:0005771	Corpuscula multivesicularis lumen
+GO:0005771	corpuscula multivesicularis lumen
+GO:0005771	corpuscula multivesicularis lumens
+GO:0005771	Corpuscula multivesicularis lumens
+GO:0005771	Corpuscula multivesicularises
+GO:0005771	corpuscula multivesicularises
+GO:0005771	Multivesicular bodies
+GO:0005771	Multivesicular bodies lumen
+GO:0005771	Multivesicular bodies lumens
+GO:0005771	Multivesicular bodieses
+GO:0005771	Multivesicular body
+GO:0005771	multivesicular body lumen
+GO:0005771	Multivesicular body lumen
+GO:0005771	multivesicular body lumens
+GO:0005771	Multivesicular body lumens
+GO:0005771	MVB lumen
+GO:0005771	MVB lumens
+GO:0005770	late endosome
+GO:0005770	Late endosome
+GO:0005770	late endosomes
+GO:0005770	Late endosomes
+GO:0005770	Prevacuolar compartment
+GO:0005770	Prevacuolar compartments
+GO:0005769	Early endosome
+GO:0005769	early endosome
+GO:0005769	early endosomes
+GO:0005769	Early endosomes
+GO:0005768	Endosome
+GO:0005768	endosome
+GO:0005768	Endosomes
+GO:0005768	endosomes
+GO:0005765	lysosomal membrane
+GO:0005765	Lysosomal membrane
+GO:0005765	Lysosomal membranes
+GO:0005765	lysosomal membranes
+GO:0005765	lysosome membrane
+GO:0005765	Lysosome membrane
+GO:0005765	lysosome membranes
+GO:0005765	Lysosome membranes
+GO:0005764	lysosome
+GO:0005764	Lysosome
+GO:0005764	lysosomes
+GO:0005764	Lysosomes
+GO:0005759	Mitochondrial matrix
+GO:0005759	mitochondrial matrix
+GO:0005759	Mitochondrial matrixs
+GO:0005759	mitochondrial matrixs
+GO:0005759	Mitochondrion matrix
+GO:0005759	mitochondrion matrix
+GO:0005759	Mitochondrion matrixs
+GO:0005759	mitochondrion matrixs
+GO:0005758	Mitochondrial intermembrane space
+GO:0005758	mitochondrial intermembrane space
+GO:0005758	Mitochondrial intermembrane spaces
+GO:0005758	mitochondrial intermembrane spaces
+GO:0005758	mitochondrial periplasm
+GO:0005758	Mitochondrial periplasm
+GO:0005758	Mitochondrial periplasmic space
+GO:0005758	mitochondrial periplasmic space
+GO:0005758	Mitochondrial periplasmic spaces
+GO:0005758	mitochondrial periplasmic spaces
+GO:0005758	mitochondrial periplasms
+GO:0005758	Mitochondrial periplasms
+GO:0005758	Mitochondrion intermembrane space
+GO:0005758	mitochondrion intermembrane space
+GO:0005758	mitochondrion intermembrane spaces
+GO:0005758	Mitochondrion intermembrane spaces
+GO:0005743	inner mitochondrial membrane
+GO:0005743	Inner mitochondrial membrane
+GO:0005743	Inner mitochondrial membranes
+GO:0005743	inner mitochondrial membranes
+GO:0005743	Mitochondrial inner membrane
+GO:0005743	mitochondrial inner membrane
+GO:0005743	Mitochondrial inner membranes
+GO:0005743	mitochondrial inner membranes
+GO:0005743	mitochondrion inner
+GO:0005743	Mitochondrion inner
+GO:0005743	Mitochondrion inner membrane
+GO:0005743	mitochondrion inner membrane
+GO:0005743	mitochondrion inner membranes
+GO:0005743	Mitochondrion inner membranes
+GO:0005743	mitochondrion inners
+GO:0005743	Mitochondrion inners
+GO:0005741	Mitochondrial outer membrane
+GO:0005741	mitochondrial outer membrane
+GO:0005741	Mitochondrial outer membranes
+GO:0005741	mitochondrial outer membranes
+GO:0005741	Mitochondrion outer
+GO:0005741	mitochondrion outer
+GO:0005741	Mitochondrion outer membrane
+GO:0005741	mitochondrion outer membrane
+GO:0005741	Mitochondrion outer membranes
+GO:0005741	mitochondrion outer membranes
+GO:0005741	Mitochondrion outers
+GO:0005741	mitochondrion outers
+GO:0005741	Outer mitochondrial membrane
+GO:0005741	outer mitochondrial membrane
+GO:0005741	outer mitochondrial membranes
+GO:0005741	Outer mitochondrial membranes
+GO:0005740	Mitochondrial envelope
+GO:0005740	mitochondrial envelope
+GO:0005740	Mitochondrial envelopes
+GO:0005740	mitochondrial envelopes
+GO:0005740	Mitochondrion envelope
+GO:0005740	mitochondrion envelope
+GO:0005740	mitochondrion envelopes
+GO:0005740	Mitochondrion envelopes
+GO:0005739	mitochondria
+GO:0005739	Mitochondria
+GO:0005739	mitochondrion
+GO:0005739	Mitochondrion
+GO:0005737	Cytoplasm
+GO:0005737	cytoplasm
+GO:0005737	Cytoplasms
+GO:0005737	cytoplasms
+GO:0005730	Nucleoli
+GO:0005730	nucleoli
+GO:0005730	nucleolis
+GO:0005730	Nucleolis
+GO:0005730	nucleolus
+GO:0005730	Nucleolus
+GO:0005730	nucleoluses
+GO:0005730	Nucleoluses
+GO:0005694	Chromosome
+GO:0005694	chromosome
+GO:0005694	chromosomes
+GO:0005694	Chromosomes
+GO:0005654	karyolymph
+GO:0005654	Karyolymph
+GO:0005654	karyolymphs
+GO:0005654	Karyolymphs
+GO:0005654	Karyoplasm
+GO:0005654	karyoplasm
+GO:0005654	karyoplasms
+GO:0005654	Karyoplasms
+GO:0005654	nucleoplasm
+GO:0005654	Nucleoplasm
+GO:0005654	nucleoplasms
+GO:0005654	Nucleoplasms
+GO:0005652	Nuclear lamina
+GO:0005652	nuclear lamina
+GO:0005652	Nuclear laminas
+GO:0005652	nuclear laminas
+GO:0005652	nucleus lamina
+GO:0005652	Nucleus lamina
+GO:0005652	Nucleus laminas
+GO:0005652	nucleus laminas
+GO:0005643	Nuclear pore
+GO:0005643	Nuclear pore complex
+GO:0005643	Nuclear pore complexs
+GO:0005643	Nuclear pores
+GO:0005643	Pore complex
+GO:0005643	pore complex
+GO:0005643	Pore complexs
+GO:0005643	pore complexs
+GO:0005641	nuclear envelope lumen
+GO:0005641	Nuclear envelope lumen
+GO:0005641	nuclear envelope lumens
+GO:0005641	Nuclear envelope lumens
+GO:0005641	nuclear intermembrane space
+GO:0005641	Nuclear intermembrane space
+GO:0005641	Nuclear intermembrane spaces
+GO:0005641	nuclear intermembrane spaces
+GO:0005641	Nuclear periplasm
+GO:0005641	nuclear periplasm
+GO:0005641	nuclear periplasmic space
+GO:0005641	Nuclear periplasmic space
+GO:0005641	Nuclear periplasmic spaces
+GO:0005641	nuclear periplasmic spaces
+GO:0005641	Nuclear periplasms
+GO:0005641	nuclear periplasms
+GO:0005641	Nucleus envelope lumen
+GO:0005641	nucleus envelope lumen
+GO:0005641	Nucleus envelope lumens
+GO:0005641	nucleus envelope lumens
+GO:0005641	nucleus intermembrane space
+GO:0005641	Nucleus intermembrane space
+GO:0005641	nucleus intermembrane spaces
+GO:0005641	Nucleus intermembrane spaces
+GO:0005641	perinuclear space
+GO:0005641	Perinuclear space
+GO:0005641	perinuclear spaces
+GO:0005641	Perinuclear spaces
+GO:0005640	Nuclear outer membrane
+GO:0005640	nuclear outer membrane
+GO:0005640	Nuclear outer membranes
+GO:0005640	nuclear outer membranes
+GO:0005640	Nucleus outer membrane
+GO:0005640	nucleus outer membrane
+GO:0005640	nucleus outer membranes
+GO:0005640	Nucleus outer membranes
+GO:0005640	outer nuclear membrane
+GO:0005640	Outer nuclear membrane
+GO:0005640	outer nuclear membranes
+GO:0005640	Outer nuclear membranes
+GO:0005637	Inner nuclear membrane
+GO:0005637	inner nuclear membrane
+GO:0005637	inner nuclear membranes
+GO:0005637	Inner nuclear membranes
+GO:0005637	Nuclear inner membrane
+GO:0005637	nuclear inner membrane
+GO:0005637	Nuclear inner membranes
+GO:0005637	nuclear inner membranes
+GO:0005637	nucleus inner membrane
+GO:0005637	Nucleus inner membrane
+GO:0005637	nucleus inner membranes
+GO:0005637	Nucleus inner membranes
+GO:0005635	Karyotheca
+GO:0005635	karyotheca
+GO:0005635	karyothecas
+GO:0005635	Karyothecas
+GO:0005635	nuclear envelope
+GO:0005635	Nuclear envelope
+GO:0005635	nuclear envelopes
+GO:0005635	Nuclear envelopes
+GO:0005635	Nucleolemma
+GO:0005635	nucleolemma
+GO:0005635	nucleolemmas
+GO:0005635	Nucleolemmas
+GO:0005635	nucleus envelope
+GO:0005635	Nucleus envelope
+GO:0005635	Nucleus envelopes
+GO:0005635	nucleus envelopes
+GO:0005635	Perinuclear envelope
+GO:0005635	perinuclear envelope
+GO:0005635	Perinuclear envelopes
+GO:0005635	perinuclear envelopes
+GO:0005634	nuclear
+GO:0005634	Nuclear
+GO:0005634	Nuclears
+GO:0005634	nuclears
+GO:0005634	Nuclei
+GO:0005634	nuclei
+GO:0005634	Nucleis
+GO:0005634	nucleis
+GO:0005634	Nucleus
+GO:0005634	nucleus
+GO:0005634	Nucleuses
+GO:0005628	Prespore membrane
+GO:0005628	prespore membrane
+GO:0005628	prespore membranes
+GO:0005628	Prespore membranes
+GO:0005628	prospore membrane
+GO:0005628	Prospore membrane
+GO:0005628	Prospore membranes
+GO:0005628	prospore membranes
+GO:0005622	Protoplasm
+GO:0005622	protoplasm
+GO:0005622	protoplasms
+GO:0005622	Protoplasms
+GO:0005618	Cell wall
+GO:0005618	cell wall
+GO:0005618	Cell walls
+GO:0005618	cell walls
+GO:0005615	extracellular space
+GO:0005615	Extracellular space
+GO:0005615	extracellular spaces
+GO:0005615	Extracellular spaces
+GO:0005615	Intercellular space
+GO:0005615	intercellular space
+GO:0005615	Intercellular spaces
+GO:0005615	intercellular spaces
+GO:0005615	Surface film
+GO:0005615	surface film
+GO:0005615	surface films
+GO:0005615	Surface films
+GO:0005604	basement membrane
+GO:0005604	Basement membrane
+GO:0005604	basement membranes
+GO:0005604	Basement membranes
+GO:0005578	Extracellular matrix
+GO:0005578	extracellular matrix
+GO:0005578	extracellular matrixs
+GO:0005578	Extracellular matrixs
+GO:0005578	proteinaceous extracellular matrix
+GO:0005578	Proteinaceous extracellular matrix
+GO:0005578	proteinaceous extracellular matrixs
+GO:0005578	Proteinaceous extracellular matrixs
+GO:0005576	extracellular
+GO:0005576	Extracellular
+GO:0005576	extracellulars
+GO:0005576	Extracellulars
+GO:0002102	podosome
+GO:0002102	Podosome
+GO:0002102	podosomes
+GO:0002102	Podosomes
+GO:0002081	Acrosomal outer membrane
+GO:0002081	acrosomal outer membrane
+GO:0002081	acrosomal outer membranes
+GO:0002081	Acrosomal outer membranes
+GO:0002081	acrosome outer
+GO:0002081	Acrosome outer
+GO:0002081	acrosome outer membrane
+GO:0002081	Acrosome outer membrane
+GO:0002081	Acrosome outer membranes
+GO:0002081	acrosome outer membranes
+GO:0002081	Acrosome outers
+GO:0002081	acrosome outers
+GO:0002081	Outer acrosomal membrane
+GO:0002081	outer acrosomal membrane
+GO:0002081	Outer acrosomal membranes
+GO:0002081	outer acrosomal membranes
+GO:0002080	acrosomal membrane
+GO:0002080	Acrosomal membrane
+GO:0002080	acrosomal membranes
+GO:0002080	Acrosomal membranes
+GO:0002080	acrosome membrane
+GO:0002080	Acrosome membrane
+GO:0002080	acrosome membranes
+GO:0002080	Acrosome membranes
+GO:0002079	Acrosomal inner membrane
+GO:0002079	acrosomal inner membrane
+GO:0002079	Acrosomal inner membranes
+GO:0002079	acrosomal inner membranes
+GO:0002079	Acrosome inner
+GO:0002079	acrosome inner
+GO:0002079	acrosome inner membrane
+GO:0002079	Acrosome inner membrane
+GO:0002079	acrosome inner membranes
+GO:0002079	Acrosome inner membranes
+GO:0002079	Inner acrosomal membrane
+GO:0002079	Inner acrosomal membranes
+GO:0001931	Uropod
+GO:0001931	uropod
+GO:0001931	uropodia
+GO:0001931	Uropodia
+GO:0001931	Uropodias
+GO:0001931	uropodias
+GO:0001931	uropodium
+GO:0001931	Uropodium
+GO:0001931	uropodiums
+GO:0001931	Uropodiums
+GO:0001931	Uropods
+GO:0001931	uropods
+GO:0001917	Inner segment
+GO:0001917	inner segment
+GO:0001917	Inner segments
+GO:0001917	inner segments
+GO:0001917	photoreceptor inner segment
+GO:0001917	Photoreceptor inner segment
+GO:0001917	Photoreceptor inner segments
+GO:0001917	photoreceptor inner segments
+GO:0001891	phagocytic cup
+GO:0001891	Phagocytic cup
+GO:0001891	phagocytic cups
+GO:0001891	Phagocytic cups
+GO:0001750	Outer segment
+GO:0001750	outer segment
+GO:0001750	outer segments
+GO:0001750	Outer segments
+GO:0001750	Photoreceptor outer segment
+GO:0001750	photoreceptor outer segment
+GO:0001750	Photoreceptor outer segments
+GO:0001750	photoreceptor outer segments
+GO:0001726	ruffle
+GO:0001726	Ruffle
+GO:0001726	ruffles
+GO:0001726	Ruffles
+GO:0001669	acrosomal
+GO:0001669	Acrosomal
+GO:0001669	Acrosomal vesicle
+GO:0001669	acrosomal vesicle
+GO:0001669	acrosomal vesicles
+GO:0001669	Acrosomal vesicles
+GO:0001669	acrosomals
+GO:0001669	Acrosomals
+GO:0001669	Acrosome
+GO:0001669	acrosome
+GO:0001669	Acrosomes
+GO:0001669	acrosomes
+GO:0001533	Cornified envelope
+GO:0001533	cornified envelope
+GO:0001533	Cornified envelopes
+GO:0001533	cornified envelopes
+GO:0000935	barrier septum
+GO:0000935	Barrier septum
+GO:0000935	Barrier septums
+GO:0000935	barrier septums
+GO:0000932	Cytoplasmic bodies
+GO:0000932	cytoplasmic bodies
+GO:0000932	cytoplasmic bodieses
+GO:0000932	Cytoplasmic bodieses
+GO:0000932	cytoplasmic body
+GO:0000932	Cytoplasmic body
+GO:0000932	cytoplasmic mRNA processing bodies
+GO:0000932	Cytoplasmic mRNA processing bodies
+GO:0000932	cytoplasmic mRNA processing body
+GO:0000932	Cytoplasmic mRNA processing body
+GO:0000932	MRNA processing bodies
+GO:0000932	MRNA processing bodieses
+GO:0000932	MRNA processing body
+GO:0000932	P bodies
+GO:0000932	P bodieses
+GO:0000932	P body
+GO:0000932	P-bodies
+GO:0000932	P-bodieses
+GO:0000932	P-body
+GO:0000932	Processing bodies
+GO:0000932	Processing bodieses
+GO:0000932	Processing body
+GO:0000922	Spindle pole
+GO:0000922	spindle pole
+GO:0000922	Spindle poles
+GO:0000922	spindle poles
+GO:0000781	Chromosome, telomeric region
+GO:0000781	Chromosome, telomeric regions
+GO:0000781	telomere
+GO:0000781	Telomere
+GO:0000781	telomeres
+GO:0000781	Telomeres
+GO:0000777	kinetochore
+GO:0000777	Kinetochore
+GO:0000777	Kinetochores
+GO:0000777	kinetochores
+GO:0000775	Centromere
+GO:0000775	Centromeres
+GO:0000775	Chromosome, pericentric region
+GO:0000775	Chromosome, pericentric regions
+GO:0000421	autophagic vacuolar membrane
+GO:0000421	Autophagic vacuolar membrane
+GO:0000421	autophagic vacuolar membranes
+GO:0000421	Autophagic vacuolar membranes
+GO:0000421	Autophagic vacuole membrane
+GO:0000421	autophagic vacuole membrane
+GO:0000421	Autophagic vacuole membranes
+GO:0000421	autophagic vacuole membranes
+GO:0000421	autophagosomal membrane
+GO:0000421	Autophagosomal membrane
+GO:0000421	Autophagosomal membranes
+GO:0000421	autophagosomal membranes
+GO:0000421	Autophagosome membrane
+GO:0000421	autophagosome membrane
+GO:0000421	Autophagosome membranes
+GO:0000421	autophagosome membranes
+GO:0000407	PAS
+GO:0000407	PASs
+GO:0000407	Pre-autophagosomal structure
+GO:0000407	Pre-autophagosomal structures
+GO:0000407	Preautophagosomal structure
+GO:0000407	Preautophagosomal structures
+GO:0000331	Contracile vacuole complex
+GO:0000331	Contracile vacuole complexs
+GO:0000331	Contractile vacuolar lumen
+GO:0000331	Contractile vacuolar lumens
+GO:0000331	Contractile vacuole
+GO:0000331	Contractile vacuole lumen
+GO:0000331	Contractile vacuole lumens
+GO:0000331	Contractile vacuoles
+GO:0000326	Protein storage vacuole
+GO:0000326	protein storage vacuole
+GO:0000326	Protein storage vacuoles
+GO:0000326	protein storage vacuoles
+GO:0000326	PSV
+GO:0000326	PSVs
+GO:0000326	storage vacuole
+GO:0000326	Storage vacuole
+GO:0000326	storage vacuoles
+GO:0000326	Storage vacuoles
+GO:0000323	Lytic vacuole
+GO:0000323	lytic vacuole
+GO:0000323	lytic vacuoles
+GO:0000323	Lytic vacuoles
+GO:0000139	apparatus golgiensis membrane
+GO:0000139	Apparatus golgiensis membrane
+GO:0000139	Apparatus golgiensis membranes
+GO:0000139	apparatus golgiensis membranes
+GO:0000139	Complexus golgiensis membrane
+GO:0000139	complexus golgiensis membrane
+GO:0000139	complexus golgiensis membranes
+GO:0000139	Complexus golgiensis membranes
+GO:0000139	Golgi apparatus membrane
+GO:0000139	golgi apparatus membrane
+GO:0000139	golgi apparatus membranes
+GO:0000139	Golgi apparatus membranes
+GO:0000139	Golgi complex membrane
+GO:0000139	golgi complex membrane
+GO:0000139	Golgi complex membranes
+GO:0000139	golgi complex membranes
+GO:0000139	golgi membrane
+GO:0000139	Golgi membrane
+GO:0000139	Golgi membranes
+GO:0000139	golgi membranes

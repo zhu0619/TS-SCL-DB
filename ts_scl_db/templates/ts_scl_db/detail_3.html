@@ -1,0 +1,276 @@
+{% extends 'ts_scl_db/scl_db_base.html' %}
+{% load static %}
+{% load render_table from django_tables2 %}
+
+    {% block content %}
+    <style>
+
+      .mdc-typography--title{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-right: 50px;
+            margin-left: 50px;
+      }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:hover {
+          background-color:#f5f5f5;
+
+        }
+
+        .mdc-button{
+          /*background-color:#f5f5f5*/
+          background: #1a1a1a;
+          transition: .5s ease;
+          color: #ffffff;
+        }
+
+      #prot_info {
+          /*float: left;*/
+          margin: 0 1.5%;
+          width: 25%;
+          position: fixed;
+          top: 170px;
+          background: #f5f5f5;
+          font-size:13px;
+          /*border:5px solid grey;*/
+      }
+
+      .info_m{
+        /*padding: 0px;*/
+        font-weight:bold;
+        border: 0px solid black;
+        text-align: left;
+        /*width: */
+        width: 105px;
+        /*background: #515151;*/
+      }
+
+      .info_n{
+        padding: 0px;
+        text-align: left;
+        border: 0px solid black;
+        /*width: 160px;*/
+      }
+
+      #myTable,#exception {
+        border-collapse: collapse;
+        position: absolute;
+        top: 160px;
+        /*float: right;*/
+        margin: 0 1.5%;
+        width: 70%;
+        right :0%;
+        height: 100px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        z-index: -1
+      }
+
+      #exception{
+        font-family: "Lucida Console", Monaco, monospace;
+        font-size : 20px;
+      }
+
+      #tab_download{
+/*        position: absolute;*/
+        /*left : 2%;*/
+          margin: 1.5% 1.5%;
+          width: 25%;
+          height: 30px;
+          position: fixed;
+          top: 400px;
+          background: #f5f5f5;
+          font-size:13px;
+          text-decoration:none;
+          padding:8px;
+      }
+
+    </style>
+
+
+    <!-- ########################## main content ########################### -->
+
+{% if query_gene_obj %}
+  <section id = "prot_info" class="mdc-typography--title">
+    <table>    
+    <!-- <ul class="mdc-list" style="font-size: 20"> -->
+        <!-- <h3> SCL results in tissues</h3> -->
+        <!-- <p>Gene Name: {{query_gene_obj.GeneName}}</p> -->
+        <tr><td class="info_m">Gene Symbol</td><td class="info_n">{{query_gene_obj.GeneSymbol}}</td></tr>
+        <tr><td class="info_m">Gene Name</td><td class="info_n">{{query_gene_obj.GeneName}}</td></tr>
+        <tr><td class="info_m">Entrez Gene</td><td class="info_n"><a href="https://www.ncbi.nlm.nih.gov/gene/?term={{query_gene_obj.EntrezID}}">{{query_gene_obj.EntrezID}}</a></td></tr>
+        <tr><td class="info_m">Uniprot ACC</td><td class="info_n"><a href="https://www.uniprot.org/uniprot/{{query_gene_obj.UniprotACC}}">{{query_gene_obj.UniprotACC}}</a></td></tr>
+        <!-- <p>Gene Symbol : {{query_gene_obj.GeneSymbol}}</p> -->
+        <!-- <p>Uniprot Accesion : {{query_gene_obj.UniprotACC}}</p> -->
+        <!-- <p>Entrez Gene ID : {{query_gene_obj.EntrezID}}</p> -->
+        <!-- <li class="mdc-list-item"><a>Entrez ID: {{query_gene_obj.EntrezID}}</a></li> -->
+    <!-- </ul> -->
+    </tr>
+  </table>
+  </section>
+
+  <div id= "tab_download">
+  <a href="#" id="xx" >Export Table data into Excel</a>
+  </div>
+{% else %}
+    <p>Sorry, there is no information for this protein.</p>
+{% endif %}
+
+
+{% if triple_relation_obj %}
+<section>
+<!-- <div class ="table-wrapper">
+<div id= "tab_download_1">
+<a href="#" id="xx" style="text-decoration:none;color:#ffffff;background-color:#cccccc;padding:8px;">Export Table data into Excel</a>
+</div>
+<div> -->
+<table id="myTable" class="sortable">
+  <thead>
+      <tr>
+<!--         <th onclick="sortTable(0)">Entrez ID</th>
+        <th onclick="sortTable(1)">BTO</th>
+        <th onclick="sortTable(2)">GO</th>
+        <th onclick="sortTable(3)">Z score</th>
+        <th onclick="sortTable(4)">Resource</th> -->
+        <!-- <th>PMID link</th> -->
+        <!-- <th>Entrez ID</th> -->
+        <th>Data channel</th>
+        <th>Tissue/Cell line</th>
+        <th>BTO</th>
+        <th>SCL</th>
+        <th>GO</th>
+        <th data-tsorter="numeric">Z score</th>
+        <th data-tsorter="numeric">Resource</th>
+        <th>Reviewed</th>
+      </tr>
+  </thead>
+  <tbody>
+        {% for x in triple_relation_obj %}
+           <tr>
+                <!-- <td>{#%{x.id_Entrez}}</td> -->
+                <td>{{x.source}}</td>
+                <td>{{x.BTO_term}}</td>
+                <td>{{x.id_BTO}}</td>
+                <td>{{x.SCL_term}}</td>
+                <td>{{x.id_GO}}</td>
+                <td>{{x.Zscore}}</td>
+                <td>
+                <form action="{% url 'ts_scl_db:show_pmid_list' %}" target="_blank" method="post">
+                  {% csrf_token %}
+                  <input type="hidden" name="id_Entrez" value="{{x.id_Entrez}}">
+                  <input type="hidden" name="id_BTO" value="{{x.id_BTO}}">
+                  <input type="hidden" name="id_GO" value="{{x.id_GO}}">
+                  {% if x.pmid_count != "-" and x.pmid_count != "HPA" %}
+                    <input type="submit" class="w3-button w3-black w3-round-large" value="{{x.pmid_count}} publications" />
+                  {% endif %}
+                  {% if x.pmid_count == "HPA" %}
+                    <a class="w3-button w3-black w3-round-large" href="https://www.proteinatlas.org/search/{{query_gene_obj.GeneSymbol}}"/>HPA link</a>
+                  {% endif %}
+                  <input type="hidden" name="term_source" value="{{x.source}}">
+                <!-- <td>{{x.pmid_count}} publications</td> -->
+                  <input type="hidden" name="search_id" value="{{query_gene_obj.pk}}">
+                </form>
+                </td>
+                <td>{{x.review}}</td>
+           </tr>
+<!--             {% for y in x.pmid_list %}
+                <tr>
+                  <td><a href="{% url 'ts_scl_db:detail_2' y.pk %}">{{y.pmid}}</a></td>
+                  <td><a href="{% url 'ts_scl_db:show_pub_tags' y.pk %}">{{y.pmid}}</a></td>
+                  <td></td>
+                  <td><a href="{% url 'ts_scl_db:detail_2' y.pk %}">{{y.pmid}}</a></td>
+                  <td></td>
+                </tr>
+            {% endfor %} -->
+        {% endfor %}
+</tbody>
+</table>
+</div>
+</div>
+<!-- <div id= "tab_download_2">
+<a href="#" id="xx" style="text-decoration:none;color:#000;background-color:#ddd;padding:8px;">Export Table data into Excel</a>
+</div> -->
+{% else %}
+  <div id='exception'>
+    <p>Sorry, no tissue-specific SCL data.</p>
+  </div>
+{% endif %}
+
+</section>
+
+<!-- javascript -->
+<script src="{% static 'js/tsorter.min.js' %}" type="text/javascript"></script>
+
+<script>
+  function init() {
+      var sorter = tsorter.create('myTable');
+  }
+  window.onload = init;
+</script>
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+<script type="text/javascript">
+  function exportTableToCSV($table, filename) {
+
+    var $rows = $table.find('tr:has(td),tr:has(th)'),
+
+        // Temporary delimiter characters unlikely to be typed by keyboard
+        // This is to avoid accidentally splitting the actual contents
+        tmpColDelim = String.fromCharCode(11), // vertical tab character
+        tmpRowDelim = String.fromCharCode(0), // null character
+
+        // actual delimiter characters for CSV format
+        colDelim = '","',
+        rowDelim = '"\r\n"',
+
+        // Grab text from table into CSV formatted string
+        csv = '"' + $rows.map(function (i, row) {
+            var $row = $(row), $cols = $row.find('td,th');
+
+            return $cols.map(function (j, col) {
+                var $col = $(col), text = $col.text();
+
+                return text.replace(/"/g, '""'); // escape double quotes
+
+            }).get().join(tmpColDelim);
+
+        }).get().join(tmpRowDelim)
+            .split(tmpRowDelim).join(rowDelim)
+            .split(tmpColDelim).join(colDelim) + '"',
+
+
+
+        // Data URI
+        csvData = 'data:application/csv;charset=utf-8,' + encodeURIComponent(csv);
+
+        console.log(csv);
+
+        if (window.navigator.msSaveBlob) { // IE 10+
+            //alert('IE' + csv);
+            window.navigator.msSaveOrOpenBlob(new Blob([csv], {type: "text/plain;charset=utf-8;"}), "csvname.csv")
+        } 
+        else {
+            $(this).attr({ 'download': filename, 'href': csvData, 'target': '_blank' }); 
+        }
+}
+
+// This must be a hyperlink
+$("#xx").on('click', function (event) {
+
+    exportTableToCSV.apply(this, [$('#myTable'), '{{query_gene_obj.GeneName}}'+'triplet_list.csv']);
+
+    // IF CSV, don't do event.preventDefault() or return false
+    // We actually need this to be a typical hyperlink
+});
+</script>
+
+{% endblock %}

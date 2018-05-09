@@ -1,0 +1,9 @@
+Drop table ts_scl_db_gene_protein;
+Drop table ts_scl_db_pubannotation;
+Drop table ts_scl_db_pubmed_entry;        
+Drop table ts_scl_db_question;         
+Drop table ts_scl_db_relation_pub_anno;
+Drop table ts_scl_db_sclocalization;        
+Drop table ts_scl_db_tissue;               
+Drop table ts_scl_db_tissue_triple_relation;
+Drop table ts_scl_db_choice;
