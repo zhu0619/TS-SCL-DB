@@ -7,20 +7,20 @@ from django.conf.urls import include
 from django.contrib import admin
 
 from welcome.views import health
-from welcome.views import index as index_1
+from welcome.views import index as welcome_index
 
 from ts_scl_db.views import index,select_protein,detail_3,show_pmid_list,show_pub_tags,about,contact, download
 # app_name = 'ts_scl_db'
 favicon_view = RedirectView.as_view(url='/static/images/favicon.ico', permanent=True)
 
 urlpatterns = [
-
-    url(r'^$', index_1),
+    url(r'^$', welcome_index),
     url(r'^health$', health),
     # url(r'^admin/', include(admin.site.urls)),
     
     # path('', views.IndexView.as_view(), name='index'),
-    url(r'^$', index, name='index'),
+    # url(r'^$', index, name='index'),
+    url(r'',index, name='index'),
     # path('', views.IndexView_2.as_view(), name='index_2'),
  #    path('<int:pk>/detail_2/', views.DetailView_2.as_view(), name='detail_2'),
  #    path('<int:pk>/', views.DetailView.as_view(), name='detail'),
