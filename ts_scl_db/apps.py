@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class PollsConfig(AppConfig):
+class TsSclDbConfig(AppConfig):
     name = 'ts_scl_db'

@@ -1,0 +1,105 @@
+{% extends 'ts_scl_db/scl_db_base.html' %}
+{% load static %}
+{% load render_table from django_tables2 %}
+
+{% block content%}
+    <style>
+
+      table {
+            border-collapse: collapse;
+            width: 100%;
+            position: absolute;
+            top: 160px;
+            z-index: -1
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:hover {
+          background-color:#f5f5f5;
+        }
+
+
+
+    </style>
+
+
+    <!-- ########################## main content ########################### -->
+
+
+{% if query_gene_obj %}
+<table id="myTable" class="sortable">
+  <thead>
+      <tr>
+<!--         <th onclick="sortTable(0)">Gene Name</th>
+        <th onclick="sortTable(1)">BTO</th>
+        <th onclick="sortTable(2)">GO</th>
+        <th onclick="sortTable(3)">Z score</th>
+        <th onclick="sortTable(4)">Resource</th> -->
+        <!-- <th>PMID link</th> -->
+        <!-- <th>Entrez ID</th> -->
+        <th>Entrez Gene ID</th>
+        <th>Gene Symbol</th>
+        <th>Uniprot Accesion</th>
+        <th>Gene Name</th>
+        <th>Result Link</th>
+<!--         <th data-tsorter="numeric">Z score</th>
+        <th data-tsorter="numeric">Resource</th> -->
+      </tr>
+  </thead>
+  <tbody>
+        {% for x in query_gene_obj%}
+           <tr>
+                <!-- <td>{#%{x.id_Entrez}}</td> -->
+                <td>{{x.EntrezID}}</td>
+                <td>{{x.GeneSymbol}}</td>
+                <td>{{x.UniprotACC}}</td>
+                <td>{{x.GeneName}}</td>
+<!--                 <td>{{x.Zscore}}</td>-->
+                <td>
+                <form action="{% url 'ts_scl_db:detail_3' %}" target="_blank" method="post">
+                  {% csrf_token %}
+                  <input type="hidden" name="search_id"" value="{{x.pk}}">
+                  <input type="hidden" name="query_bto" value="{{bto_id}}">
+                  <input type="hidden" name="query_go" value="{{go_id}}">
+                  <input type="hidden" name="query_tm" value="{{pk_tm}}">
+                  <input type="hidden" name="query_exp" value="{{pk_exp}}">
+                  <input type="hidden" name="query_kn" value="{{pk_kn}}">
+                  <input type="hidden" name="query_pred" value="{{pk_pred}}">
+                  <input type="hidden" name="scoreRange" value="{{scoreRange}}">
+                  <input type="submit" class = "w3-button w3-black w3-round-large" value="To the results" />
+                </form>
+                </td>
+           </tr>
+<!--             {% for y in x.pmid_list %}
+                <tr>
+                  <td><a href="{% url 'ts_scl_db:detail_2' y.pk %}">{{y.pmid}}</a></td>
+                  <td><a href="{% url 'ts_scl_db:show_pub_tags' y.pk %}">{{y.pmid}}</a></td>
+                  <td></td>
+                  <td><a href="{% url 'ts_scl_db:detail_2' y.pk %}">{{y.pmid}}</a></td>
+                  <td></td>
+                </tr>
+            {% endfor %} -->
+        {% endfor %}
+</tbody>
+</table>
+{% else %}
+    <h1>Sorry, there is no tissue-specific SCL data for this protein.</h1>
+{% endif %}
+<!-- {#% # render_table table %} -->
+ 
+
+<script src="{% static 'js/tsorter.min.js' %}" type="text/javascript"></script>
+
+<script>
+  function init() {
+      var sorter = tsorter.create('myTable');
+  }
+  window.onload = init;
+</script>
+
+{% endblock%}
