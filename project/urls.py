@@ -16,7 +16,7 @@ urlpatterns = [
 
     url(r'^$', index),
     url(r'^health$', health),
-    url(r'^admin/', include(admin.site.urls)),
+    # url(r'^admin/', include(admin.site.urls)),
     
     # path('', views.IndexView.as_view(), name='index'),
     url(r'^$', index, name='index'),
