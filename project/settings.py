@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'debug_toolbar',
     'ts_scl_db.apps.PollsConfig',
-    # 'welcome',
+    'welcome',
     'django_tables2',
     #added
     'haystack',
