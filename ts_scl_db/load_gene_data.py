@@ -15,7 +15,8 @@ from ts_scl_db.models import *
 
 #Gene_Protein.objects.all().delete()
 with open('ts_scl_db/human_genes.txt','r') as fin:
-    sp_genes = fin.read().splitlines() 
+    sp_genes = fin.read().splitlines()
+    sp_genes = list(set(sp_genes))
     data = mg.getgenes(sp_genes,fields="entrezgene,ensemblgene,uniprot,'symbol', 'name'",species=9606)
 
 entrezgene_list = list(Gene_Protein.objects.values_list('EntrezID', flat=True))

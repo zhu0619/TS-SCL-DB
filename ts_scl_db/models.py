@@ -43,9 +43,9 @@ class Tissue(models.Model):
 class Gene_Protein(models.Model):
     idGene_Protein = models.AutoField(primary_key=True)
     EntrezID = models.IntegerField(unique=True)
-    UniprotACC = models.CharField(max_length=50,default='EMPTY')
-    GeneName = models.CharField(max_length=50,default='EMPTY')
-    GeneSymbol = models.CharField(max_length=50,default='EMPTY')
+    UniprotACC = models.CharField(max_length=150,default='EMPTY')
+    GeneName = models.CharField(max_length=150,default='EMPTY')
+    GeneSymbol = models.CharField(max_length=150,default='EMPTY')
     def __int__(self):
         return self.EntrezID
    

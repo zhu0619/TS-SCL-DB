@@ -3,6 +3,7 @@
 import csv
 import os
 from django.core.exceptions import ObjectDoesNotExist
+from django.db import IntegrityError
 import requests
 
 #disable warnings of request
@@ -22,7 +23,7 @@ TAGSERVER_SSLVERIFY = False # in case ssl verification fails
 
 
 
-
+def main():
 ##==========================#
 ##Tissue_triple_relation	#
 ##==========================#
@@ -179,4 +180,6 @@ def import_genes(sp_genes):
 								pass
 			except IntegrityError as e:
 				raise e
-		
+
+if__name__== "__main__":
+	main()

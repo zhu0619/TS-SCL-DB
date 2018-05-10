@@ -25,5 +25,3 @@ with open('ts_scl_db/raw_data/goose_go_data.txt','r') as fin:
 				go.save()
 				i +=1
 	print(str(i)+ 'GO terms are loaded')
-
-	SCLocalization.objects.values_list('GO_id')

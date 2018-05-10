@@ -3,6 +3,7 @@
 import csv
 import os
 from django.core.exceptions import ObjectDoesNotExist
+from django.db import IntegrityError
 import requests
 
 #disable warnings of request
@@ -11,7 +12,8 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 import sys
 import json
 import gc
-
+import mygene
+mg = mygene.MyGeneInfo()
 from ts_scl_db.models import *
 
 TAGSERVER_API = 'https://tagging.markovchain.de'
@@ -29,26 +31,35 @@ TAGSERVER_SSLVERIFY = False # in case ssl verification fails
 # Tissue_triple_relation.objects.all().delete()
 
 # with open('ts_scl_db/raw_data/new results2018/pmids_abs_Zscore_all_tissueCL_scl_pubmed_ID.txt_Tissue_2018-01-24_a_0.8_ws_3_wa_0.2_human copy.csv') as csvfile:
-with open('ts_scl_db/raw_data/benchmark170.csv') as csvfile:
-	reader = csv.DictReader(csvfile, delimiter=';')
+
+# def main():
+
+with open('ts_scl_db/raw_data/new results2018/pmids_abs_Zscore_all_tissueCL_scl_pubmed_ID.txt_CellLine_2018-01-24_a_0.8_ws_3_wa_0.2_human.csv') as csvfile:
+	reader = csv.DictReader(csvfile, delimiter=',')
 # with open('ts_scl_db/raw_data/new results2018/pmids_abs_Zscore_all_tissueCL_scl_pubmed_ID.txt_CellLine_2018-01-24_a_0.8_ws_3_wa_0.2_human.csv') as csvfile:
 # 	reader = csv.DictReader(csvfile)
 	# import entrez
 	entrez_ids = [int(row['ENTREZ']) for row in reader]
-	import_genes(entrez_ids)
+	fold = round(len(entrez_ids)/1000)
+	for i in range(53,fold):
+		start = i*1000
+		if i == fold-1:
+			stop = len(entrez_ids)-1
+		else:
+			stop = (i+1)*1000-1
+		print(start,'-',stop)
+		import_genes(entrez_ids[start:stop])
 
-with open('ts_scl_db/raw_data/benchmark170.csv') as csvfile:
-	reader = csv.DictReader(csvfile, delimiter=';')
+with open('ts_scl_db/raw_data/new results2018/pmids_abs_Zscore_all_tissueCL_scl_pubmed_ID.txt_CellLine_2018-01-24_a_0.8_ws_3_wa_0.2_human.csv') as csvfile:
+	reader = csv.DictReader(csvfile, delimiter=',')
 	for row in reader:
 		print(row)
 		bto_obj = Tissue.objects.get(BTO_id=row['BTO'])
 		# protein_obj = Gene_Protein.objects.get(EntrezID=row['ENTREZ'])
 		go_obj = SCLocalization.objects.get(GO_id=row['GO'])
 		source_obj = Data_source.objects.get(source = "Text-mining")
-
 		try:
 			protein_obj = Gene_Protein.objects.get(EntrezID=row['ENTREZ'])
-		
 			try:
 				t = Tissue_triple_relation.objects.get(id_BTO = bto_obj ,id_Entrez =protein_obj,id_GO = go_obj,Zscore = row['score'],source = source_obj)
 				print('exists!')
@@ -56,18 +67,16 @@ with open('ts_scl_db/raw_data/benchmark170.csv') as csvfile:
 				t = Tissue_triple_relation(id_BTO = bto_obj ,id_Entrez =protein_obj,id_GO = go_obj,Zscore = row['score'],source = source_obj)
 				t.save()
 				print('new!')
-
 				try:
 					pmid_obj = PubMed_entry.objects.get(pmid=row['PMID'])
 				except ObjectDoesNotExist:
 					# check if pub annotation exists
 					annotation  = load_json(row['PMID'])
 					pmid_obj = import_annotation(annotation)
-
 				try: 
 					Tissue_triple_relation_pmid.objects.get(Tissue_triple_relation_id = t ,id_pmid = pmid_obj)
 					print("triplet exists!")
-				except:
+				except ObjectDoesNotExist:
 					tp = Tissue_triple_relation_pmid(Tissue_triple_relation_id = t ,id_pmid = pmid_obj)
 					tp.save()
 		except ObjectDoesNotExist:
@@ -116,32 +125,27 @@ def import_annotation(reader):
 		pmid = int(taggers['pmid'])
 		fulltext = taggers['fulltext']
 		annotaions  = taggers['annotations']
-		tokens = taggers['tokenized']
-		
+		tokens = taggers['tokenized']		
 		try:
 			p = PubAnnotation.objects.get(pmid = pmid)
 		except:
 			p = PubAnnotation(annotaion = annotaions ,pmid = pmid )
 			p.save()
-
 		try:
 			q = PubTokens.objects.get(pmid = pmid )
 		except:
 			q = PubTokens(tokens = tokens,pmid = pmid )
 			q.save()
-
 		try:
 			o = PubFulltext.objects.get(pmid = pmid)
 		except:
 			o = PubFulltext(fulltext = fulltext,pmid = pmid  )
 			o.save()
-
 		try:
 			r = Relation_Pub_Anno.objects.get(pmid = pmid)
 		except:
 			r = Relation_Pub_Anno(id_pub_anno = p, id_pub_token= q,id_pub_fulltext=o, pmid = pmid)
-			r.save()
-		
+			r.save()	
 		l = PubMed_entry(pmid = pmid,id_Pub_Anno= r)
 		l.save()
 		return l
@@ -167,17 +171,20 @@ def import_genes(sp_genes):
 							uniprot_acc = uniprot['TrEMBL']
 						if type(uniprot_acc) == list:
 							uniprot_acc = ';'.join(uniprot_acc)
+					else:
+						uniprot_acc = 'None'
 					gene_name = datum['name']
 					gene_symbol =  datum['symbol']
-					entrezgene_list = list(Gene_Protein.objects.values_list('EntrezID', flat=True))
-					if entrez_id not in entrezgene_list :
-						try:
-							g = Gene_Protein(EntrezID = entrez_id, UniprotACC = uniprot_acc ,GeneName = gene_name, GeneSymbol = gene_symbol  )
-							g.save()
-							print('ok!')
-						except IntegrityError as e: 
-							if 'unique constraint' in e.message:
-								pass
+					# entrezgene_list = list(Gene_Protein.objects.values_list('EntrezID', flat=True))
+					# if entrez_id not in entrezgene_list :
+					try:
+						g = Gene_Protein.objects.get(EntrezID = entrez_id, UniprotACC = uniprot_acc ,GeneName = gene_name, GeneSymbol = gene_symbol  )
+					except ObjectDoesNotExist:
+						g = Gene_Protein(EntrezID = entrez_id, UniprotACC = uniprot_acc ,GeneName = gene_name, GeneSymbol = gene_symbol  )
+						g.save()
+						print('ok!')
 			except IntegrityError as e:
 				raise e
 		
+if __name__ == '__main__':
+	main()
