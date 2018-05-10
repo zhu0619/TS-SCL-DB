@@ -53,7 +53,7 @@ class Gene_Protein(models.Model):
 class SCLocalization(models.Model):
     idSCL = models.AutoField(primary_key=True)
     GO_id = models.CharField(max_length=50,unique=True)
-    SCL_term = models.CharField(max_length=50)
+    SCL_term = models.CharField(max_length=100)
     def __str__(self):
         return self.GO_id
 
