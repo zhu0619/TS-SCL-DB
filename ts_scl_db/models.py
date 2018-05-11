@@ -61,7 +61,7 @@ class SCLocalization(models.Model):
 class PubAnnotation(models.Model):
     ''' detailed annotation'''
     idPubAnnotation = models.AutoField(primary_key=True)
-    annotaion = models.CharField(max_length=5000) 
+    annotaion = models.CharField(max_length=10000) 
     pmid = models.IntegerField(default=-1,unique=True)
     def __int__(self):
         return self.pmid   
@@ -69,7 +69,7 @@ class PubAnnotation(models.Model):
 class PubTokens(models.Model):
     '''tokenized sentences'''
     idPubTokens = models.AutoField(primary_key=True)
-    tokens = models.CharField(max_length=1000) 
+    tokens = models.CharField(max_length=10000) 
     pmid = models.IntegerField(default=-1,unique=True)
     def __int__(self):
         return self.pmid 
@@ -77,7 +77,7 @@ class PubTokens(models.Model):
 class PubFulltext(models.Model):
     '''full text of abstract'''
     idPubFulltext = models.AutoField(primary_key=True)
-    fulltext = models.CharField(max_length=1000) 
+    fulltext = models.CharField(max_length=10000) 
     pmid = models.IntegerField(default=-1,unique=True)
     def __str__(self):
         return self.fulltext
@@ -86,7 +86,7 @@ class TempHighLightedText(models.Model):
     '''full text of abstract'''
     idPubFulltext = models.AutoField(primary_key=True)
     title = models.CharField(max_length=200) 
-    fulltext = models.CharField(max_length=1000) 
+    fulltext = models.CharField(max_length=10000) 
     pmid = models.IntegerField(default=-1,unique=True)
     def __str__(self):
         return self.title 
