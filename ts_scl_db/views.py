@@ -16,6 +16,9 @@ from ts_scl_db.models import *
 from ts_scl_db.forms import *
 from ts_scl_db.tables import TripleRelationTable
 
+import os
+
+
 # class IndexView(generic.ListView):
 #     template_name = 'ts_scl_db/index.html'
 #     context_object_name = 'latest_question_list'
@@ -81,7 +84,9 @@ class ResultsView(generic.DetailView):
 #     return render(request, 'ts_scl_db/index.html', context)
 
 def index(request):
+    print('i am index')
     all_bto = Tissue_triple_relation.objects.order_by().values('id_BTO__BTO_id','id_BTO__BTO_term').distinct()
+    # print(all_bto)
     all_go = Tissue_triple_relation.objects.order_by().values('id_GO__GO_id','id_GO__SCL_term').distinct()
       # latest_question_list = Question.objects.order_by('-pub_date')[:5]
     # context = {'latest_question_list': latest_question_list}

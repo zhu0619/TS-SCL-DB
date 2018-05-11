@@ -23,7 +23,7 @@ urlpatterns = [
     # path('', views.IndexView.as_view(), name='index'),
     # url(r'^$', index, name='index'),
     # url(r'',index, name= 'index'),
-    # url(r'^$', views.index),
+    url(r'^$', views.index, name = 'index'),
     # url(r'^', include('ts_scl_db.urls')),
     # url(r'^', views.index, name='index'),
     # path('', views.IndexView_2.as_view(), name='index_2'),
