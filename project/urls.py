@@ -21,7 +21,7 @@ urlpatterns = [
     # path('', views.IndexView.as_view(), name='index'),
     # url(r'^$', index, name='index'),
     # url(r'',index, name='index'),
-    url(r'', 'ts_scl_db.views.index'),
+    url(r'', ts_scl_db.views.index),
     # path('', views.IndexView_2.as_view(), name='index_2'),
  #    path('<int:pk>/detail_2/', views.DetailView_2.as_view(), name='detail_2'),
  #    path('<int:pk>/', views.DetailView.as_view(), name='detail'),
