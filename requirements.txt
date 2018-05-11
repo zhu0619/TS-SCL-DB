@@ -8,3 +8,5 @@ django-haystack==2.6.1
 elasticsearch==6.0.0
 mygene==3.0.0
 requests==2.18.4
+biopython==1.70
+numpy==1.13.3

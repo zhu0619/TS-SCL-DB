@@ -5,6 +5,7 @@ Created on Thu Dec 28 22:08:03 2017
 
 @author: zhulu
 """
+from Bio import Entrez
 from Bio.Entrez import efetch, read
 Entrez.email = "lzhu@uni-bielefeld.de"
 from django.db import IntegrityError
@@ -34,7 +35,7 @@ def update_meta_db(meta_data):
 			obj.journal = met[1]
 			obj.save()
 			print(str(pid)+ " update success")
-		except:
+		except PubMed_entry.DoesNotExist:
 			raise str(pid)+" update failed"
 
 # x = request_meta("21049,3295")
@@ -51,5 +52,7 @@ def request_meta(pmids):
 		# print(record['AuthorList'])
 		# print(record['FullJournalName'])
 
+if __name__ == '__main__':
+	main()
 
 
