@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'debug_toolbar',
     # 'ts_scl_db.apps.PollsConfig',
-    'welcome',
+    # 'welcome',
     'ts_scl_db',
     'django_tables2',
     #added
@@ -63,7 +63,8 @@ MIDDLEWARE = [
     'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
 
-ROOT_URLCONF = 'project.urls'
+# ROOT_URLCONF = 'project.urls'
+ROOT_URLCONF = 'ts_scl_db.urls'
 
 TEMPLATES = [
     {
