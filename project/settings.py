@@ -63,8 +63,8 @@ MIDDLEWARE = [
     'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
 
-# ROOT_URLCONF = 'project.urls'
-ROOT_URLCONF = 'ts_scl_db.urls'
+ROOT_URLCONF = 'project.urls'
+# ROOT_URLCONF = 'ts_scl_db.urls'
 
 TEMPLATES = [
     {

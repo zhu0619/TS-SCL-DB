@@ -24,7 +24,7 @@ urlpatterns = [
     # url(r'^$', index, name='index'),
     # url(r'',index, name= 'index'),
     # url(r'^$', views.index),
-    url(r'^', include('ts_scl_db.urls')),
+    # url(r'^', include('ts_scl_db.urls')),
     # url(r'^', views.index, name='index'),
     # path('', views.IndexView_2.as_view(), name='index_2'),
  #    path('<int:pk>/detail_2/', views.DetailView_2.as_view(), name='detail_2'),
