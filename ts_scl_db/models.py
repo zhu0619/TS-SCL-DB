@@ -27,6 +27,9 @@ class Choice(models.Model):
     def __str__(self):
         return self.choice_text
 
+class PageView(models.Model):
+    hostname = models.CharField(max_length=32)
+    timestamp = models.DateTimeField(auto_now_add=True)
 #--------------------------------------------------------------#
 #--------------------------------------------------------------#
 #--------------------------------------------------------------#

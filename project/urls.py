@@ -8,7 +8,7 @@ from django.contrib import admin
 
 # from welcome.views import health
 # from welcome.views import index as welcome_index
-
+from ts_scl_db.views import health
 from ts_scl_db import views
 
 #index,select_protein,detail_3,show_pmid_list,show_pub_tags,about,contact, download
@@ -17,7 +17,7 @@ app_name = 'ts_scl_db'
 
 urlpatterns = [
     # url(r'^$', welcome_index),
-    # url(r'^health$', health),
+    url(r'^health$', health),
     # url(r'^admin/', include(admin.site.urls)),
     
     # path('', views.IndexView.as_view(), name='index'),

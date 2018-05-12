@@ -19,6 +19,10 @@ from ts_scl_db.tables import TripleRelationTable
 import os
 
 
+def health(request):
+    return HttpResponse(PageView.objects.count())
+
+
 # class IndexView(generic.ListView):
 #     template_name = 'ts_scl_db/index.html'
 #     context_object_name = 'latest_question_list'
