@@ -107,8 +107,8 @@ class PubMed_entry(models.Model):
     idPubMed_entry = models.AutoField(primary_key=True)
     pmid = models.IntegerField(unique=True)
     id_Pub_Anno = models.ForeignKey(Relation_Pub_Anno, on_delete=models.CASCADE)
-    authors = models.CharField(max_length=200,default = "No details")
-    journal = models.CharField(max_length=200,default = "No details")
+    authors = models.CharField(max_length=1000,default = "No details")
+    journal = models.CharField(max_length=1000,default = "No details")
     def __int__(self):
         return self.pmid
 
