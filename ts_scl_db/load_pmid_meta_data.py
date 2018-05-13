@@ -14,7 +14,7 @@ from ts_scl_db.models import *
 import math
 
 def main():
-	all_pmids = PubMed_entry.objects.values('pmid')
+	all_pmids = PubMed_entry.objects.filter(authors="No details",journal="No details").values('pmid')
 	all_pmid_list= [i['pmid'] for i in all_pmids]
 	nb_fold = math.ceil(len(all_pmid_list)/10000)
 	for f in range(1,nb_fold+1):

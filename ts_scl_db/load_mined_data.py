@@ -41,7 +41,7 @@ with open('ts_scl_db/raw_data/new results2018/pmids_abs_Zscore_all_tissueCL_scl_
 	# import entrez
 	entrez_ids = [int(row['ENTREZ']) for row in reader]
 	fold = round(len(entrez_ids)/1000)
-	for i in range(53,fold):
+	for i in range(0,fold):
 		start = i*1000
 		if i == fold-1:
 			stop = len(entrez_ids)-1
@@ -50,48 +50,14 @@ with open('ts_scl_db/raw_data/new results2018/pmids_abs_Zscore_all_tissueCL_scl_
 		print(start,'-',stop)
 		import_genes(entrez_ids[start:stop])
 
-# with open('ts_scl_db/raw_data/new results2018/pmids_abs_Zscore_all_tissueCL_scl_pubmed_ID.txt_CellLine_2018-01-24_a_0.8_ws_3_wa_0.2_human.csv') as csvfile:
-# 	reader = csv.DictReader(csvfile, delimiter=',')
-# 	for row in reader:
-# 		print(row)
-# 		bto_obj = Tissue.objects.get(BTO_id=row['BTO'])
-# 		# protein_obj = Gene_Protein.objects.get(EntrezID=row['ENTREZ'])
-# 		go_obj = SCLocalization.objects.get(GO_id=row['GO'])
-# 		source_obj = Data_source.objects.get(source = "Text-mining")
-# 		if int(row['ENTREZ']) in Gene_Protein.objects.values_list('EntrezID',flat=True):
-# 			protein_obj = Gene_Protein.objects.get(EntrezID=row['ENTREZ'])
-# 			print(row['ENTREZ'] , 'exists')
-# 			try:
-# 				t = Tissue_triple_relation.objects.get(id_BTO = bto_obj ,id_Entrez =protein_obj,id_GO = go_obj,Zscore = row['score'],source = source_obj)
-# 				print('triplet exists!')
-# 			except Tissue_triple_relation.DoesNotExist:
-# 				t = Tissue_triple_relation(id_BTO = bto_obj ,id_Entrez =protein_obj,id_GO = go_obj,Zscore = row['score'],source = source_obj)
-# 				t.save()
-# 				print('new triplet!')
-# 				try:
-# 				 PubMed_entry.objects.values_list('pmid',flat=True):
-# 					pmid_obj = PubMed_entry.objects.get(pmid=row['PMID'])
-# 					print('pmid exists!')	
-# 				else:			
-# 					# check if pub annotation exists
-# 					annotation  = load_json(row['PMID'])
-# 					reader = annotation
-# 					pmid_obj = import_annotation(annotation)
-# 					try: 
-# 						tp = Tissue_triple_relation_pmid(Tissue_triple_relation_id = t ,id_pmid = pmid_obj)
-# 						tp.save()
-# 						print("new treiplet pmid")
-# 					except IntegrityError:
-# 						print("triplet pmid exists!")
-# 		else:
-# 			print(row['ENTREZ'] , 'not exist')
-# 			pass
-
 # Tissue_triple_relation.objects.all().delete()
+i = 0
 with open('ts_scl_db/raw_data/new results2018/pmids_abs_Zscore_all_tissueCL_scl_pubmed_ID.txt_CellLine_2018-01-24_a_0.8_ws_3_wa_0.2_human.csv') as csvfile:
 	reader = csv.DictReader(csvfile, delimiter=',')
 	for row in reader:
-		print(row)
+		print(i)
+		i=i+1
+		# print(row)
 		bto_obj = Tissue.objects.get(BTO_id=row['BTO'])
 		# protein_obj = Gene_Protein.objects.get(EntrezID=row['ENTREZ'])
 		go_obj = SCLocalization.objects.get(GO_id=row['GO'])
@@ -100,8 +66,9 @@ with open('ts_scl_db/raw_data/new results2018/pmids_abs_Zscore_all_tissueCL_scl_
 			protein_obj = Gene_Protein.objects.get(EntrezID=row['ENTREZ'])
 			try:
 				t = Tissue_triple_relation.objects.get(id_BTO = bto_obj ,id_Entrez =protein_obj,id_GO = go_obj,Zscore = row['score'],source = source_obj)
-				print('Tissue_triple_relation exists!')
+				# print('Tissue_triple_relation exists!')
 			except Tissue_triple_relation.DoesNotExist:
+				print(row)
 				t = Tissue_triple_relation(id_BTO = bto_obj ,id_Entrez =protein_obj,id_GO = go_obj,Zscore = row['score'],source = source_obj)
 				t.save()
 				print('Tissue_triple_relation new!')
@@ -121,7 +88,7 @@ with open('ts_scl_db/raw_data/new results2018/pmids_abs_Zscore_all_tissueCL_scl_
 					tp.save()
 					print('Tissue_triple_relation_pmid new!')
 		except Gene_Protein.DoesNotExist:
-			print('Gene_Protein does not exists')
+			print('Gene_Protein ', row['ENTREZ'],' does not exists')
 			pass
 
 # def load_json(pmid):
