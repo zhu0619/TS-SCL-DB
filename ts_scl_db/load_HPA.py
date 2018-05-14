@@ -24,33 +24,28 @@ from ts_scl_db.models import *
 ##==========================#
 # Tissue_triple_relation.objects.all().delete()
 
-def main():
+# load_hpa_old()
+
+
+def load_hpa_old():
 	# gene 
 	with open('ts_scl_db/raw_data/HPA_Cell_Line_benchmark_table.csv') as csvfile:
 		reader = csv.DictReader(csvfile, delimiter='\t')
 		ensg_id = list(set([x['Ensembl_ID'] for x in reader]))
 		data = mg.getgenes(ensg_id,fields="entrezgene,ensemblgene,uniprot,symbol, name",species=9606)
 		import_genes(data)
-
 	# go
 	with open('ts_scl_db/raw_data/HPA_Cell_Line_benchmark_table.csv') as csvfile:
 		reader = csv.DictReader(csvfile, delimiter='\t')
 		import_go(reader)
-
-
 	# bto
 	import_bto()
-
-
 	# HPA triplet
-
 	with open('ts_scl_db/raw_data/Goal_cell_line.csv') as csvfile:
 		map_reader = csv.DictReader(csvfile, delimiter=';')
 		bto_map = {}
 		for row in map_reader:
 			bto_map[row['CellLine']] = row['BTO']
-
-
 	with open('ts_scl_db/raw_data/HPA_Cell_Line_benchmark_table.csv') as csvfile:
 		reader = csv.DictReader(csvfile,delimiter="\t")
 		i=0
@@ -62,19 +57,21 @@ def main():
 			entrez = get_entrez_id(data, dict(row)['Ensembl_ID'])
 			if entrez is None:
 				continue
-			try:
-				protein_obj = Gene_Protein.objects.get(EntrezID=entrez)
-			except Gene_Protein.DoesNotExist:
-
-			go_obj = SCLocalization.objects.get(GO_id=row['GO_term'])
-			source_obj = Data_source.objects.get(source = "Experiment")
-			try:
-				t = Tissue_triple_relation.objects.get(id_BTO = bto_obj ,id_Entrez =protein_obj,id_GO = go_obj,reliability=row['reliability'],source = source_obj, Zscore = 9999)
-				print('exists!')
-			except Tissue_triple_relation.DoesNotExist:
-				t = Tissue_triple_relation(id_BTO = bto_obj ,id_Entrez =protein_obj,id_GO = go_obj,reliability=row['reliability'],source = source_obj, Zscore = 9999)
-				t.save()
-				print('new!')
+			else:
+				try:
+					protein_obj = Gene_Protein.objects.get(EntrezID=entrez)
+					go_obj = SCLocalization.objects.get(GO_id=row['GO_term'])
+					source_obj = Data_source.objects.get(source = "Experiment")
+					try:
+						t = Tissue_triple_relation.objects.get(id_BTO = bto_obj ,id_Entrez =protein_obj,id_GO = go_obj,reliability=row['reliability'],source = source_obj, Zscore = 9999)
+						print('exists!')
+					except Tissue_triple_relation.DoesNotExist:
+						t = Tissue_triple_relation(id_BTO = bto_obj ,id_Entrez =protein_obj,id_GO = go_obj,reliability=row['reliability'],source = source_obj, Zscore = 9999)
+						t.save()
+						print('new!')
+				except Gene_Protein.DoesNotExist:
+					print('protein ',entrez,' does not exist!')
+					pass
 
 def get_entrez_id(data, ensg):
 	x = list(filter(lambda person: person['query'] == ensg, data))[0]
@@ -136,33 +133,6 @@ def import_go(csvreader):
 					raise e
 	print(str(i)+ 'GO terms are loaded')		
 
-
-# def import_protein(data):
-# 	# entrezgene_list = list(Gene_Protein.objects.values_list('EntrezID', flat=True))
-# 	for datum in data[0:10]: 
-# 		try:
-# 			if 'notfound' not in datum.keys() and 'entrezgene' in datum.keys():
-# 				entrez_id = datum['entrezgene']
-# 				if 'uniprot' in datum.keys():
-# 					uniprot = datum['uniprot']
-# 					if uniprot and 'Swiss-Prot' in uniprot.keys():
-# 						uniprot_acc = uniprot['Swiss-Prot']
-# 					elif 'TrEMBL' in uniprot.keys():
-# 						uniprot_acc = uniprot['TrEMBL']
-# 					if type(uniprot_acc) == list:
-# 						uniprot_acc = ';'.join(uniprot_acc)
-# 				gene_name = datum['name']
-# 				gene_symbol =  datum['symbol']
-# 				entrezgene_list = list(Gene_Protein.objects.values_list('EntrezID', flat=True))
-# 				if entrez_id not in entrezgene_list :
-# 					try:
-# 						g = Gene_Protein(EntrezID = entrez_id, UniprotACC = uniprot_acc ,GeneName = gene_name, GeneSymbol = gene_symbol)
-# 						g.save()
-# 					except IntegrityError as e: 
-# 						if 'unique constraint' in e.message:
-# 							pass
-# 		except IntegrityError as e:
-# 			raise e		
 def import_genes(sp_genes):
 	entrezgene_list = list(Gene_Protein.objects.values_list('EntrezID', flat=True))
 	data_gene = [i.get('entrezgene') for i in sp_genes]
@@ -199,5 +169,7 @@ def import_genes(sp_genes):
 			except IntegrityError as e:
 				raise e
 
-if __name__ == '__main__':
-	main()
+
+load_hpa_old()
+# if __name__ == '__main__':
+# 	main()

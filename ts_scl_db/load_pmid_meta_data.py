@@ -13,7 +13,7 @@ from django.db import IntegrityError
 from ts_scl_db.models import *
 import math
 
-def main():
+def load_pmid_meta():
 	all_pmids = PubMed_entry.objects.filter(authors="No details",journal="No details").values('pmid')
 	all_pmid_list= [i['pmid'] for i in all_pmids]
 	nb_fold = math.ceil(len(all_pmid_list)/10000)
@@ -52,7 +52,8 @@ def request_meta(pmids):
 		# print(record['AuthorList'])
 		# print(record['FullJournalName'])
 
-if __name__ == '__main__':
-	main()
+load_pmid_meta()
+# if __name__ == '__main__':
+# 	main()
 
 

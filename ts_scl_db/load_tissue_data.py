@@ -20,7 +20,7 @@ with open('ts_scl_db/raw_data/BTO_filtered.csv','r') as fin:
 		if len(row)==3:
 			try:
 				bto = Tissue.objects.get(BTO_id = row[0],BTO_term=row[1],BTO_link = row[2] )
-			except ObjectDoesNotExist:
+			except Tissue.DoesNotExist:
 				bto = Tissue(BTO_id = row[0],BTO_term=row[1],BTO_link = row[2] )
 				bto.save()
 				i +=1

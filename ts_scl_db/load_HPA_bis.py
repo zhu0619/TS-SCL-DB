@@ -24,7 +24,7 @@ from ts_scl_db.models import *
 ##==========================#
 # Tissue_triple_relation.objects.all().delete()
 
-def main():
+def load_hpa_new():
 	# gene 
 	with open('ts_scl_db/raw_data/aal3321_Thul_SM_table_S7.txt') as csvfile:
 		reader = csv.DictReader(csvfile, delimiter='\t')
@@ -32,7 +32,6 @@ def main():
 		data = mg.getgenes(ensg_id,fields="entrezgene,ensemblgene,uniprot,'symbol', 'name'",species=9606)
 		import_genes(data)
 	# csvfile.close()
-
 	# go
 	with open("ts_scl_db/raw_data/SCL_mapping_table.csv") as csvfile:
 		go_map_reader = csv.DictReader(csvfile, delimiter=';')
@@ -40,12 +39,10 @@ def main():
 		for row in go_map_reader:
 		   go_map[row['HPA SCL']] = row['HPA SCL GO']
 	# csvfile.close()
-
 	with open('ts_scl_db/raw_data/aal3321_Thul_SM_table_S7.txt') as csvfile:
 		reader = csv.DictReader(csvfile, delimiter='\t')
 		import_go(reader)
 	# csvfile.close()
-
 	with open('ts_scl_db/raw_data/Goal_cell_line.csv') as csvfile:
 		map_reader = csv.DictReader(csvfile, delimiter=';')
 		bto_map = {}
@@ -54,7 +51,6 @@ def main():
 	# csvfile.close()
 	# bto
 	import_bto()
-
 	# HPA triplet
 	with open('ts_scl_db/raw_data/Goal_cell_line.csv') as csvfile:
 		map_reader = csv.DictReader(csvfile, delimiter=';')
@@ -62,7 +58,6 @@ def main():
 		for row in map_reader:
 		   bto_map[row['CellLine']] = row['BTO']
 	# csvfile.close()	
-
 	with open('ts_scl_db/raw_data/aal3321_Thul_SM_table_S7.txt') as csvfile:
 		reader = csv.DictReader(csvfile,delimiter="\t")
 		line = 0
@@ -202,5 +197,6 @@ def import_genes(sp_genes):
 			except IntegrityError as e:
 				raise e
 
-if __name__ == '__main__':
-	main()
+load_hpa_new()
+# if __name__ == '__main__':
+# 	main()

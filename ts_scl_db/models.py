@@ -37,7 +37,7 @@ class PageView(models.Model):
 class Tissue(models.Model):
     idTissue = models.AutoField(primary_key=True)
     BTO_id = models.CharField(max_length=50,unique=True)
-    BTO_term = models.CharField(max_length=50, default = 'EMPTY')
+    BTO_term = models.CharField(max_length=200, default = 'EMPTY')
     BTO_link = models.CharField(max_length=50,default = 'EMPTY')
     def __str__(self):
         return self.BTO_id

@@ -12,6 +12,8 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 import sys
 import json
 import gc
+import mygene
+mg = mygene.MyGeneInfo()
 
 from ts_scl_db.models import *
 
@@ -21,9 +23,7 @@ TAGSERVER_AUTH = ('ubi', 'cl2p3qv7Q')
 TAGSERVER_SSLVERIFY = False # in case ssl verification fails
 
 
-
-
-def main():
+def load_kd_data():
 	##==========================#
 	##Tissue_triple_relation	#
 	##==========================#
@@ -37,7 +37,6 @@ def main():
 		# import entrez
 		entrez_ids = [int(row['ENTREZ']) for row in reader]
 		import_genes(entrez_ids)
-
 	with open('ts_scl_db/raw_data/benchmark170.csv') as csvfile:
 		reader = csv.DictReader(csvfile, delimiter=';')
 		for row in reader:
@@ -45,7 +44,6 @@ def main():
 			bto_obj = Tissue.objects.get(BTO_id=row['BTO'])
 			go_obj = SCLocalization.objects.get(GO_id=row['GO'])
 			source_obj = Data_source.objects.get(source = "Knowledge")
-
 			try:
 				protein_obj = Gene_Protein.objects.get(EntrezID=row['ENTREZ'])
 				try:
@@ -55,14 +53,12 @@ def main():
 					t = Tissue_triple_relation(id_BTO = bto_obj ,id_Entrez =protein_obj,id_GO = go_obj,Zscore = 9999,source = source_obj, review = "Yes")
 					t.save()
 					print('new!')
-
 					try:
 						pmid_obj = PubMed_entry.objects.get(pmid=row['PMID'])
 					except PubMed_entry.DoesNotExist:
 						# check if pub annotation exists
 						annotation  = load_json(row['PMID'])
 						pmid_obj = import_annotation(annotation)
-
 					try: 
 						Tissue_triple_relation_pmid.objects.get(Tissue_triple_relation_id = t ,id_pmid = pmid_obj)
 						print("triplet exists!")
@@ -168,5 +164,6 @@ def import_genes(sp_genes):
 			except IntegrityError as e:
 				raise e
 
-if__name__== "__main__":
-	main()
+load_kd_data()
+# if __name__== "__main__":
+	# main()
