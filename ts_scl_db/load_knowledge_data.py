@@ -126,6 +126,7 @@ def import_annotation(reader):
 			r.save()	
 		l = PubMed_entry(pmid = pmid,id_Pub_Anno= r)
 		l.save()
+		print(pmid,' saved!')
 		return l
 	else:
 		print('No annotation !' )

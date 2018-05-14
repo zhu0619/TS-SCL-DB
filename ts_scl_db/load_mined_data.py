@@ -23,8 +23,6 @@ TAGSERVER_SSLVERIFY = False # in case ssl verification fails
 
 
 
-
-
 ##==========================#
 ##Tissue_triple_relation	#
 ##==========================#
@@ -32,64 +30,68 @@ TAGSERVER_SSLVERIFY = False # in case ssl verification fails
 
 # with open('ts_scl_db/raw_data/new results2018/pmids_abs_Zscore_all_tissueCL_scl_pubmed_ID.txt_Tissue_2018-01-24_a_0.8_ws_3_wa_0.2_human copy.csv') as csvfile:
 
-# def main():
-
-with open('ts_scl_db/raw_data/new results2018/pmids_abs_Zscore_all_tissueCL_scl_pubmed_ID.txt_CellLine_2018-01-24_a_0.8_ws_3_wa_0.2_human.csv') as csvfile:
-	reader = csv.DictReader(csvfile, delimiter=',')
-# with open('ts_scl_db/raw_data/new results2018/pmids_abs_Zscore_all_tissueCL_scl_pubmed_ID.txt_CellLine_2018-01-24_a_0.8_ws_3_wa_0.2_human.csv') as csvfile:
-# 	reader = csv.DictReader(csvfile)
-	# import entrez
-	entrez_ids = [int(row['ENTREZ']) for row in reader]
-	fold = round(len(entrez_ids)/1000)
-	for i in range(0,fold):
-		start = i*1000
-		if i == fold-1:
-			stop = len(entrez_ids)-1
-		else:
-			stop = (i+1)*1000-1
-		print(start,'-',stop)
-		import_genes(entrez_ids[start:stop])
-
-# Tissue_triple_relation.objects.all().delete()
-i = 0
-with open('ts_scl_db/raw_data/new results2018/pmids_abs_Zscore_all_tissueCL_scl_pubmed_ID.txt_CellLine_2018-01-24_a_0.8_ws_3_wa_0.2_human.csv') as csvfile:
-	reader = csv.DictReader(csvfile, delimiter=',')
-	for row in reader:
-		print(i)
-		i=i+1
-		# print(row)
-		bto_obj = Tissue.objects.get(BTO_id=row['BTO'])
-		# protein_obj = Gene_Protein.objects.get(EntrezID=row['ENTREZ'])
-		go_obj = SCLocalization.objects.get(GO_id=row['GO'])
-		source_obj = Data_source.objects.get(source = "Text-mining")
-		try:
-			protein_obj = Gene_Protein.objects.get(EntrezID=row['ENTREZ'])
-			try:
-				t = Tissue_triple_relation.objects.get(id_BTO = bto_obj ,id_Entrez =protein_obj,id_GO = go_obj,Zscore = row['score'],source = source_obj)
-				# print('Tissue_triple_relation exists!')
-			except Tissue_triple_relation.DoesNotExist:
-				print(row)
-				t = Tissue_triple_relation(id_BTO = bto_obj ,id_Entrez =protein_obj,id_GO = go_obj,Zscore = row['score'],source = source_obj)
-				t.save()
-				print('Tissue_triple_relation new!')
+def load_mined_data():
+	with open('ts_scl_db/raw_data/new results2018/pmids_abs_Zscore_all_tissueCL_scl_pubmed_ID.txt_CellLine_2018-01-24_a_0.8_ws_3_wa_0.2_human.csv') as csvfile:
+		reader = csv.DictReader(csvfile, delimiter=',')
+	# with open('ts_scl_db/raw_data/new results2018/pmids_abs_Zscore_all_tissueCL_scl_pubmed_ID.txt_CellLine_2018-01-24_a_0.8_ws_3_wa_0.2_human.csv') as csvfile:
+	# 	reader = csv.DictReader(csvfile)
+		# import entrez
+		entrez_ids = [int(row['ENTREZ']) for row in reader]
+		fold = round(len(entrez_ids)/1000)
+		for i in range(0,fold):
+			start = i*1000
+			if i == fold-1:
+				stop = len(entrez_ids)-1
+			else:
+				stop = (i+1)*1000-1
+			print(start,'-',stop)
+			import_genes(entrez_ids[start:stop])
+	# Tissue_triple_relation.objects.all().delete()
+	i = 0
+	with open('ts_scl_db/raw_data/new results2018/pmids_abs_Zscore_all_tissueCL_scl_pubmed_ID.txt_CellLine_2018-01-24_a_0.8_ws_3_wa_0.2_human.csv') as csvfile:
+		reader = csv.DictReader(csvfile, delimiter=',')
+		for row in reader:
+			print(i)
+			if i > 0:
+				# print(row)
+				bto_obj = Tissue.objects.get(BTO_id=row['BTO'])
+				# protein_obj = Gene_Protein.objects.get(EntrezID=row['ENTREZ'])
+				go_obj = SCLocalization.objects.get(GO_id=row['GO'])
+				source_obj = Data_source.objects.get(source = "Text-mining")
 				try:
-					pmid_obj = PubMed_entry.objects.get(pmid=row['PMID'])
-					print('PubMed_entry exists')
-				except PubMed_entry.DoesNotExist:
-					# check if pub annotation exists
-					annotation  = load_json(row['PMID'])
-					pmid_obj = import_annotation(annotation)
-					print('PubMed_entry new')
-				try: 
-					Tissue_triple_relation_pmid.objects.get(Tissue_triple_relation_id = t ,id_pmid = pmid_obj)
-					print("Tissue_triple_relation_pmid exists!")
-				except Tissue_triple_relation_pmid.DoesNotExist:
-					tp = Tissue_triple_relation_pmid(Tissue_triple_relation_id = t ,id_pmid = pmid_obj)
-					tp.save()
-					print('Tissue_triple_relation_pmid new!')
-		except Gene_Protein.DoesNotExist:
-			print('Gene_Protein ', row['ENTREZ'],' does not exists')
-			pass
+					# get protein object
+					protein_obj = Gene_Protein.objects.get(EntrezID=row['ENTREZ'])
+					# get triplet object
+					try:
+						t = Tissue_triple_relation.objects.get(id_BTO = bto_obj ,id_Entrez =protein_obj,id_GO = go_obj,Zscore = row['score'],source = source_obj)
+						# print('Tissue_triple_relation exists!')
+					except Tissue_triple_relation.DoesNotExist:
+						print(row)
+						t = Tissue_triple_relation(id_BTO = bto_obj ,id_Entrez =protein_obj,id_GO = go_obj,Zscore = row['score'],source = source_obj)
+						t.save()
+						print('Tissue_triple_relation new!')
+					# all pmids which support the triplet
+					#get pmid object 
+					try:
+						pmid_obj = PubMed_entry.objects.get(pmid=row['PMID'])
+						print('PubMed_entry exists')
+					except PubMed_entry.DoesNotExist:
+						# check if pub annotation exists
+						annotation  = load_json(row['PMID'])
+						pmid_obj = import_annotation(annotation)
+						print('PubMed_entry new')
+					#get triplet relation object
+					try: 
+						Tissue_triple_relation_pmid.objects.get(Tissue_triple_relation_id = t ,id_pmid = pmid_obj)
+						print("Tissue_triple_relation_pmid exists!")
+					except Tissue_triple_relation_pmid.DoesNotExist:
+						tp = Tissue_triple_relation_pmid(Tissue_triple_relation_id = t ,id_pmid = pmid_obj)
+						tp.save()
+						print('Tissue_triple_relation_pmid new!')
+				except Gene_Protein.DoesNotExist:
+					print('Gene_Protein ', row['ENTREZ'],' does not exists')
+					pass
+			i=i+1
 
 # def load_json(pmid):
 # 	json_dir = "/Users/zhulu/Desktop/Lu_work/text-mining-project/Frank_API/New_experiments_17_11/json_1511"
@@ -168,6 +170,7 @@ def request_tagged(pmid):
 	else:
 		print("Failed to get json for {}".format(pmid))
 		return None
+
 #########################		
 # def import_annotation(reader):
 # 	if reader['hits'] == 1:			
@@ -206,7 +209,9 @@ def request_tagged(pmid):
 # 	else:
 # 		print('No annotation !' )
 # 		return None
-#########################	
+#########################
+
+
 def import_genes(sp_genes):
 	entrezgene_list = list(Gene_Protein.objects.values_list('EntrezID', flat=True))
 	genes = list(set(sp_genes).difference(set(entrezgene_list)))
@@ -240,5 +245,7 @@ def import_genes(sp_genes):
 			except IntegrityError as e:
 				raise e
 		
-if __name__ == '__main__':
-	main()
+# if __name__ == '__main__':
+# 	main()
+
+load_mined_data()
