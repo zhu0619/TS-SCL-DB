@@ -28,7 +28,6 @@ def load_kd_data():
 	##Tissue_triple_relation	#
 	##==========================#
 	# Tissue_triple_relation.objects.all().delete()
-
 	# with open('ts_scl_db/raw_data/new results2018/pmids_abs_Zscore_all_tissueCL_scl_pubmed_ID.txt_Tissue_2018-01-24_a_0.8_ws_3_wa_0.2_human copy.csv') as csvfile:
 	with open('ts_scl_db/raw_data/benchmark170.csv') as csvfile:
 		reader = csv.DictReader(csvfile, delimiter=';')
@@ -53,29 +52,26 @@ def load_kd_data():
 					t = Tissue_triple_relation(id_BTO = bto_obj ,id_Entrez =protein_obj,id_GO = go_obj,Zscore = 9999,source = source_obj, review = "Yes")
 					t.save()
 					print('new!')
-					try:
-						pmid_obj = PubMed_entry.objects.get(pmid=row['PMID'])
-					except PubMed_entry.DoesNotExist:
-						# check if pub annotation exists
-						annotation  = load_json(row['PMID'])
-						pmid_obj = import_annotation(annotation)
-					try: 
-						Tissue_triple_relation_pmid.objects.get(Tissue_triple_relation_id = t ,id_pmid = pmid_obj)
-						print("triplet exists!")
-					except Tissue_triple_relation_pmid.DoesNotExist:
-						tp = Tissue_triple_relation_pmid(Tissue_triple_relation_id = t ,id_pmid = pmid_obj)
-						tp.save()
+				try:
+					pmid_obj = PubMed_entry.objects.get(pmid=row['PMID'])
+				except PubMed_entry.DoesNotExist:
+					# check if pub annotation exists
+					annotation  = load_json(row['PMID'])
+					pmid_obj = import_annotation(annotation)
+				try: 
+					Tissue_triple_relation_pmid.objects.get(Tissue_triple_relation_id = t ,id_pmid = pmid_obj)
+					print("triplet exists!")
+				except Tissue_triple_relation_pmid.DoesNotExist:
+					tp = Tissue_triple_relation_pmid(Tissue_triple_relation_id = t ,id_pmid = pmid_obj)
+					tp.save()
 			except Gene_Protein.DoesNotExist:
 				pass
 
 def load_json(pmid):
-	# json_dir = "/Users/zhulu/Desktop/Lu_work/text-mining-project/Frank_API/New_experiments_17_11/json_1511"
-	"""saves the results from the server to json files, but only if a json file for a specific pmid doesn't exist"""
-	# for pmid in pmid_list:
-		#check if file already exists:
 	response_data=request_tagged(pmid)
 	return response_data
-						
+			
+
 def request_tagged(pmid):
 	"""download json files from specified server"""
 	#pmid = unicode(pmid)
@@ -95,6 +91,8 @@ def request_tagged(pmid):
 	else:
 		print("Failed to get json for {}".format(pmid))
 		return None
+
+
 
 def import_annotation(reader):
 	if reader['hits'] == 1:			
@@ -132,6 +130,8 @@ def import_annotation(reader):
 		print('No annotation !' )
 		return None
 
+
+
 def import_genes(sp_genes):
 	entrezgene_list = list(Gene_Protein.objects.values_list('EntrezID', flat=True))
 	genes = list(set(sp_genes).difference(set(entrezgene_list)))
@@ -165,6 +165,6 @@ def import_genes(sp_genes):
 			except IntegrityError as e:
 				raise e
 
-load_kd_data()
+# load_kd_data()
 # if __name__== "__main__":
 	# main()
