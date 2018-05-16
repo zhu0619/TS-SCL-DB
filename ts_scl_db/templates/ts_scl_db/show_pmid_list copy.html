@@ -169,14 +169,6 @@ tr:hover {
                     <br>
                     <font face="Gill Sans, sans-serif" color="#797D7F">{{x.journal}}{% endautoescape %}</font>
                 </td>
-                <form action="{% url 'polls:endose' %}" target="_blank" method="post">
-                    {% csrf_token %}
-                    <td>
-                        <input type="submit" class="w3-button w3-black w3-round-large" value="Endose" target="_blank"/>
-                        <input type="hidden" name = "triple_relation_pmid_pk" value="{{x.triplet_pmid_pk}}"/>
-                        <input type="hidden" name = "endosor" value='anonymous' />
-                    </td>
-                </form>
             </tr>
             <tr id="{{x.pmid}}" class="hidden_row">
                 <td></td>

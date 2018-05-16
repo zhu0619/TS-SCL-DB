@@ -44,6 +44,7 @@ urlpatterns = [
     url(r'^contact', views.contact, name='contact'),
     url(r'^download', views.download, name='download'),
     # url(r'^admin/', include(admin.site.urls)),
+    url(r'^endose', views.endose, name='endose'),
 ]
 
 

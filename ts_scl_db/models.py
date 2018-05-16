@@ -174,4 +174,8 @@ class Tissue_triple_relation_pmid(models.Model):
 #         return self.idTissue_triple_relation
 
 
+class Tissue_triple_relation_pmid_endose(models.Model):
+    idendose = models.AutoField(primary_key=True)
+    idTissue_triple_relation_pmid = models.ForeignKey(Tissue_triple_relation_pmid)
+    endosor = models.CharField(max_length=100,default='anonymous')
 

@@ -17,3 +17,7 @@ class pmid_listForm(forms.Form):
     id_GO = forms.CharField(max_length=50)
     term_source = forms.CharField(max_length=50)
     search_id = forms.CharField(max_length=50)
+
+class endosorForm(forms.Form):
+    triple_relation_pmid_pk = forms.CharField(max_length=50)
+    endosor = forms.CharField(max_length=50)

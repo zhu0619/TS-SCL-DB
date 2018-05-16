@@ -490,10 +490,8 @@ def show_pmid_list(request):
             # generate the objets of pmid taggers
             tagger_objs = []
             for pmid_pk in pmids_pk:
-                triplet_pmid_pk= Tissue_triple_relation_pmid.objects.filter(Tissue_triple_relation_id = triple_relation_pk,id_pmid=pmid_pk).values_list('pk',flat=True)[0]
                 tagger = show_pub_tags(pmid_pk)
                 if tagger is not None:
-                    tagger['triplet_pmid_pk'] = triplet_pmid_pk
                     tagger_objs.append(tagger)
                     # print(tagger_objs)
             # print(tagger_objs)
@@ -541,24 +539,3 @@ def show_pub_tags(pk):
     except:
         # return 'Sorry, the annotation of this article is not available.'
         return None
-
-def endose(request):
-    if request.method == 'POST':
-        # print('post')
-        form = endosorForm(request.POST)
-        # print(form)
-        if form.is_valid():
-            print(form.cleaned_data)
-            id_triple_pmid = form.cleaned_data['triple_relation_pmid_pk']
-            try: 
-                triple_pmid_obj = Tissue_triple_relation_pmid.objects.get(pk = id_triple_pmid)
-                endosor =  form.cleaned_data['endosor']
-                try:
-                    triple_pmid_endosor = Tissue_triple_relation_pmid_endose(idTissue_triple_relation_pmid = triple_pmid_obj, endosor = endosor)
-                    triple_pmid_endosor.save()
-                except IntegrityError:
-                    pass
-            except Tissue_triple_relation_pmid.DoesNotExist:
-                pass
-        return render(request, 'polls/endose.html')
-

@@ -1,0 +1,13 @@
+{% extends 'polls/scl_db_base.html' %} {% load static %} {% load render_table from django_tables2 %} {% block content %}
+
+<style type="text/css">
+	#thank{
+        position: absolute;
+        top: 30%;
+        left :50%;
+	}
+</style>
+
+<p id = 'thank'>Thank you for your endorsement!</p>
+
+{% endblock %}
