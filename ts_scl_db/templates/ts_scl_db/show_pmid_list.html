@@ -169,7 +169,7 @@ tr:hover {
                     <br>
                     <font face="Gill Sans, sans-serif" color="#797D7F">{{x.journal}}{% endautoescape %}</font>
                 </td>
-                <form action="{% url 'polls:endose' %}" target="_blank" method="post">
+                <form action="{% url 'ts_scl_db/:endose' %}" target="_blank" method="post">
                     {% csrf_token %}
                     <td>
                         <input type="submit" class="w3-button w3-black w3-round-large" value="Endose" target="_blank"/>

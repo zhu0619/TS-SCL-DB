@@ -560,5 +560,5 @@ def endose(request):
                     pass
             except Tissue_triple_relation_pmid.DoesNotExist:
                 pass
-        return render(request, 'polls/endose.html')
+        return render(request, 'ts_scl_db/endose.html')
 
