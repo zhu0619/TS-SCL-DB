@@ -162,7 +162,7 @@ tr:hover {
             {% for x in tagger_objs %}
             <tr class="show_row" onclick="show_hide_row('{{x.pmid}}');">
                 <td><a href=h ttps://www.ncbi.nlm.nih.gov/pubmed/{{x.pmid}}>{{x.pmid}}</a></td>
-                <td colspan="2">{% autoescape off %}
+                <td>{% autoescape off %}
                     <font face="Georgia, serif" size="4">{{x.title}}</font>
                     <br>
                     <font face="Optima, sans-serif">{{x.authors}}</font>
@@ -180,7 +180,7 @@ tr:hover {
             </tr>
             <tr id="{{x.pmid}}" class="hidden_row">
                 <td></td>
-                <td colspan="2">{% autoescape off %}{{x.abstract}}{% endautoescape %}</td>
+                <td>{% autoescape off %}{{x.abstract}}{% endautoescape %}</td>
             </tr>
             {% endfor %}
             <!-- </ul> -->
