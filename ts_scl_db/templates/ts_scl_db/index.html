@@ -41,8 +41,6 @@
 }
 
 
-
-
 #js-select-box {
     position: absolute;
     transition: .5s ease;
@@ -182,6 +180,7 @@
 
 </style>
 <section>
+    <!-- <form id="form_queries" method="POST" action="{% url 'ts_scl_db:detail_3' %}"> -->
     <form id="form_queries" method="POST" target="_blank" action="{% url 'ts_scl_db:select_protein' %}">
         {% csrf_token %}
         <!-- tissue -->
@@ -313,9 +312,6 @@
     </form>
 </section>
 
-
-
-
 <section id='x'>
     <p>Debug mode:</p>
     <p>Currently selected Tissue: <span id="box-currently-selected">(none)</span></p>
@@ -327,11 +323,11 @@
 <!-- <link type="text/javascript" href="{% static 'js/material-components-web.js' %}"> -->
 <script type="text/javascript">
 function example_query() {
-    document.getElementById('query_go_id').value = "GO:0005634"
-    document.getElementById('id_search_id').value = "TP53"
-    document.getElementById('query_bto_id').value = "BTO:0000093"
-    document.getElementById('bto_text').innerHTML = "Mcf-7 cell";
-    document.getElementById('go_text').innerHTML = "Nucleus";
+    document.getElementById('query_go_id').value = "all"
+    document.getElementById('id_search_id').value = "AGO2"
+    document.getElementById('query_bto_id').value = "all"
+    document.getElementById('bto_text').innerHTML = "All tissues and cell lines";
+    document.getElementById('go_text').innerHTML = "All SCLs";
     document.getElementById('id_label').innerHTML = "";
     document.getElementById('bto_label').innerHTML = "";
     document.getElementById('go_label').innerHTML = "";
@@ -406,7 +402,6 @@ function call_counter(url, pk) {
     });
 }
 </script>
-
 <link rel="stylesheet" type="text/css" href="{% static 'css/cookieconsent.min.css' %} " /> 
 <script src="{% static 'js/cookieconsent.min.js' %}"></script>
 <script>
@@ -425,5 +420,4 @@ window.cookieconsent.initialise({
   }
 })});
 </script>
-
 {% endblock %}
