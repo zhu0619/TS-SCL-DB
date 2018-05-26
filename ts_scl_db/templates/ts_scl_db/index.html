@@ -182,8 +182,7 @@
 
 </style>
 <section>
-    <!-- <form id="form_queries" method="POST" action="{% url 'polls:detail_3' %}"> -->
-    <form id="form_queries" method="POST" target="_blank" action="{% url 'polls:select_protein' %}">
+    <form id="form_queries" method="POST" target="_blank" action="{% url 'ts_scl_db:select_protein' %}">
         {% csrf_token %}
         <!-- tissue -->
         <div id="js-select-box" class="mdc-select" role="listbox" tabindex="0" form="form_queries">

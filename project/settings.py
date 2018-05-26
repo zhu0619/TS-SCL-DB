@@ -44,7 +44,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'debug_toolbar',
-    # 'ts_scl_db.apps.PollsConfig',
     # 'welcome',
     'ts_scl_db',
     'django_tables2',
