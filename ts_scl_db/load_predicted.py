@@ -74,10 +74,10 @@ with open('ts_scl_db/raw_data/Predicted.protein.tissue.scl.csv') as csvfile:
 			source_obj = Data_source.objects.get(source = "Prediction")
 			go_obj = SCLocalization.objects.get(GO_id=row['SCL'])
 			try:
-				t = Tissue_triple_relation.objects.get(id_BTO = bto_obj ,id_Entrez =protein_obj,id_GO = go_obj,source = source_obj)
+				t = Tissue_triple_relation.objects.get(id_BTO = bto_obj ,id_Entrez =protein_obj,id_GO = go_obj,source = source_obj,Zscore=9999)
 				print('exists!')
 			except ObjectDoesNotExist:
-				t = Tissue_triple_relation(id_BTO = bto_obj ,id_Entrez =protein_obj,id_GO = go_obj,source = source_obj)
+				t = Tissue_triple_relation(id_BTO = bto_obj ,id_Entrez =protein_obj,id_GO = go_obj,source = source_obj,Zscore=9999)
 				t.save()
 				print('new!')
 
