@@ -17,7 +17,7 @@ from django.db import IntegrityError
 import mygene
 mg = mygene.MyGeneInfo()
 
-from polls.models import *
+from ts_scl_db.models import *
 
 ##==========================#
 ##Tissue_triple_relation	#
@@ -25,7 +25,7 @@ from polls.models import *
 # Tissue_triple_relation.objects.all().delete()
 
 # gene 
-with open('polls/raw_data/Predicted.protein.tissue.scl.csv') as csvfile:
+with open('ts_scl_db/raw_data/Predicted.protein.tissue.scl.csv') as csvfile:
 	reader = csv.DictReader(csvfile, delimiter=';')
 	ensg_id = list(set([x['EntrezID'] for x in reader ]))
 	data = mg.getgenes(ensg_id,fields="entrezgene,ensemblgene,uniprot,'symbol', 'name'",species=9606)
@@ -61,7 +61,7 @@ with open('polls/raw_data/Predicted.protein.tissue.scl.csv') as csvfile:
 # 	   bto_map[row['CellLine']] = row['BTO']
 # csvfile.close()	
 
-with open('polls/raw_data/Predicted.protein.tissue.scl.csv') as csvfile:
+with open('ts_scl_db/raw_data/Predicted.protein.tissue.scl.csv') as csvfile:
 	reader = csv.DictReader(csvfile,delimiter=";")
 	line = 0
 	for row in reader:
