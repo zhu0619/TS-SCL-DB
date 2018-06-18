@@ -394,7 +394,7 @@ def detail_3(request):
                         #     print(to_add['id_Entrez'], pmids_list.values())
                         #     print('pmid number:',len(pmids_list))
                         #     print('--------------------------------------')
-                        if to_add['source'] in ['Predicted']:
+                        if to_add['source'] in ['Prediction']:
                             to_add['pmid_count'] = '-'
                         elif to_add['source'] in ['Experiment']:
                             to_add['pmid_count'] = 'HPA'
